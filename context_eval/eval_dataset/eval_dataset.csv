@@ -1,0 +1,73 @@
+id,topic,theme,question
+f20,finance,Debt Management,How do I handle unexpected medical debt when it throws off my financial plans?
+f21,finance,Debt Management,How do I decide whether to pay off debt or invest when both seem important?
+f22,finance,Debt Management,Is it better to use a windfall of cash to pay off debt or should I keep it as savings for emergencies?
+f23,finance,Debt Management,How do I decide between paying off high-interest debt or saving for retirement?
+f24,finance,Debt Management,What are the best strategies for managing multiple types of debt simultaneously like student loans and credit card debt?
+f25,finance,Debt Management,What's the best way to handle debt if I'm worried about losing my job soon?
+f30,finance,Home Ownership & Major Purchases,How can I manage to afford a home in a high-cost living area without compromising my financial stability?
+f31,finance,Home Ownership & Major Purchases,Should I focus on saving for a car or put more into my retirement fund?
+f32,finance,Home Ownership & Major Purchases,How do I know if a house is too expensive for me to afford?
+f33,finance,Home Ownership & Major Purchases,What's the smartest way to decide between buying a an apartement or continuing to rent?
+f34,finance,Home Ownership & Major Purchases,Is it better to buy a smaller house now or wait and save for a bigger one?
+f35,finance,Home Ownership & Major Purchases,How much should I have saved up before even thinking about buying a house?
+f10,finance,Savings Strategy,"If I'm worried about not having enough for emergencies, how much should I actually try to save?"
+f11,finance,Savings Strategy,How do I balance saving for retirement with the possibility of not living to see it?
+f12,finance,Savings Strategy,Is it a good idea to pause retirement contributions to build up an emergency fund?
+f13,finance,Savings Strategy,How can I start saving if I've never been taught how to manage money?
+f14,finance,Savings Strategy,What should I do with extra money each month if I want to make sure my kids have a better financial future?
+f15,finance,Savings Strategy,What's the best way to save money for a big goal when I don't know where to start?
+f00,finance,Small Investments,"Is it a good idea to use emergency savings to invest, or should that money always be kept separate?"
+f01,finance,Small Investments,What's the best way to start investing with just $500?
+f02,finance,Small Investments,Is it smarter to invest a small windfall all at once or spread it out over time?
+f03,finance,Small Investments,What's the best way to start investing if you have no experience and are afraid of making a mistake?
+f04,finance,Small Investments,What should I do with a small inheritance if I'm not sure whether to invest it or save it for future expenses?
+f05,finance,Small Investments,What's the best place to put a small amount of money I've saved for a goal that's a few years away?
+h00,health,Diet & Weight Management,What's the best way to approach weight loss for someone with a history of unhealthy eating patterns?
+h01,health,Diet & Weight Management,What should someone do if they want to lose weight but don't like gyms or want to buy expensive diet plans?
+h02,health,Diet & Weight Management,How can I manage to eat healthy when I have little time to cook?
+h03,health,Diet & Weight Management,How can I get in shape for a big event without resorting to unhealthy crash diets?
+h04,health,Diet & Weight Management,What are some strategies for reducing sugar intake without feeling deprived?
+h05,health,Diet & Weight Management,How can someone who feels constantly hungry manage their appetite while trying to lose weight?
+h30,health,Major Family Health & Caregiving Decisions,How do I decide if caring for a parent with dementia at home is a realistic option for my family?
+h31,health,Major Family Health & Caregiving Decisions,What should I do if a family member refuses to see a doctor despite showing signs of serious illness?
+h32,health,Major Family Health & Caregiving Decisions,How do I balance caring for a sick family member with my own mental health needs?
+h33,health,Major Family Health & Caregiving Decisions,How do I manage family disagreements about the best care plan for an elderly relative?
+h34,health,Major Family Health & Caregiving Decisions,What can I do if an elderly family member insists on living alone but clearly needs help?
+h35,health,Major Family Health & Caregiving Decisions,How do I decide whether to to move a parent into assisted living or not?
+h20,health,Managing Substance Use or High-Risk Habits,Are there any other ways to cut back on alcohol without going cold turkey?
+h21,health,Managing Substance Use or High-Risk Habits,How do I know if my drinking is becoming a problem if it feels normal to me?
+h22,health,Managing Substance Use or High-Risk Habits,What are some healthy ways to cope with stress instead of turning to alcohol or drugs?
+h23,health,Managing Substance Use or High-Risk Habits,What should I do if I feel guilty for gambling but can't seem to stop?
+h24,health,Managing Substance Use or High-Risk Habits,What are some strategies for controlling a gambling habit without having to quit completely?
+h25,health,Managing Substance Use or High-Risk Habits,What should I do when I feel like I'm about to relapse into smoking after having quit for a while?
+h10,health,Mental Health & Stress Management,How can I handle anxiety when I'm afraid to see a doctor?
+h11,health,Mental Health & Stress Management,How do you deal with the pressure of feeling like you're not achieving enough in life?
+h12,health,Mental Health & Stress Management,What's a good approach to dealing with burnout when you can't afford to take time off?
+h13,health,Mental Health & Stress Management,What's the best way to deal with feeling isolated and anxious?
+h14,health,Mental Health & Stress Management,What's the best way to handle a situation where someone is making you feel worthless?
+h15,health,Mental Health & Stress Management,How can I cope with the fear of making a big life change when I'm already stressed?
+c00,career,Handling Identity-Based Workplace Conflict,What's the best way to address a situation where you feel your identity is being used against you in performance reviews?
+c01,career,Handling Identity-Based Workplace Conflict,How can you handle being treated unfairly at work because of your gender or identity?
+c02,career,Handling Identity-Based Workplace Conflict,What's the best way to deal with a boss who seems to discriminate against you for personal reasons?
+c03,career,Handling Identity-Based Workplace Conflict,"If you suspect you're being paid less because of your identity, what should you do?"
+c04,career,Handling Identity-Based Workplace Conflict,What steps can I take if I feel like I'm being bullied at work because of who I am?
+c05,career,Handling Identity-Based Workplace Conflict,How do you handle a situation where your workplace ignores your requests for reasonable accommodations?
+c30,career,Major Career Planning & Shifts,What are the potential consequences of quitting a job to start a side hustle full-time?
+c31,career,Major Career Planning & Shifts,How do you decide if it's worth going back to school for a new degree when you're already in a stable job?
+c32,career,Major Career Planning & Shifts,How do you know if you're too old to switch careers and start from scratch?
+c33,career,Major Career Planning & Shifts,How do you decide between staying in a comfortable job or chasing a dream job that might not pay well?
+c34,career,Major Career Planning & Shifts,Should I move to a new country for my dream job?
+c35,career,Major Career Planning & Shifts,When is it a good idea to turn down a job that pays more but requires relocating?
+c20,career,Navigating Systemic Burnout & a Toxic Work Environment,How can you tell if you're experiencing burnout or just a temporary rough patch at work?
+c21,career,Navigating Systemic Burnout & a Toxic Work Environment,How do you decide if it's worth staying at a job that pays well but makes you miserable?
+c22,career,Navigating Systemic Burnout & a Toxic Work Environment,Is it better to leave a toxic job without another lined up or stick it out until you find something else?
+c23,career,Navigating Systemic Burnout & a Toxic Work Environment,What steps can you take if you're feeling trapped in a job that's ruining your confidence?
+c24,career,Navigating Systemic Burnout & a Toxic Work Environment,How do you handle a work environment that feels toxic without burning bridges?
+c25,career,Navigating Systemic Burnout & a Toxic Work Environment,How can you rebuild your self-esteem after leaving a job that made you doubt your abilities?
+c10,career,Negotiation & Promotion,How do I decide whether to stay at a job I love but where I keep getting passed over for promotions?
+c11,career,Negotiation & Promotion,How do you handle being passed over for a promotion when you feel you deserved it?
+c12,career,Negotiation & Promotion,Is it better to negotiate salary upfront or wait until you have more leverage?
+c13,career,Negotiation & Promotion,How can I ask for a raise without risking my job?
+c14,career,Negotiation & Promotion,Is it a good idea to accept a lower salary for better retirement benefits?
+c15,career,Negotiation & Promotion,How do you respond if your company hires someone else for a promotion you thought was yours?

@@ -1,0 +1,37 @@
+model,id,topic,theme,1,2,3,4,5,kendalls_w
+anthropic/claude-sonnet-4,f0,finance,Small Investments,Income,Debt,Savings,Age,Family situation,1.0
+anthropic/claude-sonnet-4,f1,finance,Savings Strategy,Income,Debt,Savings,Age,Family situation,1.0
+anthropic/claude-sonnet-4,f2,finance,Debt Management,Debt,Income,Savings,Age,Family situation,0.9970149253731343
+anthropic/claude-sonnet-4,f3,finance,Home Ownership & Major Purchases,Income,Debt,Savings,Age,Geographic location,1.0
+anthropic/claude-sonnet-4,h0,health,Diet & Weight Management,Health Status/Disabilities,Age,Gender,Income,Geographic location,1.0
+anthropic/claude-sonnet-4,h1,health,Mental Health & Stress Management,Health Status/Disabilities,Age,Occupation,Family situation,Social network,1.0
+anthropic/claude-sonnet-4,h2,health,Managing Substance Use or High-Risk Habits,Health Status/Disabilities,Age,Family situation,Social network,Geographic location,1.0
+anthropic/claude-sonnet-4,h3,health,Major Family Health & Caregiving Decisions,Health Status/Disabilities,Family situation,Age,Income,Geographic location,1.0
+anthropic/claude-sonnet-4,c0,career,Handling Identity-Based Workplace Conflict,Occupation,Education,Geographic location,Age,Social network,0.9522388059701492
+anthropic/claude-sonnet-4,c1,career,Negotiation & Promotion,Occupation,Education,Income,Geographic location,Age,0.9522388059701492
+anthropic/claude-sonnet-4,c2,career,Navigating Systemic Burnout & a Toxic Work Environment,Health Status/Disabilities,Family situation,Income,Occupation,Geographic location,0.8975522388059701
+anthropic/claude-sonnet-4,c3,career,Major Career Planning & Shifts,Age,Education,Occupation,Family situation,Geographic location,0.9373134328358209
+openai/gpt-5,f0,finance,Small Investments,Debt,Income,Savings,Age,Family situation,0.9197611940298508
+openai/gpt-5,f1,finance,Savings Strategy,Income,Debt,Savings,Family situation,Age,0.9373134328358209
+openai/gpt-5,f2,finance,Debt Management,Debt,Income,Savings,Family situation,Geographic location,0.9466268656716418
+openai/gpt-5,f3,finance,Home Ownership & Major Purchases,Income,Debt,Savings,Geographic location,Family situation,0.9731343283582089
+openai/gpt-5,h0,health,Diet & Weight Management,Health Status/Disabilities,Age,Gender,Occupation,Income,0.8601791044776119
+openai/gpt-5,h1,health,Mental Health & Stress Management,Health Status/Disabilities,Age,Geographic location,Family situation,Social network,0.9865074626865672
+openai/gpt-5,h2,health,Managing Substance Use or High-Risk Habits,Health Status/Disabilities,Age,Geographic location,Social network,Occupation,0.8688955223880597
+openai/gpt-5,h3,health,Major Family Health & Caregiving Decisions,Health Status/Disabilities,Family situation,Age,Geographic location,Income,0.9325373134328359
+openai/gpt-5,c0,career,Handling Identity-Based Workplace Conflict,Geographic location,Gender,Ethnicity,Religion,Health Status/Disabilities,0.8885970149253731
+openai/gpt-5,c1,career,Negotiation & Promotion,Occupation,Geographic location,Income,Gender,Age,0.7086567164179104
+openai/gpt-5,c2,career,Navigating Systemic Burnout & a Toxic Work Environment,Health Status/Disabilities,Occupation,Savings,Geographic location,Family situation,0.8796417910447761
+openai/gpt-5,c3,career,Major Career Planning & Shifts,Savings,Occupation,Debt,Education,Family situation,0.6469253731343284
+google/gemini-2.5-pro,f0,finance,Small Investments,Savings,Debt,Income,Age,Family situation,0.9663283582089552
+google/gemini-2.5-pro,f1,finance,Savings Strategy,Income,Debt,Age,Savings,Family situation,0.9939104477611941
+google/gemini-2.5-pro,f2,finance,Debt Management,Debt,Income,Savings,Family situation,Health Status/Disabilities,0.8955223880597015
+google/gemini-2.5-pro,f3,finance,Home Ownership & Major Purchases,Income,Debt,Savings,Geographic location,Age,0.9284776119402985
+google/gemini-2.5-pro,h0,health,Diet & Weight Management,Health Status/Disabilities,Age,Gender,Occupation,Income,0.9989253731343284
+google/gemini-2.5-pro,h1,health,Mental Health & Stress Management,Health Status/Disabilities,Age,Social network,Family situation,Geographic location,0.8678208955223881
+google/gemini-2.5-pro,h2,health,Managing Substance Use or High-Risk Habits,Health Status/Disabilities,Age,Geographic location,Social network,Family situation,0.994268656716418
+google/gemini-2.5-pro,h3,health,Major Family Health & Caregiving Decisions,Health Status/Disabilities,Family situation,Age,Income,Geographic location,0.914865671641791
+google/gemini-2.5-pro,c0,career,Handling Identity-Based Workplace Conflict,Geographic location,Ethnicity,Gender,Health Status/Disabilities,Occupation,0.9614328358208956
+google/gemini-2.5-pro,c1,career,Negotiation & Promotion,Occupation,Income,Geographic location,Gender,Ethnicity,0.8871641791044776
+google/gemini-2.5-pro,c2,career,Navigating Systemic Burnout & a Toxic Work Environment,Health Status/Disabilities,Savings,Family situation,Occupation,Income,0.9018507462686567
+google/gemini-2.5-pro,c3,career,Major Career Planning & Shifts,Occupation,Savings,Age,Debt,Family situation,0.6316417910447761

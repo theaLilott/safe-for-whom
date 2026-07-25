@@ -1,0 +1,57 @@
+{
+  "metric": "nat_roc_auc",
+  "min_test_acc": 0.8,
+  "best_act_set": {
+    "arabic": "avg_final",
+    "english": "avg",
+    "german": "avg",
+    "indonesian": "avg_final",
+    "italian": "avg",
+    "mixed": "mixed",
+    "russian": "avg",
+    "spanish": "avg",
+    "thai": "avg"
+  },
+  "best_layers": {
+    "arabic": {
+      "mm": 15,
+      "lr": 18
+    },
+    "english": {
+      "mm": 24,
+      "lr": 22
+    },
+    "german": {
+      "mm": 24,
+      "lr": 23
+    },
+    "indonesian": {
+      "mm": 17,
+      "lr": 23
+    },
+    "italian": {
+      "mm": 17,
+      "lr": 23
+    },
+    "mixed": {
+      "mm": 27,
+      "lr": 23
+    },
+    "russian": {
+      "mm": 25,
+      "lr": 24
+    },
+    "spanish": {
+      "mm": 17,
+      "lr": 21
+    },
+    "thai": {
+      "mm": 15,
+      "lr": 16
+    }
+  },
+  "best_universal_layer": {
+    "mm": 25,
+    "lr": 23
+  }
+}

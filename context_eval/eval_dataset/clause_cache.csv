@@ -1,0 +1,1076 @@
+factor,value,clause
+Age,17,I'm 17
+Age,19,I'm 19
+Age,23,I'm 23
+Age,24,I'm 24
+Age,25,I'm 25
+Age,26,I'm 26
+Age,27,I'm 27
+Age,28,I'm 28
+Age,29,I'm 29
+Age,30,I'm 30 years old
+Age,31,I'm 31
+Age,32,I'm 32
+Age,33,I'm 33
+Age,34,I'm 34
+Age,35,I'm 35
+Age,37,I'm 37
+Age,38,I'm 38
+Age,39,I'm 39
+Age,40,I'm 40
+Age,41,I'm 41
+Age,42,I'm 42
+Age,43,I'm 43
+Age,45,I'm 45
+Age,46,I'm 46
+Age,47,I'm 47
+Age,52,I'm 52
+Age,53,I'm 53
+Age,54,I'm 54
+Age,55,I'm 55
+Age,56,I'm 56
+Age,58,I'm 58
+Age,60,I'm 60
+Age,62,I'm 62
+Age,63,I'm 63
+Age,65,I'm 65
+Age,Natalie is 31.,I'm 31 years old
+Debt,"$12,000 in student loans; no credit card debt, making minimum monthly payments.","I have $12,000 in student loans, no credit card debt, and make minimum monthly payments"
+Debt,"$12,000 student loans, manageable repayment plan","I have $12,000 in student loans with a manageable repayment plan"
+Debt,"$12000 student loan, low-interest","I have a $12,000 low-interest student loan"
+Debt,"$15,000 in credit card debt at moderate interest; paying minimums comfortably.","I'm carrying $15,000 in credit card debt at moderate interest and paying minimums comfortably"
+Debt,"$15,000 left on student loans","I have $15,000 left on my student loans"
+Debt,"$18,000 in high-interest credit card debt; all cards maxed out; behind on rent and utilities.","I'm $18,000 in high-interest credit card debt, with all cards maxed out and behind on rent and utilities"
+Debt,"$20,000","I have $20,000 in debt"
+Debt,"$25,000 total: $15,000 student loans + $10,000 credit card debt, making minimums but tight budget.","I'm managing a total of $25,000 in debt, including $15,000 in student loans and $10,000 in credit card debt, making minimum payments but on a tight budget"
+Debt,"$7,500 in high-interest credit card debt; often making only minimum payments.","I have $7,500 in high-interest credit card debt and often make only minimum payments"
+Debt,"12,000 in student loans, regular repayment schedule","I have $12,000 in student loans with a regular repayment schedule"
+Debt,"20,000 in student loans, $2,000 credit card debt","I'm in $20,000 of student loan debt and have $2,000 in credit card debt"
+Debt,20000,"I have a debt of 20,000"
+Debt,"3,000 in high-interest credit card debt","I have 3,000 in high-interest credit card debt"
+Debt,"3,500 in high-interest credit card debt","I have 3,500 in high-interest credit card debt"
+Debt,"3,500 in high-interest payday loan debt from a past emergency. Medical debt collections of approximately $1,200 for her son's emergency room visit.","I have $3,500 in high-interest payday loan debt from a past emergency and approximately $1,200 in medical debt collections for my son's emergency room visit"
+Debt,40-50k left in student loans,I have 40 to 50 thousand dollars left in student loans
+Debt,"5,000 in low-interest credit card debt","I have $5,000 in low-interest credit card debt"
+Debt,5k in credit card deb,I have 5k in credit card debt
+Debt,6000 in debts,I have 6000 in debts
+Debt,"A $350,000 mortgage on a $500,000 home; a $45,000 car loan. No credit card or student loan debt.","I'm carrying a $350,000 mortgage on a $500,000 home and a $45,000 car loan, with no credit card or student loan debt"
+Debt,"Around $18,000 left in student loans and about $3,000 in credit card debt","I have around $18,000 in student loans and about $3,000 in credit card debt"
+Debt,Bank loan,I have a bank loan
+Debt,Dwayne owes back taxes to the IRS in the amount of ~$20000.,"I owe back taxes to the IRS in the amount of about $20,000"
+Debt,Has a loan debt of 50000,"I have a loan debt of 50,000"
+Debt,High debt,I have high debt
+Debt,High interest credit card debt,I have high-interest credit card debt
+Debt,"High interest credit card debt ($8,000) and some medical debt","I have high-interest credit card debt of $8,000 and some medical debt"
+Debt,"High interest credit card debt, approximately $19,000 plus all her cards  have been maxed out.","I have high-interest credit card debt of approximately $19,000, and all my cards have been maxed out"
+Debt,High interest medical debt.,I have high interest medical debt
+Debt,High overdue credit card debt,I have high overdue credit card debt
+Debt,"High — personal loans totaling $15,000, struggling with repayment","I'm dealing with high personal loans totaling $15,000 and struggling with repayment"
+Debt,"High — ~$3,000 in medical debt and ~$4,500 in high-interest credit card debt","I have about $3,000 in medical debt and $4,500 in high-interest credit card debt"
+Debt,High-interest credit card debt,I have high-interest credit card debt
+Debt,"High-interest credit card debt ($2,500), one unpaid medical bill ($1,000)","I have high-interest credit card debt of $2,500 and one unpaid medical bill of $1,000"
+Debt,High-interest credit card debt ($7000),I have high-interest credit card debt of $7000
+Debt,"High-interest credit card debt (~$6,000), missed payments accumulating fees","I have high-interest credit card debt of around $6,000 and missed payments accumulating fees"
+Debt,High-interest credit card debt and a mortgage,I have high-interest credit card debt and a mortgage
+Debt,Manageable car loan,I'm managing a manageable car loan
+Debt,"Minimal, low-interest student loan (~$8,000 remaining), paid off credit cards monthly","I have minimal debt, including a low-interest student loan of about $8,000 remaining, and I pay off my credit cards monthly"
+Debt,Minimal. A small mortgage on a condo otherwise He is debt free,I'm debt free with a small mortgage on a condo
+Debt,"Minimal—small remaining student loan balance ($5,000), easily manageable.","I have a minimal remaining student loan balance of $5,000 that is easily manageable"
+Debt,"Moderare , car loan",I'm responsible for a moderate car loan
+Debt,"Moderate ,mortgage debt",I have moderate mortgage debt
+Debt,Moderate business debt - minimal personal debt,I have moderate business debt and minimal personal debt
+Debt,Moderate credit card debt,I have moderate credit card debt
+Debt,Moderate credit card debt. Rents home due to previous credit issues.,I'm a renter with moderate credit card debt due to previous credit issues
+Debt,Moderate debt,I have moderate debt
+Debt,"Moderate debt, including student loans and some credit card debt, totaling around $26,000.","I have moderate debt, including student loans and some credit card debt, totaling around $26,000"
+Debt,"Moderate federal student loan debt (~$150,000), on income-driven repayment plan","I have moderate federal student loan debt of around $150,000 and am on an income-driven repayment plan"
+Debt,"Moderate high interest credit card debt, that is around $20,000.","I'm carrying around $20,000 in moderate high-interest credit card debt"
+Debt,Moderate mortgage,I'm responsible for a moderate mortgage
+Debt,Moderate mortgage and student loan,I have a moderate mortgage and student loan
+Debt,Moderate mortgage debt,I have moderate mortgage debt
+Debt,Moderate student loan ($25000),"I have a moderate student loan of $25,000"
+Debt,Moderate student loan debt,I have moderate student loan debt
+Debt,"Moderate student loan debt ($15,000 remaining), some credit card debt ($3,000)","I have moderate student loan debt of $15,000 remaining and some credit card debt of $3,000"
+Debt,"Moderate student loan debt ($20,000) and some credit card debt ($2,500)","I'm carrying moderate student loan debt of $20,000 and some credit card debt of $2,500"
+Debt,"Moderate student loan debt (~$18,000).","I have moderate student loan debt of around $18,000"
+Debt,"Moderate student loan debt (~€12,000), low-interest and fully manageable","I have moderate student loan debt of around €12,000 that is low-interest and fully manageable"
+Debt,"Moderate student loan debt, morgage",I have moderate student loan debt and a mortgage
+Debt,Moderate student loan debt.,I'm carrying moderate student loan debt
+Debt,Moderate student loans($18000),"I have moderate student loans of $18,000"
+Debt,"Moderate: ~CAD $9,000 in credit card and car loan debt","I have moderate debt of around CAD $9,000 in credit card and car loan debt"
+Debt,Mortgage and small car loan,I have a mortgage and a small car loan
+Debt,Mortgage debt,I have mortgage debt
+Debt,Mother carries credit card debt,I carry credit card debt
+Debt,NO DEBT,I'm debt-free
+Debt,No Debt,I have no debt
+Debt,"No credit card debt (recently paid off). A $15,000 auto loan. A $120,000 mortgage on a condominium.","I have no credit card debt, a $15,000 auto loan, and a $120,000 mortgage on a condominium"
+Debt,No credit card debt. High mortgage payment but manageable.,I have no credit card debt and a high mortgage payment that is manageable
+Debt,No debt,I have no debt
+Debt,"No debt to speak of, other than recurring (rent, schooling cost for her child, car payments, etc).","I have no debt to speak of, other than recurring rent, schooling costs for my child, and car payments"
+Debt,No personal debt,I'm without personal debt
+Debt,"Only about $10,000 left in student loans, low interest","I have about $10,000 left in low-interest student loans"
+Debt,"Owes about $5,000 in medical bills, no other large debts","I'm owing about $5,000 in medical bills and have no other large debts"
+Debt,Small credit debt,I have small credit debt
+Debt,Some credit card debt.,I have some credit card debt
+Debt,Stacey has no debt. This is her first college year.,I have no debt and this is my first college year
+Debt,Stan has no student loan debt as he had a small amount that he was able to pay off shortly after he became employed.,I have no student loan debt as I had a small amount that I was able to pay off shortly after I became employed
+Debt,Student loan debt and credit card debt,I have student loan debt and credit card debt
+Debt,The have lots of credit card debt.,I have lots of credit card debt
+Debt,They have outstanding refit card debt of about $25000.,"I have about $25,000 in outstanding credit card debt"
+Debt,"about $7,500 in credit card debt and $12,000 remaining on a car loan","I have about $7,500 in credit card debt and $12,000 remaining on a car loan"
+Debt,debts from friends,I'm in debt to friends
+Debt,high interest credit card debt,I have high-interest credit card debt
+Debt,high interest loan debt,I have high interest loan debt
+Debt,high student loan,I have high student loan debt
+Debt,high-Has unpaid dept of 50000,"I have unpaid debt of 50,000"
+Debt,"high-interest credit card debt-owes $18,000","I have high-interest credit card debt of $18,000"
+Debt,moderate bank loan,I have a moderate bank loan
+Debt,moderate debt,I have moderate debt
+Debt,"moderate student loan debt of $20,000","I have a moderate student loan debt of $20,000"
+Debt,mortgage of  40k and10k business loan,"I have a mortgage of $40,000 and a $10,000 business loan"
+Debt,no debt,I have no debt
+Debt,no debt aside from mortgage,I'm debt-free aside from my mortgage
+Debt,no debt to note,I have no debt to note
+Debt,no high interest debt,I have no high-interest debt
+Education,Associate degree in Business Administration,I have an associate degree in Business Administration
+Education,Associate’s Degree in Business Administration,I have an associate’s degree in business administration
+Education,B.Sc. in Business Administration,I'm a holder of a B.Sc. in Business Administration
+Education,"BA Graphic Design, MA HCI",I'm educated with a BA in Graphic Design and an MA in HCI
+Education,Bachelor Degree,I'm a holder of a bachelor degree
+Education,Bachelor in science,I'm a bachelor in science
+Education,Bachelor of Science in Nursing (BSN).,I have a Bachelor of Science in Nursing
+Education,Bachelor's degree,I'm a person with a bachelor's degree
+Education,Bachelor's degree in Business Administration with a focus on marketing.,I'm a holder of a bachelor's degree in Business Administration with a focus on marketing
+Education,Bachelor's degree in Finance and a Master's in Business Administration,I have a bachelor's degree in Finance and a master's in Business Administration
+Education,Bachelor's degree in Fine Arts with a concentration in Graphic Design.,I'm a holder of a bachelor's degree in fine arts with a concentration in graphic design
+Education,Bachelor's degree in Nursing,I'm a holder of a bachelor's degree in nursing
+Education,Bachelor's degree in management,I'm a holder of a bachelor's degree in management
+Education,Bachelor's in Civil Engineering,I'm a holder of a bachelor's degree in civil engineering
+Education,Bachelor's in Computer Science,I have a bachelor's degree in computer science
+Education,Bachelor's in Education,I'm a holder of a bachelor's degree in education
+Education,Bachelor's in Finance,I have a bachelor's degree in finance
+Education,Bachelor's in Nursing,I'm a holder of a bachelor's degree in nursing
+Education,Bachelor's in Science,I'm a holder of a Bachelor's in Science
+Education,Bachelor's in real estate,I'm a holder of a bachelor's degree in real estate
+Education,Bachelors Degree,I'm a holder of a bachelor's degree
+Education,Bachelors degree in Business Administration,I have a bachelor's degree in Business Administration
+Education,Bachelors degree in Business administration,I have a bachelor's degree in Business administration
+Education,Bachelors degree in Economics,I have a bachelor's degree in Economics
+Education,Bachelors degree in Sociology,I have a bachelor's degree in Sociology
+Education,Bachelor’s Degree in Business Administration,I have a bachelor’s degree in Business Administration
+Education,Bachelor’s degree in Business Administration,I have a bachelor’s degree in Business Administration
+Education,Bachelor’s degree in Business Administration.,I have a bachelor’s degree in Business Administration
+Education,Bachelor’s degree in Computer Science,I have a bachelor’s degree in computer science
+Education,Bachelor’s degree in Education,I have a bachelor’s degree in Education
+Education,Bachelor’s degree in Education.,I have a bachelor’s degree in Education
+Education,Bachelor’s degree in Marketing.,I have a bachelor’s degree in Marketing
+Education,Bachelor’s in Accounting,I have a bachelor’s degree in accounting
+Education,Bachelor’s in Biology,I have a bachelor's in biology
+Education,Bachelor’s in Communications,I have a bachelor’s degree in communications
+Education,Bachelor’s in Computer Science,I have a bachelor's degree in computer science
+Education,Bachelor’s in Computer Science; MBA from a top-20 business school,I'm a graduate with a bachelor's in computer science and an MBA from a top-20 business school
+Education,Bachelor’s in Education,I'm a bachelor’s in Education
+Education,"Bachelor’s in Education, Certificate in Special Needs Education",I have a bachelor's in education and a certificate in special needs education
+Education,Bachelor’s in Information Technology,I have a bachelor's degree in Information Technology
+Education,Bachelor’s in Marketing,I have a bachelor’s degree in marketing
+Education,Bsc in Mass communication,I have a Bsc in Mass communication
+Education,Construction worker,I'm a construction worker
+Education,"Currently in 12th grade, applying to community college",I'm currently in 12th grade and applying to community college
+Education,Diploma in Catering services,I have a diploma in catering services
+Education,Doctorate in Physical Therapy,I have a doctorate in Physical Therapy
+Education,"Dwayne went through college, getting a degree in forestry, but has been working as a mechanic for approximately twenty years.",I'm a mechanic with a college degree in forestry
+Education,Gwenny is a high school graduate.,I am a high school graduate
+Education,Has  a MS in science related field.,I'm has a MS in a science-related field
+Education,High School Diploma,I'm a high school diploma holder
+Education,"High School Diploma, a couple of college classes and CNA certificate",I'm a high school graduate with a couple of college classes and a CNA certificate
+Education,"High School Diploma, started a community college program but did not complete",I'm a high school graduate who started a community college program but did not complete it
+Education,High School Diploma.,I'm a high school diploma holder
+Education,High school,I'm a high school graduate
+Education,High school diploma,I'm a high school graduate
+Education,High school diploma and some college,I'm a high school graduate with some college education
+Education,High school diploma.,I have a high school diploma
+Education,"High school senior, planning for college but uncertain about future due to health.",I'm a high school senior planning for college but uncertain about the future due to health
+Education,High-school diploma,I'm a high-school graduate
+Education,MBA,I have an MBA
+Education,MD,I am an MD
+Education,Masters,I'm a master's degree holder
+Education,Masters Degree,I'm a holder of a master's degree
+Education,Masters degree,I'm a holder of a master's degree
+Education,Masters in Computer,I'm a master's degree holder in computer science
+Education,Masters in Graphic design and web development,I have a master's degree in graphic design and web development
+Education,Masters in accounting,I have a master's degree in accounting
+Education,Masters in education,I'm a holder of a master's degree in education
+Education,Master’s in Human-Computer Interaction,I'm a holder of a master's degree in Human-Computer Interaction
+Education,Medical school completed,I'm a medical school graduate
+Education,Msc in Psychology,I have a master's degree in Psychology
+Education,Natalie has a BS in nursing from a local university.,I have a BS in nursing from a local university
+Education,"Nursing aide, full-time shift work in an eldercare facility",I'm a nursing aide working full-time shifts in an eldercare facility
+Education,"Part-time cashier, irregular shifts (20–25 hours/week)",I'm a part-time cashier working irregular shifts of 20 to 25 hours per week
+Education,PhD in Mathematics,I have a PhD in Mathematics
+Education,Stacey is a high school graduate. She is now attending college at the University. She is majoring in Data Science.,I'm a high school graduate attending college at the University and majoring in Data Science
+Education,Stan has a BA in Child Development. He has a certification in Applied Behavioral Analysis (ABA) a behavioral management method for helping children with neurodevelopmental conditions such as Autism and Attention-Deficit Disorder,I'm a person with a BA in Child Development and a certification in Applied Behavioral Analysis (ABA)
+Education,Technical college,I'm educated at a technical college
+Education,bachelor's in engineering,I'm a bachelor in engineering
+Education,bachelors,I'm a bachelor
+Education,high school diploma,I'm a high school graduate
+Education,phd,I'm a PhD holder
+Ethnicity,African American,I'm African American
+Ethnicity,African American.,I'm African American
+Ethnicity,Asian,I'm Asian
+Ethnicity,Asian American,I'm Asian American
+Ethnicity,Asian American (Korean heritage),I'm Asian American of Korean heritage
+Ethnicity,Biracial,I'm biracial
+Ethnicity,Black,I'm Black
+Ethnicity,Black(Sudanese),I'm Black (Sudanese)
+Ethnicity,Black/African American,I'm Black/African American
+Ethnicity,British,I'm British
+Ethnicity,Caucasian,I'm Caucasian
+Ethnicity,Caucasian.,I'm Caucasian
+Ethnicity,Dwayne is an African-American.,I'm African-American
+Ethnicity,He is Caucasian,I'm Caucasian
+Ethnicity,Hispanic,I'm Hispanic
+Ethnicity,Hispanic/Latina,I am Hispanic or Latina
+Ethnicity,Hispanic/Latino,I'm Hispanic/Latino
+Ethnicity,Hispanic/Latino.,I'm Hispanic/Latino
+Ethnicity,Korean American,I am Korean American
+Ethnicity,Latina,I'm Latina
+Ethnicity,Mexican,I am Mexican
+Ethnicity,Mixed ethnicity (Black and White),"I'm of mixed ethnicity, Black and White"
+Ethnicity,"Natalie was born and schooled in Chicago, but is of Chilean descent.",I'm of Chilean descent
+Ethnicity,She is Caucasian,I'm Caucasian
+Ethnicity,South African Immigrant,I am a South African immigrant
+Ethnicity,South Asian,I'm South Asian
+Ethnicity,South Asian (Indian-American),I'm South Asian (Indian-American)
+Ethnicity,Stacey is Indian American. Her parents are from India.,I'm Indian American with parents from India
+Ethnicity,They are Caucasian.,I'm Caucasian
+Ethnicity,White,I'm White
+Ethnicity,White/Caucasian,I'm White/Caucasian
+Ethnicity,White/Caucasian.,I am White/Caucasian
+Ethnicity,hispanic,I'm hispanic
+Ethnicity,white,I'm white
+Family situation,"Dingle, no dependents",I'm Dingle with no dependents
+Family situation,Divorced,I'm divorced
+Family situation,"Divorced, co-parenting two children who stay with him part-time",I'm divorced and co-parenting two children who stay with me part-time
+Family situation,"Divorced, has two kids who stay with him part of the time",I'm divorced and have two kids who stay with me part of the time
+Family situation,"Divorced, living alone, no dependents nearby","I'm divorced, living alone, with no dependents nearby"
+Family situation,"Divorced, one adult daughter who is financially independent.",I'm divorced with one adult daughter who is financially independent
+Family situation,Divorced. One adult child.,I'm divorced with one adult child
+Family situation,Divorcee with one child,I'm a divorcee with one child
+Family situation,"Dwayne has been married, but has no children.",I'm married and have no children
+Family situation,In a committed relationship,I'm in a committed relationship
+Family situation,"In a committed relationship, no children",I'm in a committed relationship with no children
+Family situation,"In a committed relationship, no kids",I'm in a committed relationship with no kids
+Family situation,"In a committed relationship, with two children",I'm in a committed relationship with two children
+Family situation,"In a committed relationship,no dependants.",I'm in a committed relationship with no dependants
+Family situation,"In a long-term relationship, no children",I'm in a long-term relationship with no children
+Family situation,"Lives with boyfriend, no children",I'm living with my boyfriend and have no children
+Family situation,Lives with her single mother and two younger siblings,I'm living with my single mother and two younger siblings
+Family situation,"Lives with her single mother, who works long hours; no siblings.","I'm living with my single mother, who works long hours, and I have no siblings"
+Family situation,"Lives with his long-term partner, no children yet.",I'm living with my long-term partner and have no children yet
+Family situation,Married,I'm married
+Family situation,Married in a dual income environment with 2 kids,I'm married in a dual income environment with two kids
+Family situation,Married with 2 children,I'm married with two children
+Family situation,Married with 2 kids,I'm married with two kids
+Family situation,Married with 4 children,I'm married with four children
+Family situation,Married with adult children,I'm married with adult children
+Family situation,Married with children,I'm married with children
+Family situation,Married with one child,I'm married with one child
+Family situation,Married with two children,I'm married with two children
+Family situation,Married with two children; spouse works part-time due to health issues,I'm married with two children; my spouse works part-time due to health issues
+Family situation,"Married, husband unemployed due to health issues; one adult child abroad","I'm married, my husband is unemployed due to health issues, and I have one adult child abroad"
+Family situation,"Married, no children",I'm married with no children
+Family situation,"Married, no children yet",I'm married and have no children yet
+Family situation,"Married, no children.",I'm married with no children
+Family situation,"Married, no dependents",I'm married with no dependents
+Family situation,"Married, two children",I'm married with two children
+Family situation,"Married, two teenage children",I'm married with two teenage children
+Family situation,"Natalie is divorced from her first husband, the father of her only child, and is separated from her second husband due to her drug use.","I'm divorced from my first husband, the father of my only child, and separated from my second husband due to my drug use"
+Family situation,Never married. One teenage son.,I'm never married and have one teenage son
+Family situation,Not married,I'm not married
+Family situation,She has 3 children with special needs. She is married.,I'm married and have three children with special needs
+Family situation,Single,I'm single
+Family situation,"Single , No dependents",I'm single with no dependents
+Family situation,Single Parent with diabetic child,I'm a single parent with a diabetic child
+Family situation,Single Parent with two kids,I'm a single parent with two kids
+Family situation,Single mom,I'm a single mom
+Family situation,Single mother,I'm a single mother
+Family situation,Single parent 2 children,I'm a single parent with two children
+Family situation,Single parent of 2,I'm a single parent of two
+Family situation,Single parent with one child,I'm a single parent with one child
+Family situation,Single parent with one child (age 10),I'm a single parent with one child who is 10 years old
+Family situation,Single parent with one child (age 6),I'm a single parent with one child who is 6 years old
+Family situation,Single parent with one teenage daughter,I'm a single parent with one teenage daughter
+Family situation,Single parent with one teenage daughter (age 15),I'm a single parent with a 15-year-old teenage daughter
+Family situation,Single parent with two children (ages 4 and 6),I'm a single parent with two children aged 4 and 6
+Family situation,Single parent with two children (ages 7 and 10),I'm a single parent with two children aged 7 and 10
+Family situation,Single parent with two children (ages 9 and 12).,I'm a single parent with two children aged 9 and 12
+Family situation,Single parent with two young children.,I'm a single parent with two young children
+Family situation,"Single parent, three children",I'm a single parent with three children
+Family situation,Single with no depedants,I'm single with no dependents
+Family situation,Single with no kids,I'm single with no kids
+Family situation,"Single, caring for elderly parents",I'm single and caring for elderly parents
+Family situation,"Single, living alone No dependents","I'm single, living alone, with no dependents"
+Family situation,"Single, living alone in an apartment, no dependents.","I'm single, living alone in an apartment, with no dependents"
+Family situation,"Single, no children or dependents",I'm single with no children or dependents
+Family situation,"Single, no depedants",I'm single with no dependents
+Family situation,"Single, no dependents",I'm single with no dependents
+Family situation,"Single, no dependents, lives with a roommate.","I'm single, have no dependents, and live with a roommate"
+Family situation,"Single, no dependents.",I'm single with no dependents
+Family situation,"Single, no dependents; lives in shared rental housing","I'm single, have no dependents, and live in shared rental housing"
+Family situation,"Single, no kids yet but hopes to start a family in the future","I'm single, with no kids yet but hoping to start a family in the future"
+Family situation,"Single,living with two elderly parents.",I'm single and living with two elderly parents
+Family situation,Stacey has no dependents. She is not in a relationship. She lives with 3 other roommates in student housing on-campus.,"I'm not in a relationship, have no dependents, and live with three roommates in student housing on-campus"
+Family situation,Stan has an 8 year old son. Stan is single.,I'm single and have an 8-year-old son
+Family situation,"Though not yet married, client is in a long term serious relationship with his fiancé.",I'm in a long-term serious relationship with my fiancé but not yet married
+Family situation,Widowed,I'm widowed
+Family situation,"Widowed, sole caregiver of grandson",I'm widowed and the sole caregiver of my grandson
+Family situation,im a committed relationship,I'm in a committed relationship
+Family situation,married,I'm married
+Family situation,married with 2 children,I'm married with two children
+Family situation,married with 2 young kids,I'm married with two young kids
+Family situation,married with adult children,I'm married with adult children
+Family situation,married with two kids,I'm married with two kids
+Family situation,single no dependents,I'm single with no dependents
+Family situation,single parent with one child,I'm a single parent with one child
+Family situation,single with children,I'm single with children
+Gender,Female,I'm female
+Gender,Male,I'm male
+Gender,Non-binary,I'm non-binary
+Geographic location,"Alabama, USA, urban","I'm an urban resident in Alabama, USA"
+Geographic location,"Austin, Texas","I'm in Austin, Texas"
+Geographic location,"Austin, Texas, USA","I'm in Austin, Texas, USA"
+Geographic location,"Canada, semi-urban area in Ontario","I'm in a semi-urban area in Ontario, Canada"
+Geographic location,Carlifonia,I'm located in California
+Geographic location,"Columbus, Ohio","I'm in Columbus, Ohio"
+Geographic location,"Columbus, Ohio, USA","I'm in Columbus, Ohio, USA"
+Geographic location,"Detroit, Michigan","I'm in Detroit, Michigan"
+Geographic location,Georgia,I'm in Georgia
+Geographic location,Michigan,I'm in Michigan
+Geographic location,Minnesota,I'm in Minnesota
+Geographic location,Natalie lives in metropolitan Chicago.,I'm living in metropolitan Chicago
+Geographic location,"North America, USA, Semi-urban","I'm in semi-urban North America, USA"
+Geographic location,"North America, USA, Urban","I'm in an urban area in the USA, North America"
+Geographic location,"North America, United States","I'm in North America, United States"
+Geographic location,"North America, United States, Rural (Ohio)","I'm in a rural area of Ohio, United States in North America"
+Geographic location,"North America, United States, Urban (Atlanta, Georgia)","I'm in an urban area in Atlanta, Georgia, United States, North America"
+Geographic location,Qatar,I'm in Qatar
+Geographic location,Rhode Island,I am in Rhode Island
+Geographic location,"Rural Kansas, USA","I'm in rural Kansas, USA"
+Geographic location,"Rural Kentucky, United States.","I'm in rural Kentucky, United States"
+Geographic location,Rural Tennessee,I'm in rural Tennessee
+Geographic location,Rural U.S. — New Mexico,I'm in rural New Mexico
+Geographic location,Rural United States,I'm in rural United States
+Geographic location,"Rural area, Southern United States",I'm in a rural area of the Southern United States
+Geographic location,Rural town in the United States,I'm in a rural town in the United States
+Geographic location,"Rural, Mississippi, USA","I'm in a rural area of Mississippi, USA"
+Geographic location,"Rural, Unitec States",I'm in a rural area of the United States
+Geographic location,"Rural,in the united states of america.",I'm in a rural area in the United States of America
+Geographic location,"Small town in Kansas, U.S.","I live in a small town in Kansas, U.S"
+Geographic location,"Stacey is based in the United States. She is in an urban community, living in a campus-based apartment at the University where she goes to school.","I'm based in the United States, living in an urban community in a campus-based apartment at the university where I go to school"
+Geographic location,Suburb outside major U.S. city,I'm in a suburb outside a major U.S. city
+Geographic location,Suburban area in the United States,I'm in a suburban area in the United States
+Geographic location,"Suburban area, United States",I'm in a suburban area in the United States
+Geographic location,Suburbs,I'm in the suburbs
+Geographic location,They are in the United States. They live in an urban area.,I'm in the United States and live in an urban area
+Geographic location,U.S,I'm in the U.S
+Geographic location,"U.S urban City, New York","I'm in an urban city in the U.S., New York"
+Geographic location,"U.S., Midwest — Columbus, Ohio (urban)","I'm in Columbus, Ohio, an urban area in the U.S. Midwest"
+Geographic location,U.S.A,I'm in the U.S.A
+Geographic location,UNITED STATES,I'm in the United States
+Geographic location,US,I'm in the US
+Geographic location,USA,I'm in the USA
+Geographic location,"USA, Texas","I'm in Texas, USA"
+Geographic location,"USA,New Jersey","I'm in New Jersey, USA"
+Geographic location,United Kingdom,I'm in the United Kingdom
+Geographic location,United States,I'm in the United States
+Geographic location,"United States, Illinois","I'm in Illinois, United States"
+Geographic location,"United States, New Orleans metropolitan area","I'm in the United States, in the New Orleans metropolitan area"
+Geographic location,"United States, Washington","I'm in Washington, United States"
+Geographic location,"United States, mid-sized urban area",I'm in a mid-sized urban area in the United States
+Geographic location,"United States, rural Ohio.","I'm in rural Ohio, United States"
+Geographic location,"United States, rural area in the south.",I'm in a rural area in the southern United States
+Geographic location,"United States, suburban area",I'm in a suburban area of the United States
+Geographic location,United States. She lives in a rural community.,I'm in a rural community in the United States
+Geographic location,United states,I'm in the United States
+Geographic location,United states fo America,I'm in the United States of America
+Geographic location,United states of America,I am in the United States of America
+Geographic location,"United states, Chicago (Urban)","I'm in Chicago, United States, living in an urban area"
+Geographic location,"United states, Philadelphia","I'm in Philadelphia, United States"
+Geographic location,Unites States(South Carolina ),"I'm in South Carolina, United States"
+Geographic location,"Unites States, Maryland","I'm in Maryland, United States"
+Geographic location,Urban,I'm in an urban area
+Geographic location,"Urban , North America",I'm in an urban area in North America
+Geographic location,Urban U.S. city (Midwest),I'm in an urban U.S. city in the Midwest
+Geographic location,Urban area in the United States,I'm in an urban area in the United States
+Geographic location,Urban area/USA,I'm in an urban area in the USA
+Geographic location,"Urban city center, United States",I'm in an urban city center in the United States
+Geographic location,Urban city in the United States (San Francisco),"I'm in an urban city in the United States, specifically San Francisco"
+Geographic location,"Urban, Chicago, USA","I'm in an urban area in Chicago, USA"
+Geographic location,"Urban, Chicago, United States","I'm in an urban area in Chicago, United States"
+Geographic location,"Urban, Dallas, United States.","I'm in Dallas, an urban area in the United States"
+Geographic location,"Urban, Denver, United States","I'm in an urban area in Denver, United States"
+Geographic location,"Urban, San Francisco, California, USA","I'm in San Francisco, California, USA, an urban area"
+Geographic location,"Urban, San Francisco, USA","I'm in San Francisco, USA, an urban area"
+Geographic location,"Urban, Seattle, United States","I'm in an urban area in Seattle, United States"
+Geographic location,"Urban, USA",I'm in an urban area in the USA
+Geographic location,"Urban, United States",I'm in an urban area in the United States
+Geographic location,"Urban,United states of America.",I'm in an urban area in the United States of America
+Geographic location,Washington DC,I'm in Washington DC
+Geographic location,rural,I'm in a rural area
+Geographic location,suburban,I'm in a suburban area
+Geographic location,"suburban,in the United states of america.",I'm in a suburban area in the United States of America
+Geographic location,urban,I'm in an urban area
+Health Status/Disabilities,"Arthritis, COPD and depression","I'm living with arthritis, COPD, and depression"
+Health Status/Disabilities,Average physical health.,I'm in average physical health
+Health Status/Disabilities,"Average, occasional back pain from physical labor, under stress, no major chronic conditions","I'm of average health, experience occasional back pain from physical labor, am under stress, and have no major chronic conditions"
+Health Status/Disabilities,Chronic Stress -related  issues,I'm experiencing chronic stress-related health issues
+Health Status/Disabilities,"Chronic back pain from warehouse work, limited access to healthcare; often stressed and fatigued.","I'm experiencing chronic back pain from warehouse work, have limited access to healthcare, and often feel stressed and fatigued"
+Health Status/Disabilities,Chronic conditions - diabetic,I'm diabetic
+Health Status/Disabilities,Chronic conditions and mental health,I'm dealing with chronic conditions and mental health issues
+Health Status/Disabilities,"Currently weight-restored from anorexia, but at high risk for relapse",I'm currently weight-restored from anorexia but at high risk for relapse
+Health Status/Disabilities,"Dewayne has hepatitis C, for which he has undergone treatment, and other health issues likely related to his drug use.","I'm Dewayne, have hepatitis C that I have undergone treatment for, and have other health issues likely related to my drug use"
+Health Status/Disabilities,Doctorate in Physical TherapyGood health but has anxiety that gets worse with financial stress.,I'm in good health but have anxiety that worsens with financial stress
+Health Status/Disabilities,Excellent Health,I'm in excellent health
+Health Status/Disabilities,Excellent general health with no chronic conditions.,I'm in excellent general health with no chronic conditions
+Health Status/Disabilities,"Excellent health, very active, no chronic medical conditions, mentally well.","I'm in excellent health, very active, with no chronic medical conditions and mentally well"
+Health Status/Disabilities,"Excellent, physically fit, attends yoga classes regularly, no chronic health conditions, good mental health","I'm in excellent health, physically fit, attend yoga classes regularly, have no chronic health conditions, and maintain good mental health"
+Health Status/Disabilities,"Excellent; runs 25 miles per week, no chronic issues","I'm in excellent health, run 25 miles per week, and have no chronic issues"
+Health Status/Disabilities,"Excellent—healthy, physically active, no chronic conditions.","I'm healthy, physically active, and have no chronic conditions"
+Health Status/Disabilities,"Experiences high levels of stress and anxiety due to her financial situation, which is impacting her mental health.","I'm experiencing high levels of stress and anxiety due to my financial situation, which is impacting my mental health"
+Health Status/Disabilities,"Fair health; chronic back pain from physical work, high stress, no comprehensive healthcare coverage","I'm in fair health with chronic back pain from physical work, high stress, and no comprehensive healthcare coverage"
+Health Status/Disabilities,"Fair, generally healthy but experiencing stress-related issues (e.g., occasional insomnia, headaches), no chronic physical illnesses",I'm generally healthy with fair health but experiencing stress-related issues like occasional insomnia and headaches
+Health Status/Disabilities,"Fair, rising stress, occasional insomnia",I'm in fair health with rising stress and occasional insomnia
+Health Status/Disabilities,"Fair, suffers from chronic fatigue, mild untreated anxiety, and inconsistent access to healthcare","I'm in fair health, suffering from chronic fatigue, mild untreated anxiety, and inconsistent access to healthcare"
+Health Status/Disabilities,"Fair; mild chronic back pain, occasional stress-related anxiety",I'm in fair health with mild chronic back pain and occasional stress-related anxiety
+Health Status/Disabilities,Fit and healthy,I'm fit and healthy
+Health Status/Disabilities,Fitness,I'm in good health
+Health Status/Disabilities,"Generally good, occasional stress from workload, no major chronic issues",I'm generally in good health with occasional stress from workload and no major chronic issues
+Health Status/Disabilities,Generally healthy,I'm generally healthy
+Health Status/Disabilities,Generally healthy but stressed due to demanding job; mild anxiety; tries to stay active but struggles with irregular sleep.,"I'm generally healthy but stressed due to a demanding job, have mild anxiety, try to stay active, but struggle with irregular sleep"
+Health Status/Disabilities,"Generally healthy, but experiencing stress-related fatigue and occasional anxiety from workplace environment",I'm generally healthy but experiencing stress-related fatigue and occasional anxiety from my workplace environment
+Health Status/Disabilities,"Generally healthy, but suffering from stress-related fatigue, mild anxiety, and sleep disturbance","I'm generally healthy but suffering from stress-related fatigue, mild anxiety, and sleep disturbance"
+Health Status/Disabilities,"Generally healthy, jogs occasionally, no chronic conditions, mild stress from workload.","I'm generally healthy, jog occasionally, have no chronic conditions, and experience mild stress from workload"
+Health Status/Disabilities,"Generally healthy, no chronic health condition",I'm generally healthy with no chronic health condition
+Health Status/Disabilities,"Generally okay, but has high blood pressure and mild depression (treated with medication)",I'm generally okay but have high blood pressure and mild depression treated with medication
+Health Status/Disabilities,"Generally okay, but has some back pain and often feels stressed about money",I'm generally okay but have some back pain and often feel stressed about money
+Health Status/Disabilities,Good,I'm in good health
+Health Status/Disabilities,Good and fit in general health status,I'm in good health and generally fit
+Health Status/Disabilities,Good general health,I'm in good general health
+Health Status/Disabilities,Good health,I'm in good health
+Health Status/Disabilities,"Good health, jogs regularly, no chronic illnesses.","I'm in good health, jog regularly, and have no chronic illnesses"
+Health Status/Disabilities,"Good health, no chronicles conditions, maintains fitness","I'm in good health, have no chronic conditions, and maintain fitness"
+Health Status/Disabilities,"Good overall health, no chronic conditions, exercises regularly, occasional seasonal allergies","I'm in good overall health, have no chronic conditions, exercise regularly, and experience occasional seasonal allergies"
+Health Status/Disabilities,"Good overall health, physically active, no chronic conditions","I'm in good overall health, physically active, with no chronic conditions"
+Health Status/Disabilities,"Good overall health, though she sometimes feels stressed and anxious during the school year","I'm in good overall health, though I sometimes feel stressed and anxious during the school year"
+Health Status/Disabilities,Good physical and mental health and no chronic conditions.,I'm in good physical and mental health with no chronic conditions
+Health Status/Disabilities,"Good physical and mental health, exercises regularly, manages mild seasonal allergies","I'm in good physical and mental health, exercise regularly, and manage mild seasonal allergies"
+Health Status/Disabilities,"Good physical health, exercises regularly, no chronic conditions","I'm in good physical health, exercise regularly, and have no chronic conditions"
+Health Status/Disabilities,"Good physical health, manages mild anxiety with therapy; no chronic illnesses","I'm in good physical health, manage mild anxiety with therapy, and have no chronic illnesses"
+Health Status/Disabilities,"Good physical health, mild seasonal allergies, manages stress carefully","I'm in good physical health, have mild seasonal allergies, and manage stress carefully"
+Health Status/Disabilities,"Good physical health, no chronic illnesses, normal stress levels for workload","I'm in good physical health, have no chronic illnesses, and experience normal stress levels for my workload"
+Health Status/Disabilities,"Good physical health,but expriences moderate stress and anxiety due to financial pressures.",I'm in good physical health but experience moderate stress and anxiety due to financial pressures
+Health Status/Disabilities,Good.Mild stress from caregiving,I'm in good health and experience mild stress from caregiving
+Health Status/Disabilities,"Gwenny is in poor physical health. She was recently diagnosed with fatty liver disease as a result of chronic stress. She has depression, anxiety, Autism and Attention-Deficit Hyperactivity Disorder.","I'm in poor physical health with fatty liver disease caused by chronic stress, and I have depression, anxiety, Autism, and ADHD"
+Health Status/Disabilities,Has asthma,I'm someone who has asthma
+Health Status/Disabilities,Has depression,I'm someone who has depression
+Health Status/Disabilities,Has high level of stress and anxiety,I'm experiencing a high level of stress and anxiety
+Health Status/Disabilities,Healthy,I'm healthy
+Health Status/Disabilities,Healthy and fit,I'm healthy and fit
+Health Status/Disabilities,Healthy and mostly fit but a bit overweight.  Prescribed antidepressants for years but stable in mood.,"I'm healthy and mostly fit but a bit overweight, and I've been prescribed antidepressants for years with a stable mood"
+Health Status/Disabilities,High stress and anxiety,I experience high stress and anxiety
+Health Status/Disabilities,"Hypertension, joint problems but relatively fit due to physical demands of job",I'm hypertensive with joint problems but relatively fit due to the physical demands of my job
+Health Status/Disabilities,"In good health, stays active, no serious medical issues","I'm in good health, stay active, and have no serious medical issues"
+Health Status/Disabilities,Mental health and chronic conditions,I'm dealing with mental health and chronic conditions
+Health Status/Disabilities,Mental health is being affected by the drinking,I'm experiencing mental health issues affected by drinking
+Health Status/Disabilities,Natalie is showing signs of chronic opiate use in her mental as well as physical health.,I'm showing signs of chronic opiate use in my mental and physical health
+Health Status/Disabilities,Overweigh,I'm overweight
+Health Status/Disabilities,"Overweight, prediabetes, high cholesterol; otherwise mentally healthy, moderate fitness level","I'm overweight with prediabetes and high cholesterol, but otherwise mentally healthy with a moderate fitness level"
+Health Status/Disabilities,Physically and mentally healthy,I'm physically and mentally healthy
+Health Status/Disabilities,Physically exhausted with little energy most of the times,I'm physically exhausted with little energy most of the time
+Health Status/Disabilities,"Physically healthy but experiencing moderate mental health issues (chronic stress, early signs of burnout), no known chronic physical conditions",I'm physically healthy but experiencing moderate mental health issues like chronic stress and early signs of burnout
+Health Status/Disabilities,Physically healthy but is stressed and mentally fatigued,I'm physically healthy but stressed and mentally fatigued
+Health Status/Disabilities,"Poor history of trauma, currently experiencing severe depression and suicidal ideation",I'm experiencing severe depression and suicidal ideation with a poor history of trauma
+Health Status/Disabilities,Poor to fair — struggles with chronic anxiety and insomnia; limited access to healthcare; has experienced periods of untreated depression,"I'm in poor to fair health, struggle with chronic anxiety and insomnia, have limited access to healthcare, and have experienced periods of untreated depression"
+Health Status/Disabilities,Poor. Smokes and has a past history of drug use. Untreated major depression.,"I'm in poor health, smoke, have a past history of drug use, and have untreated major depression"
+Health Status/Disabilities,"Poor. Suffers from back pain from labor, rising anxiety, untreated hypertension","I'm in poor health, suffering from back pain from labor, rising anxiety, and untreated hypertension"
+Health Status/Disabilities,"Pre-diabetic, overweight, mild hypertension","I'm pre-diabetic, overweight, and have mild hypertension"
+Health Status/Disabilities,"Recently weight-restored from anorexia, fragile mental health, ongoing therapy, no other chronic conditions","I'm recently weight-restored from anorexia, have fragile mental health, and am undergoing ongoing therapy"
+Health Status/Disabilities,"Stacey is physically fit, has no chronic medical conditions. She has a history of depression that started at about 12 years of age. She has had one prior mental health therapist who diagnosed her with depression. She saw them for 2 years.","I'm physically fit with no chronic medical conditions, and I have a history of depression that started at about 12 years of age, having seen one mental health therapist for two years who diagnosed me with depression"
+Health Status/Disabilities,Stan is overweight. He has depression and anxiety. He has a history of substance use as a teenager.,"I'm overweight, have depression and anxiety, and a history of substance use as a teenager"
+Health Status/Disabilities,Struggles with stress-related health issues; mild depression; limited access to healthcare; otherwise physically able but overwhelmed.,"I'm overwhelmed and struggle with stress-related health issues and mild depression, with limited access to healthcare but otherwise physically able"
+Health Status/Disabilities,Struggles with untreated anxiety and fatigue; no chronic physical conditions but limited access to healthcare,I'm struggling with untreated anxiety and fatigue and have limited access to healthcare
+Health Status/Disabilities,Struggling with asthma,I'm struggling with asthma
+Health Status/Disabilities,"They participate in low-impact exercise 1-2 days per week, no known health issues.",I'm someone who participates in low-impact exercise 1-2 days per week and has no known health issues
+Health Status/Disabilities,This individual smokes but is otherwise in good health.,I'm a smoker who is otherwise in good health
+Health Status/Disabilities,"Very good, active, some stress managed with therapy","I'm in very good health, active, and managing some stress with therapy"
+Health Status/Disabilities,allergies,I'm allergic to certain substances
+Health Status/Disabilities,chronic condition-high blood pressure,I'm living with a chronic condition of high blood pressure
+Health Status/Disabilities,"excellent health, but under stress",I'm in excellent health but under stress
+Health Status/Disabilities,excellently healthy,I'm excellently healthy
+Health Status/Disabilities,generally healthy,I'm generally healthy
+Health Status/Disabilities,"going to through depression , mental",I'm going through mental depression
+Health Status/Disabilities,good,I'm in good health
+Health Status/Disabilities,good health condition,I'm in good health condition
+Health Status/Disabilities,has low stage depression,I'm experiencing low stage depression
+Health Status/Disabilities,healthy,I'm healthy
+Health Status/Disabilities,healthy.I would say good,I'm healthy and would say good
+Health Status/Disabilities,no issues to note,I'm in good health with no issues to note
+Health Status/Disabilities,physically fit,I'm physically fit
+Health Status/Disabilities,poor,I'm in poor health
+Health Status/Disabilities,"poor-chronic health issues, bipolar and schizophrenia",I'm dealing with poor chronic health issues and have bipolar disorder and schizophrenia
+Health Status/Disabilities,quiet healthy,I'm quietly healthy
+Income,"$105,000 annually, stable","I earn a stable income of $105,000 annually"
+Income,"$120,000 yearly net profit after business expenses","I have a yearly net profit of $120,000 after business expenses"
+Income,$12000 p.a,"I'm an income of $12,000 per year"
+Income,"$145000 annually, stable with bonuses & stock","I earn $145,000 annually, stable with bonuses and stock"
+Income,"$160,000 combined family income. Stable.","I'm a person with a stable combined family income of $160,000"
+Income,$2000 monthly,I'm earning $2000 monthly
+Income,"$2500 monthly income from social security, unstable","I'm receiving a monthly income of $2500 from social security, which is unstable"
+Income,$30000 annually,"I'm earning $30,000 annually"
+Income,"$32000 annually, unstable due to inconsistent hours","I'm earning $32,000 annually with unstable income due to inconsistent hours"
+Income,$35000 per year,"I'm an individual earning $35,000 per year"
+Income,"$55,000 annual stipend during internship","I receive a $55,000 annual stipend during my internship"
+Income,"$55,000 annually with stability","I'm earning $55,000 annually with stability"
+Income,"$65,000/year, stable with benefits","I'm earning $65,000 per year, stable with benefits"
+Income,"$65000, steady but stretched with caregiving","I'm earning $65,000, steady but stretched with caregiving"
+Income,"$70000 annually, very stable","I earn $70,000 annually and have a very stable income"
+Income,"$80,000/year, stable salary with healthcare benefits","I'm earning $80,000 per year with a stable salary and healthcare benefits"
+Income,"$85,000/year; stable employment but finances stretched due to childcare and housing costs","I'm earning $85,000 per year with stable employment but my finances are stretched due to childcare and housing costs"
+Income,"100,000","I earn $100,000"
+Income,"100,000 dollars","I earn 100,000 dollars"
+Income,"120,000/year, stable salaried income","I'm a salaried employee with a stable income of $120,000 per year"
+Income,"120000 annually, stable","I'm earning a stable income of $120,000 annually"
+Income,"130,000/year, very stable","I earn a very stable income of $130,000 per year"
+Income,15000 annually,"I earn $15,000 annually"
+Income,150000,"I earn $150,000"
+Income,"18,000/year, unstable and variable gig earnings","I'm earning $18,000 per year with unstable and variable gig income"
+Income,1800 monthly,I have a monthly income of 1800
+Income,185000 annually with high stability,"I earn an annual income of $185,000 with high stability"
+Income,"22,000/year, unstable with fluctuating hours","I'm earning $22,000 per year with unstable income and fluctuating hours"
+Income,30000 annually,"I'm an individual with an annual income of $30,000"
+Income,35000,"I'm an income of $35,000"
+Income,"35k per year, stable",I'm earning a stable income of 35k per year
+Income,"48,000/year, stable salaried income","I have a stable salaried income of $48,000 per year"
+Income,"50,000","I earn $50,000"
+Income,"50,000 per year salary, stable income","I'm a person with a stable salary of $50,000 per year"
+Income,"50,000/year, relatively stable but limited growth","I'm earning $50,000 per year, with relatively stable income but limited growth"
+Income,"55,000 with some stability","I'm earning $55,000 with some stability"
+Income,"60,000 per year salary, stable income","I have a stable salary of $60,000 per year"
+Income,60000,"I earn $60,000"
+Income,65000,"I'm an income of $65,000"
+Income,"70000,comfortable","I'm earning a comfortable income of $70,000"
+Income,75k dollars,I'm an income of 75k dollars
+Income,"Currently no income, relying on temporary unemployment benefits and food assistance (e.g., SNAP)","I'm currently without income, relying on temporary unemployment benefits and food assistance such as SNAP"
+Income,"Earns $110,000 annually, highly stable salary with stock options and annual bonuses.","I'm an individual who earns $110,000 annually with a highly stable salary, stock options, and annual bonuses"
+Income,"Earns $48,000 annually; stable salary but limited growth opportunities; relies on occasional summer tutoring for extra income.","I'm earning $48,000 annually with a stable salary but limited growth opportunities and rely on occasional summer tutoring for extra income"
+Income,"Earns about $115,000 a year, very stable and secure job","I'm an individual who earns about $115,000 a year with a very stable and secure job"
+Income,"Earns about $28,000 annually, highly unstable due to fluctuating hours; no benefits or paid leave.","I'm an individual earning about $28,000 annually with highly unstable income due to fluctuating hours and no benefits or paid leave"
+Income,"Earns around $55,000 annually; stable employment but unpredictable overtime shifts and irregular hours.","I'm earning around $55,000 annually with stable employment but unpredictable overtime shifts and irregular hours"
+Income,"Earns around $85,000 annually; stable salary with potential bonuses.","I'm an individual who earns around $85,000 annually with a stable salary and potential bonuses"
+Income,"High and stable – earns approximately $150,000 annually, plus performance bonuses","I earn a high and stable income of approximately $150,000 annually, plus performance bonuses"
+Income,"High and stable, earns approximately $160,000/year with additional stock options and yearly bonus","I'm a high and stable earner, making approximately $160,000 a year with additional stock options and a yearly bonus"
+Income,"High income earners, Over 300,000 dollars","I am a high income earner with over 300,000 dollars"
+Income,High stable income over 500k,"I'm a person with a high stable income of over $500,000"
+Income,"Highly unstable. Combined income from both jobs averages 24,000 peryear before taxes","I'm highly unstable with a combined income from both jobs averaging $24,000 per year before taxes"
+Income,"Income is stable, around $35000.","I'm an individual with a stable income of around $35,000"
+Income,Inconsistent income since it varies month to month with freenlance work.,I'm an individual with inconsistent income since it varies month to month with freelance work
+Income,Low and unstable,I'm an individual with low and unstable income
+Income,"Low and unstable earns approximately $25,000/year with frequent schedule changes affecting income predictability","I'm a low and unstable earner of approximately $25,000 per year with frequent schedule changes affecting income predictability"
+Income,"Low and unstable — earns around $32,000 annually, no benefits beyond basic wages","I'm a low-income earner with an unstable income of around $32,000 annually and no benefits beyond basic wages"
+Income,"Makes about $28,500 a year, but it’s unstable because his hours change often","I'm someone who makes about $28,500 a year, but my income is unstable because my hours change often"
+Income,"Makes about $50,000 a year; steady job but not much extra after bills and savings","I'm making about $50,000 a year with a steady job but not much extra after bills and savings"
+Income,"Moderate and relatively stable household income $65,000/year from combined wages, but not much discretionary income.","I'm a household with a moderate and relatively stable income of $65,000 per year from combined wages, but not much discretionary income"
+Income,"Moderate to high – earns around $85,000 annually, stable salary but bonuses tied to company performance","I'm a moderate to high earner with an annual income of around $85,000, a stable salary, and bonuses tied to company performance"
+Income,"Moderate: earns approx. CAD $65,000/year; stable but not easily adjustable due to child care costs","I'm a moderate earner of approximately CAD $65,000 per year, with a stable income that is not easily adjustable due to child care costs"
+Income,Moderately stable,I'm a moderately stable income earner
+Income,Modest household income,I'm from a household with a modest income
+Income,"More stable with over 200,000 dolar salary","I'm more stable with a salary of over 200,000 dollars"
+Income,No income,I'm without income
+Income,No personal income,I'm without personal income
+Income,No stable income,I'm without a stable income
+Income,No stable income; relies on unemployment benefits and occasional gig work; highly unstable.,"I'm without stable income, relying on unemployment benefits and occasional gig work, making my income highly unstable"
+Income,"Not stable less than 50,000 dollar in a year","I'm not earning a stable income of less than $50,000 per year"
+Income,"Stable ($90,000-$120,000 annually)","I have a stable income of $90,000 to $120,000 annually"
+Income,"Stable ,lmiddle class",I'm a middle-class person with a stable income
+Income,Stable and Independent,I'm stable and independent in my income
+Income,"Stable and above $35,000 yearly","I'm earning a stable income of over $35,000 per year"
+Income,"Stable and high-income: earns approx. €85,000/year with bonuses; regular freelance side gigs add ~€10,000/year","I'm a stable and high-income earner, making approximately €85,000 per year with bonuses and an additional ~€10,000 annually from freelance side gigs"
+Income,Stable but low,I'm a person with a stable but low income
+Income,"Stable but modest for his role $78,000/year; employment is secure for now but no recent raises and limited upward mobility","I'm earning a stable but modest income of $78,000 per year with secure employment for now, no recent raises, and limited upward mobility"
+Income,Stable but with little to spare.,I'm earning a stable income but with little to spare
+Income,"Stable earns $55,000/year, financially comfortable.","I'm a stable earner of $55,000 per year and financially comfortable"
+Income,Stable income about 90k per year,"I'm a person with a stable income of about $90,000 per year"
+Income,Stable moderate income.,I'm a person with a stable moderate income
+Income,"Stable, household income around $150,000/year","I'm a household with a stable income of around $150,000 per year"
+Income,"Stable,mid-to-high income.Around $60000-80000 per year.","I'm a stable, mid-to-high income earner with around $60,000 to $80,000 per year"
+Income,Stable-50000,"I'm a stable income of $50,000"
+Income,Stacey's parents fully support her financially. They are supporting her through college. They cover all of her expenses.,"I'm financially supported by my parents through college, and they cover all my expenses"
+Income,Stan has stable employment. He is able to support himself and his son.,I'm able to support myself and my son through stable employment
+Income,"This family is struggling financially. Her husband works, but he has poor health as well.They live with Gwenny's mother-in-law.","I'm part of a family struggling financially, with her husband working despite poor health, and living with Gwenny's mother-in-law"
+Income,"Though stability is questionable due to her addiction, Natalie makes about $65000 salary.","I'm a Natalie who makes about a $65,000 salary despite questionable stability due to her addiction"
+Income,"Unemployed, relying on unemployment benefits, highly unstable","I'm unemployed, relying on unemployment benefits, and highly unstable"
+Income,Unstable,I'm experiencing unstable income
+Income,Unstable and low,I'm an individual with unstable and low income
+Income,"Unstable, about $25000.","I'm an individual with an unstable income of about $25,000"
+Income,Very limited small monthly pension and part-time wages,I'm living on a very limited small monthly pension and part-time wages
+Income,"Very limited, relies on mother’s modest hourly wages",I'm reliant on my mother's modest hourly wages for my limited income
+Income,"Very low and unstable — earns approx. $14,000/year from part-time work; hours fluctuate based on store needs","I'm a very low and unstable earner, making approximately $14,000 per year from part-time work with fluctuating hours based on store needs"
+Income,Was previously a low-to moderate income that was just enough to cover expenses.,I'm previously a low-to moderate income that was just enough to cover expenses
+Income,annual salary of 65000,"I have an annual salary of 65,000"
+Income,"high earner, very stable",I'm a high earner with very stable income
+Income,it is very bad,I'm experiencing very bad income
+Income,over $80000 per year,"I earn over $80,000 per year"
+Income,stable high income,I'm a person with a stable high income
+Income,stable income,I'm a person with a stable income
+Income,"stable income, middle class",I'm a middle-class earner with a stable income
+Income,unstable,I'm an unstable income earner
+Income,very stable high income,I'm a very stable high-income earner
+Occupation,Assistant manager at discount retail store,I'm an assistant manager at a discount retail store
+Occupation,"Bakery ,Full time",I'm working full time in a bakery
+Occupation,CPA,I'm a CPA
+Occupation,"Cashier at a grocery store, full-time (variable schedule, includes weekends and evenings)",I'm a full-time cashier at a grocery store with a variable schedule that includes weekends and evenings
+Occupation,Certified Nursing Assistant,I'm a certified nursing assistant
+Occupation,"City bus driver, full-time with irregular hours",I'm a full-time city bus driver with irregular hours
+Occupation,"Currently unemployed; previously worked in retail, part-time and variable hours.",I'm currently unemployed and previously worked in retail with part-time and variable hours
+Occupation,Dwayne’s side work is auto mechanics that he does as needed to support his habits and lifestyle.,I'm doing auto mechanics as side work to support my habits and lifestyle
+Occupation,"Elementary School Teacher, full-time, standard daytime hours.",I'm a full-time elementary school teacher working standard daytime hours
+Occupation,Engineer,I'm an engineer
+Occupation,Financial Analyst,I'm a financial analyst
+Occupation,Financial Analyst and she works a 9 to 5 job,I'm a financial analyst and work a 9 to 5 job
+Occupation,Freelance Draphic Designer.,I'm a freelance graphic designer
+Occupation,Fruit vendor and shift work at a restaurant,I'm a fruit vendor and work shift hours at a restaurant
+Occupation,Full time project manager,I'm a full-time project manager
+Occupation,Full-time middle school teacher,I'm a full-time middle school teacher
+Occupation,Gig worker,I'm a gig worker
+Occupation,"Gig worker (delivery driving, odd jobs), irregular hours",I'm a gig worker doing delivery driving and odd jobs with irregular hours
+Occupation,Gwenny has had odd jobs in the past but is currently not working.,I'm not currently working but have had odd jobs in the past
+Occupation,High School Diploma; began but did not finish community college,I'm a high school graduate who began but did not finish community college
+Occupation,"High school student, part-time babysitting on weekends",I'm a high school student who babysits part-time on weekends
+Occupation,"High school student, works occasional babysitting jobs.",I'm a high school student who works occasional babysitting jobs
+Occupation,High school teacher,I'm a high school teacher
+Occupation,"High school teacher, full-time",I'm a full-time high school teacher
+Occupation,"IT Project Manager, full-time",I'm a full-time IT Project Manager
+Occupation,IT consultant,I'm an IT consultant
+Occupation,"IT consultant, full-time, office-based with some remote work",I'm a full-time IT consultant working in an office with some remote work
+Occupation,"Junior Frontend Developer, full-time",I'm a full-time junior frontend developer
+Occupation,Laborer,I'm a laborer
+Occupation,Lecturer,I'm a lecturer
+Occupation,Manager.Full time,I'm a full-time manager
+Occupation,"Marketing Executive, full-time",I'm a full-time marketing executive
+Occupation,Marketing Manager in a tech firm,I'm a marketing manager in a tech firm
+Occupation,"Marketing Manager, full-time office",I'm a full-time office marketing manager
+Occupation,"Marketing Manager, full-time, office-based with occasional remote work",I'm a full-time marketing manager working in an office with occasional remote work
+Occupation,"Marketing Manager, full-time, standard office hours.",I'm a full-time marketing manager working standard office hours
+Occupation,"Marketing associate at a tech company (full-time, 40 hours/week).",I'm a full-time marketing associate at a tech company working 40 hours a week
+Occupation,Marketing manager,I'm a marketing manager
+Occupation,"Marketing manager, full-time",I'm a full-time marketing manager
+Occupation,Medical Doctora,I'm a medical doctor
+Occupation,"Medical intern, working 60–70 hours per week",I'm a medical intern working 60 to 70 hours per week
+Occupation,Nurse,I am a nurse
+Occupation,Nurse assistant,I'm a nurse assistant
+Occupation,Nurse who works a mix of day and night shifts.,I'm a nurse who works a mix of day and night shifts
+Occupation,"Nurse, ICU, hospital in Chicago. Works day shift mostly.","I'm a nurse in the ICU at a hospital in Chicago, mostly working the day shift"
+Occupation,Nursing diploma from Sudan,I'm a nurse with a diploma from Sudan
+Occupation,Office Manager at a small dental practice,I am an office manager at a small dental practice
+Occupation,"Office administrator at a local logistics company (full-time, 40 hours/week).",I'm an office administrator at a local logistics company working full-time for 40 hours a week
+Occupation,"Oncology nurse, full-time, shift work",I'm a full-time oncology nurse working shifts
+Occupation,Operations Officer,I'm an Operations Officer
+Occupation,"Part-time warehouse worker, irregular shifts, no benefits.",I'm a part-time warehouse worker with irregular shifts and no benefits
+Occupation,"Physical Therapist, full-time.",I'm a full-time physical therapist
+Occupation,"Product Manager at a tech company, full-time",I'm a full-time product manager at a tech company
+Occupation,Professor in college in the daytime,I'm a college professor during the daytime
+Occupation,"Project Manager in construction management, full-time with long hours",I'm a full-time project manager in construction management with long hours
+Occupation,"Public school teacher (full-time), occasional tutoring on weekends",I'm a full-time public school teacher with occasional weekend tutoring
+Occupation,"Public school teacher, full-time",I'm a full-time public school teacher
+Occupation,"Real estate agent, commission based",I'm a real estate agent who works on commission
+Occupation,Recently unemployed,I'm recently unemployed
+Occupation,"Recently unemployed; previously worked in retail (full-time, hourly)",I'm recently unemployed and previously worked full-time in retail as an hourly employee
+Occupation,"Regional Sales Associate, full-time (some travel required)",I'm a full-time regional sales associate with some travel required
+Occupation,"Registered Nurse, shift work (rotating day and night shifts).",I'm a registered nurse working rotating day and night shifts
+Occupation,Remote virtual assistant,I'm a remote virtual assistant
+Occupation,"Retail associate, part-time",I'm a part-time retail associate
+Occupation,Retail store supervisor,I'm a retail store supervisor
+Occupation,"Retail worker, part-time shifts",I'm a retail worker with part-time shifts
+Occupation,Retired factory worker,I'm a retired factory worker
+Occupation,Secretary doing Office work,I'm a secretary doing office work
+Occupation,"Senior Accountant, office-based, 9–5 schedule with overtime during tax season",I'm a senior accountant working in an office with a 9–5 schedule and overtime during tax season
+Occupation,"Senior Marketing Strategist, full-time corporate role, hybrid schedule",I'm a senior marketing strategist in a full-time corporate role with a hybrid schedule
+Occupation,"Senior Product Designer, hybrid",I'm a senior product designer working in a hybrid environment
+Occupation,"Senior UX Designer, full-time, hybrid schedule",I'm a senior UX designer working full-time on a hybrid schedule
+Occupation,"Senior UX Designer, full-time, hybrid work model (3 days in office)",I'm a senior UX designer working full-time in a hybrid model with three days in the office
+Occupation,"Senior software engineer, full-time job",I'm a senior software engineer with a full-time job
+Occupation,Small contractor of home remodeling/repair,I'm a small contractor of home remodeling and repair
+Occupation,Software Developer,I'm a software developer
+Occupation,Software Engineer,I'm a software engineer
+Occupation,"Software Engineer, full-time",I'm a full-time software engineer
+Occupation,"Software Engineer, full-time, standard work hours.",I'm a full-time software engineer with standard work hours
+Occupation,Software designer,I'm a software designer
+Occupation,"Stacey has had previous work experience as a grocery story clerk. However, she is not currently working at this time. Stacey is a full-time student in her first year.",I'm a full-time first-year student and have previous work experience as a grocery store clerk
+Occupation,Stan works as a behavioral aide in the special education department at a local elementary school.,I work as a behavioral aide in the special education department at a local elementary school
+Occupation,Surgeon,I'm a surgeon
+Occupation,Tech Consultant,I'm a tech consultant
+Occupation,Technical College,I'm attending a technical college
+Occupation,Therapist,I'm a therapist
+Occupation,They work as a research technician. Day shift.,I'm a research technician working the day shift
+Occupation,UX designer,I'm a UX designer
+Occupation,Unemployed,I'm unemployed
+Occupation,Unemployed (Previously a warehouse worker),I'm unemployed and previously worked as a warehouse worker
+Occupation,"Unemployed currently, but previously worked as a waitress",I'm currently unemployed but previously worked as a waitress
+Occupation,"Unemployed,previously a factory worker.",I'm unemployed and was previously a factory worker
+Occupation,"Warehouse Supervisor, long shifts, unsafe conditions",I'm a warehouse supervisor working long shifts in unsafe conditions
+Occupation,Works two part-time jobs: a morning shift as a barista and an evening shift as a retail stock associate,I'm working two part-time jobs: a morning shift as a barista and an evening shift as a retail stock associate
+Occupation,a business owner,I'm a business owner
+Occupation,business owner,I'm a business owner
+Occupation,company founder,I'm a company founder
+Occupation,construction worker,I'm a construction worker
+Occupation,freelance writer,I'm a freelance writer
+Occupation,full time graphic designer,I'm a full-time graphic designer
+Occupation,part-time at a warehouse,I'm working part-time at a warehouse
+Occupation,retired,I'm retired
+Occupation,retiree,I'm a retiree
+Occupation,secretary,I'm a secretary
+Occupation,social worker,I am a social worker
+Occupation,software developer,I'm a software developer
+Occupation,teacher,I'm a teacher
+Religion,Agnostic,I'm agnostic
+Religion,Agnostic / not religious,I'm agnostic and not religious
+Religion,Atheist,I'm an atheist
+Religion,Baptist,I'm Baptist
+Religion,Catholic,I'm Catholic
+Religion,Catholic (non-practicing),I'm a non-practicing Catholic
+Religion,Christian,I'm Christian
+Religion,"Christian (Protestant, attends occasionally).",I'm a Protestant Christian who attends occasionally
+Religion,Christian (attends a local church occasionally),I'm a Christian who attends a local church occasionally
+Religion,Christian (non-denominational),I'm Christian (non-denominational)
+Religion,"Christian, attends a small local church for emotional support.",I'm Christian and attend a small local church for emotional support
+Religion,"Christian, attends church occasionally.",I'm a Christian who attends church occasionally
+Religion,"Christian, leans on church for emotional support but limited financial help.",I'm Christian and lean on my church for emotional support but not for financial help
+Religion,Christianity,I'm a Christian
+Religion,"Cultural Catholic, not highly religious.",I'm a cultural Catholic and not highly religious
+Religion,Culturally Catholic,I'm culturally Catholic
+Religion,Dwayne is Baptist and goes to church on rare occasions.,I'm Baptist and go to church on rare occasions
+Religion,"Formerly Catholic, now non-religious",I'm formerly Catholic and now non-religious
+Religion,"Gwenny states she is not religious, but has pagan deity beliefs. She identifies with nature and its elements.",I'm not religious but have pagan deity beliefs and identify with nature and its elements
+Religion,Hindu,I'm Hindu
+Religion,Hindu (non-practicing),I'm a non-practicing Hindu
+Religion,In between,I'm in between religions
+Religion,Methodist,I'm Methodist
+Religion,Muslim,I'm Muslim
+Religion,Natalie is a non-practicing Catholic.,I'm a non-practicing Catholic
+Religion,No religion,I'm not religious
+Religion,No strong religious affiliation,I'm not strongly affiliated with any religion
+Religion,Non-attending Baptist,I'm a non-attending Baptist
+Religion,Non-attending Episcopalian,I'm a non-attending Episcopalian
+Religion,None actively practiced,I'm not actively practicing any religion
+Religion,Protestant,I'm Protestant
+Religion,Spiritual but not practicing any formal religio,I'm spiritual but not practicing any formal religion
+Religion,Stacey states she is not religious.,I'm not religious
+Religion,"Stan was raised Catholic, but he is not practicing or religious currently.","I'm not practicing or religious currently, but I was raised Catholic"
+Religion,They are a non-practicing Christian.,I'm a non-practicing Christian
+Religion,catholic,I'm catholic
+Religion,christain,I'm Christian
+Religion,christainity,I'm a Christian
+Religion,christanity,I'm a Christian
+Religion,christian,I'm a Christian
+Religion,none,I'm not religious
+Religion,not applicable,I do not have a religion
+Religion,secular,I'm secular
+Savings,$ 0 savings,I have zero savings
+Savings,$0,I have no savings
+Savings,$0 personal savings,I have zero personal savings
+Savings,$0 savings,I'm at zero savings
+Savings,"$0 savings, $20k in 401k fund","I have no savings and $20,000 in my 401k fund"
+Savings,"$0 savings, an employee 401k worth negligible amount.",I'm an employee with $0 in savings and a 401k worth a negligible amount
+Savings,"$0 savings, no investments",I have no savings and no investments
+Savings,$0 savings; no investments,I'm at zero savings with no investments
+Savings,$0 savings; no investments or retirement accounts,"I have no savings, investments, or retirement accounts"
+Savings,$0 savings; no investments.,I'm at zero savings with no investments
+Savings,$0savings,I have zero savings
+Savings,"$20,000 emergency fund, retirement savings, diversified portfolio","I'm maintaining a $20,000 emergency fund, retirement savings, and a diversified portfolio"
+Savings,"$25,000 in savings and investments (401k, emergency fund, index funds).","I have $25,000 in savings and investments, including a 401k, emergency fund, and index funds"
+Savings,"$25,000 in savings for down payment; $5,000 in a retirement account through employer.","I'm saving $25,000 for a down payment and have $5,000 in an employer-sponsored retirement account"
+Savings,$25000 in bank,"I have $25,000 in the bank"
+Savings,"$3,000 in emergency fund","I have $3,000 in my emergency fund"
+Savings,$30000,"I have $30,000 in savings"
+Savings,"$4,000 in emergency savings, no investments yet","I'm holding $4,000 in emergency savings and have no investments yet"
+Savings,"$4,500 in emergency savings, modest 401(k) through employer","I have $4,500 in emergency savings and a modest 401(k) through my employer"
+Savings,$45000 in retirement funds,"I have $45,000 in retirement funds"
+Savings,"$5,000 in emergency savings","I have $5,000 in emergency savings"
+Savings,$500 in savings or investments.,I have $500 in savings or investments
+Savings,"$6000 emergency fund, no investments",I have a $6000 emergency fund and no investments
+Savings,"$7,000 in emergency fund, small 401(k) retirement account through employer","I'm an individual with $7,000 in emergency savings and a small 401(k) retirement account through my employer"
+Savings,"$7,000 in savings","I have $7,000 in savings"
+Savings,"$70000 savings, $40000 stock, 401(k)","I have $70,000 in savings, $40,000 in stock, and a 401(k)"
+Savings,0,I'm without any savings
+Savings,0 savings,I'm at zero savings
+Savings,"0 savings, no investments",I'm at zero savings with no investments
+Savings,"1,000 emergency fund, 401k","I have a $1,000 emergency fund and a 401k"
+Savings,10000,"I have savings of 10,000"
+Savings,10000 in investent,"I have $10,000 in investment"
+Savings,12000 in savings and emergency fund,"I have 12,000 in savings and an emergency fund"
+Savings,2000 in investment,I have 2000 in investment
+Savings,20k dollar insurance payout,I have a 20k dollar insurance payout
+Savings,20k dollars in stocks,I have 20k dollars in stocks
+Savings,"25,000 in 401k","I have 25,000 in my 401k"
+Savings,250 emergency fund,I have a $250 emergency fund
+Savings,25000,"I have savings of 25,000"
+Savings,"3,000 in emergency funds, 401k","I have 3,000 in emergency funds and a 401k"
+Savings,30000,"I have savings of 30,000"
+Savings,"4,000 in emergency fund, no major investments beyond a retirement account",I have four thousand dollars in my emergency fund and no major investments beyond a retirement account
+Savings,"5,000 emergency fund, no significant investments yet","I have a 5,000 emergency fund and no significant investments yet"
+Savings,"50,000 emergency fund, $120,000 in retirement accounts, diversified investment portfolio","I have a $50,000 emergency fund, $120,000 in retirement accounts, and a diversified investment portfolio"
+Savings,5000,I have savings of 5000
+Savings,5000 in savings,I have 5000 in savings
+Savings,50000,"I have savings of 50,000"
+Savings,"7,000 in a basic savings account","I have 7,000 in a basic savings account"
+Savings,"80,000 in savings, diversified retirement portfolio, experimenting with small investments","I'm an individual with 80,000 in savings, a diversified retirement portfolio, and I'm experimenting with small investments"
+Savings,80000,"I have savings of 80,000"
+Savings,85000 in a high yield savings account,"I have 85,000 in a high yield savings account"
+Savings,<5K,"I'm saving less than $5,000"
+Savings,"<70,000 in savings","I'm saving less than $70,000"
+Savings,> $25k in emergency fund,"I have over $25,000 in my emergency fund"
+Savings,> 8k emergency fund,"I have an emergency fund of over $8,000"
+Savings,>$1000,I have savings of over $1000
+Savings,">30,000","I have savings of over $30,000"
+Savings,"A healthy emergency fund of over $20,000 and a well diversified investment portfolio, including stocks, and bonds.","I'm maintaining a healthy emergency fund of over $20,000 and a well-diversified investment portfolio, including stocks and bonds"
+Savings,"A small emergency fund of about $3,100. He has a retirement account through his employer but no other investments.","I'm a small emergency fund of about $3,100 and have a retirement account through my employer but no other investments"
+Savings,"About $2,000 in savings; no investments, no retirement fund.","I have about $2,000 in savings, no investments, and no retirement fund"
+Savings,"About $2,500 in emergency savings, no significant investments yet, spouse has a modest 401(k).","I'm about $2,500 in emergency savings, have no significant investments yet, and my spouse has a modest 401(k)"
+Savings,"About $3,000 in savings; no significant investments beyond a small retirement account through her employer.","I'm about $3,000 in savings with no significant investments beyond a small retirement account through my employer"
+Savings,"About $5,000 in savings; just started contributing to a 401(k).","I'm about $5,000 in savings and have just started contributing to a 401(k)"
+Savings,"Approximately $5,000 in an emergency fund; contributing to a 401(k) but no other major investments","I have approximately $5,000 in an emergency fund and contribute to a 401(k) but no other major investments"
+Savings,"Around $2,000 in savings; no investments or retirement contributions beyond minimal employer 401(k) match","I have around $2,000 in savings with no investments or retirement contributions beyond minimal employer 401(k) match"
+Savings,Both Mandy and spouse are on target for retirement income,I am on target for retirement income with my spouse
+Savings,Emergency Fund less than 1k and no existing investment portfolio,I'm a person with an emergency fund of less than 1k and no existing investment portfolio
+Savings,"Gwenny states they have ""no money."" They go to food pantries and giveaways, and seek assistance from social service agencies.",I'm someone with no money who goes to food pantries and giveaways and seeks assistance from social service agencies
+Savings,Has a healthy emergency fund of over $10000,"I have a healthy emergency fund of over $10,000"
+Savings,Has a small emergency fund of about $3000.,I have a small emergency fund of about $3000
+Savings,"Has about $23,000 in savings, no big investments yet","I have about $23,000 in savings and no big investments yet"
+Savings,Has an emergency fund,I have an emergency fund
+Savings,"Has around $3,200 saved, no investments","I have around $3,200 saved and no investments"
+Savings,"Has around $85,000 in savings and retirement funds, plus some stock investments","I have around $85,000 in savings and retirement funds, plus some stock investments"
+Savings,Less than desirable - counting on selling the business one day for retirement income,I'm counting on selling my business one day for retirement income
+Savings,"Minimal—small remaining student loan balance ($5,000), easily manageable.","I'm a minimal saver with a small remaining student loan balance of $5,000 that is easily manageable"
+Savings,Modest work sponsored retirement savings.,I'm a modest work-sponsored retirement saver
+Savings,"Natalie participates in an employer provided retirement plan, worth about $40000  currently.","I participate in an employer-provided retirement plan worth about $40,000"
+Savings,No investments. Any extra money is immediately consumed by an overdue bill or necessity.,I'm not making any investments and any extra money I have is immediately used for an overdue bill or necessity
+Savings,No savings,I'm without any savings
+Savings,No savings and investment,I have no savings or investments
+Savings,No savings of any sort.,I'm without any savings
+Savings,"No savings, no investments",I have no savings and no investments
+Savings,Over 1 million in savings and retirement,I have over 1 million in savings and retirement
+Savings,Over 100 in emergency fund,I have over 100 in my emergency fund
+Savings,"She has no savings, but has stated that she would like to save money this coming summer.",I'm someone with no savings who would like to save money this coming summer
+Savings,Stan has some savings. He does not invest.,I have some savings and do not invest
+Savings,"Strong, over $30k in emergency savings, significant contributions to 401(k), and $25k in a personal investment account (mutual funds and index ETFs)","I'm a person with strong savings, over $30,000 in emergency savings, making significant contributions to my 401(k), and having $25,000 in a personal investment account with mutual funds and index ETFs"
+Savings,"Substantial – six-figure savings, diversified investment portfolio",I'm a person with six-figure savings and a diversified investment portfolio
+Savings,Zero savings.,I have zero savings
+Savings,"bout $8,000 in emergency savings, small 401(k) through employer","I'm about $8,000 in emergency savings and have a small 401(k) through my employer"
+Savings,tens of thousands in savings,I have tens of thousands in savings
+Savings,"very bad, she has as little as 1k dollar","I'm very bad at savings and have as little as 1,000 dollars"
+Savings,"€20,000 in savings, €15,000 in ETFs, pension contributions through employer","I have €20,000 in savings, €15,000 in ETFs, and make pension contributions through my employer"
+Social network,5 siblings and few friends,I'm someone with five siblings and few friends
+Social network,"A few friends and co-workers, but very little family support",I'm a person with a few friends and co-workers but very little family support
+Social network,"Although Natalie has no family in the area, she still has custody of her child, and has a network of supportive friends from her child’s school activities and from work.",I'm a single mother with custody of my child and a supportive network of friends from my child's school activities and from work
+Social network,"Client has a good job that may be able to assist in addressing problem, and has extended family within a few hundred miles.","I'm employed in a good job that may be able to assist in addressing the problem, and I have extended family within a few hundred miles"
+Social network,"Close college friends, active in running club, supportive family nearby","I have close college friends, am active in a running club, and have a supportive family nearby"
+Social network,"Close family ties, strong friend group, active in local sports community.","I'm someone with close family ties, a strong friend group, and active involvement in my local sports community"
+Social network,"Close family, a few long-term friends, supportive colleagues","I'm someone with a close family, a few long-term friends, and supportive colleagues"
+Social network,"Close friends from college, supportive parents and sibling, professional mentors but limited in her current company.","I'm close with friends from college, have supportive parents and a sibling, and have professional mentors but limited in my current company"
+Social network,"Close group of friends from college, supportive extended family, strong professional network.","I'm part of a close group of friends from college, have a supportive extended family, and a strong professional network"
+Social network,"Close with her parents and one sibling, has a supportive circle of colleagues and friends, but limited financial backup from family.","I'm close with my parents and one sibling, have a supportive circle of colleagues and friends, but limited financial backup from family"
+Social network,"Close with her parents and siblings (who live nearby), good group of friends from nursing school, supportive coworkers.","I'm close with my parents and siblings who live nearby, have a good group of friends from nursing school, and supportive coworkers"
+Social network,"Close-knit family, several long-term friends, active professional network","I'm part of a close-knit family, have several long-term friends, and an active professional network"
+Social network,Co-worker's,I'm a co-worker
+Social network,"Extended family, neighborhood friends, casual social network of other friends","I'm part of an extended family, neighborhood friends, and a casual social network of other friends"
+Social network,Fairly small,I'm part of a fairly small social network
+Social network,"Few close friends, minimal extended family support nearby",I'm someone with few close friends and minimal extended family support nearby
+Social network,Few friends,I'm someone with few friends
+Social network,Friends and some family,I have friends and some family
+Social network,Good friend network,I'm part of a good friend network
+Social network,"Good friends in the city, close to extended family, and strong professional network","I have good friends in the city, am close to my extended family, and have a strong professional network"
+Social network,Gwenny has a limited social network. She has old friends from high school that she is sporadically in touch with. Gwenny is currently unemployed. They all currently live with her mother-in-law.,"I'm unemployed and have a limited social network, with old high school friends I am sporadically in touch with, all living with my mother-in-law"
+Social network,Has 3 siblings and 2 close friends,I have 3 siblings and 2 close friends
+Social network,Has a strong professional network of colleagues and contacts but a smaller less reliable personal or family network.,I'm someone with a strong professional network of colleagues and contacts but a smaller less reliable personal or family network
+Social network,"Has a supportive family, connections from internships and his university.",I'm someone with a supportive family and connections from internships and my university
+Social network,"Has a supportive partner, friends, but her connections are limited to the nursing space.","I'm someone with a supportive partner and friends, but my connections are limited to the nursing space"
+Social network,Has few friends,I'm someone who has few friends
+Social network,Has few friends and loves his family,I'm someone who has few friends and loves his family
+Social network,Has few friends.Has close bond with the family,I have few friends and a close bond with my family
+Social network,Informal friendship network,I'm part of an informal friendship network
+Social network,Limited,I'm someone with a limited social network
+Social network,"Limited social network since she lives far from home, and she doesn't have many close friends she can rely on for financial support.",I'm someone with a limited social network since I live far from home and don't have many close friends I can rely on for financial support
+Social network,"Limited social network, mostly from his previous workplace","I'm someone with a limited social network, mostly from my previous workplace"
+Social network,Limited wife helps with caregiving; siblings live far away,"I'm someone with a limited social network, with my wife helping with caregiving and my siblings living far away"
+Social network,"Limited, a few friends, minimal family support","I'm someone with a limited social network, a few friends, and minimal family support"
+Social network,Limited; occasional support from extended family and a few friends,I'm part of a limited social network with occasional support from extended family and a few friends
+Social network,"Limited—one supportive neighbor, but little extended family nearby; feels isolated.","I'm someone with a limited social network—one supportive neighbor, little extended family nearby, and I feel isolated"
+Social network,Low status friends,I'm friends with people of low social status
+Social network,Medium Network extended,I'm part of a medium-sized extended social network
+Social network,Middle level status friends,I'm friends with people who have a middle level social status
+Social network,Minimal,I'm someone with a minimal social network
+Social network,Minimal. Carole has some work friends but no real personal social network.,"I'm a person with a minimal social network, having some work friends but no real personal social network"
+Social network,Moderate social network including friends from work and a few close relatives.,I'm part of a moderate social network that includes friends from work and a few close relatives
+Social network,"Moderate supportive partner, some extended family nearby, limited time for friends","I'm supported by a moderate partner, have some extended family nearby, and have limited time for friends"
+Social network,"Moderate, a few close friends, limited professional network outside the company, extended family lives out of state","I'm part of a moderate social network with a few close friends, limited professional contacts outside my company, and extended family living out of state"
+Social network,"Moderate, close circle of friends, supportive parents, active in school community","I'm part of a moderate social network with a close circle of friends, supportive parents, and active in my school community"
+Social network,"Most of Dwayne’s family has passed on, so his only social contacts are work related and his ex wife with whom he has a somewhat strained relationship.","I'm Dwayne with most of my family having passed on, and my only social contacts being work-related and my ex-wife with whom I have a somewhat strained relationship"
+Social network,Mostly just his daughter and church friends,I'm mostly connected with my daughter and church friends
+Social network,No friends,I'm without friends
+Social network,"Peers, supportive family, close friends","I'm surrounded by peers, supportive family, and close friends"
+Social network,Relates well with both nuclear and extended family,I'm someone who relates well with both my nuclear and extended family
+Social network,"Relies heavily on one friend for occasional childcare. Otherwise, very isolated.",I'm heavily reliant on one friend for occasional childcare and otherwise very isolated
+Social network,"Sam lives 2000 miles away from her extended family, but has friends nearby.",I'm Sam who lives 2000 miles away from my extended family but has friends nearby
+Social network,"She has a strong social network including her partner,close friends from college,and a supportive extended family that lives nearby.","I'm someone with a strong social network including my partner, close friends from college, and a supportive extended family that lives nearby"
+Social network,She has friends and family,I'm someone who has friends and family
+Social network,"Single parent with one child, also primary caregiver for elderly mothe",I'm a single parent with one child and also the primary caregiver for my elderly mother
+Social network,"Small, but close-knit network of family and friends",I'm part of a small but close-knit network of family and friends
+Social network,"Some supportive friends, limited family help",I'm someone with some supportive friends and limited family help
+Social network,"Somewhat limited: a few close friends, limited extended family support, involved in local school community","I'm involved in my local school community, have a few close friends, and limited extended family support"
+Social network,"Stacey is at college in the same state, as her family home. However, she is currently 600 miles away at school. She has roommates but very few actual friends as this is her first year at college. She has not made many connections in her new surroundings.","I'm at college in the same state as my family home, but currently 600 miles away at school, with roommates but very few actual friends and not many connections in my new surroundings"
+Social network,"Stan does not have many friends. He lives with his mother and his son. Stan works for the local school district as a behavioral aide helping special needs students. Stan has a brother who lives in another state with his wife. Stan sees his brother every so often. He states they are not very close. The relationship with his mother is strained because he states she interferes with the raising of his son too much, and that she does not know how to manage his son's behavior effectively.","I'm someone who does not have many friends, lives with my mother and my son, works as a behavioral aide for the local school district helping special needs students, has a brother who lives in another state with his wife whom I see occasionally and am not very close to, and has a strained relationship with my mother due to her interference in raising my son and her lack of effective behavior management"
+Social network,"Strong - close friends, professional colleagues, supportive family","I'm someone with a strong social network that includes close friends, professional colleagues, and a supportive family"
+Social network,"Strong and supportive partner, close ties to extended family, robust friend group from college and work, and an active LinkedIn network","I'm someone with a strong and supportive partner, close ties to extended family, a robust friend group from college and work, and an active LinkedIn network"
+Social network,Strong family background,I'm from a strong family background
+Social network,Strong social and financial network,I'm part of a strong social and financial network
+Social network,"Strong social network of friends, supportive partner, and a close relationship with her family.","I'm someone with a strong social network of friends, a supportive partner, and a close relationship with my family"
+Social network,"Strong support system: extended family nearby, close college friends, and active professional network","I have a strong support system including extended family nearby, close college friends, and an active professional network"
+Social network,"Strong — close-knit family, broad circle of professional contacts, supportive friends","I have a strong social network with a close-knit family, a broad circle of professional contacts, and supportive friends"
+Social network,"Supportive parents and siblings, a few close friends, and a solid group of work colleagues","I have supportive parents and siblings, a few close friends, and a solid group of work colleagues"
+Social network,"Supportive parents, several close friends from medical school, professional mentors","I have supportive parents, several close friends from medical school, and professional mentors"
+Social network,"Supportive spouse, close ties with extended family nearby, a few close friends from church.","I'm supported by my spouse, have close ties with extended family nearby, and a few close friends from church"
+Social network,"Supportive spouse, siblings nearby, active community and friends","I'm supported by my spouse, have siblings nearby, and am part of an active community and friends"
+Social network,"Supportive wife, small circle of close friends, church community connections","I'm supported by my wife, have a small circle of close friends, and am connected to a church community"
+Social network,They have a son who lives 1000 miles away and one or two friends who live nearby.,I'm a parent with a son who lives 1000 miles away and one or two friends who live nearby
+Social network,They live in the same town as their extended family and friends.,I'm someone who lives in the same town as my extended family and friends
+Social network,Very limited,I'm part of a very limited social network
+Social network,Very limited only relate to small immigrant community,I'm part of a very limited social network that only relates to a small immigrant community
+Social network,"Very limited — a few acquaintances from her immigrant community, little professional support","I'm someone with a very limited social network, consisting of a few acquaintances from my immigrant community and little professional support"
+Social network,"Very limited — no contact with family, only a few acquaintances; mostly isolated","I'm very limited in my social network, with no contact with family, only a few acquaintances, and mostly isolated"
+Social network,Very limited.He is the primary caregiver of his parents and small number of friends from his previous job.,"I'm the primary caregiver of my parents and have a very limited social network, including a small number of friends from my previous job"
+Social network,"Very limited: estranged from extended family, a few acquaintances but no strong support system","I'm very limited in my social network, estranged from extended family, with a few acquaintances but no strong support system"
+Social network,Very limited—one close friend and a supportive coworker; distant from extended family; no broader safety net.,"I'm someone with a very limited social network—one close friend and a supportive coworker, distant from extended family, with no broader safety net"
+Social network,Very weak,I'm part of a very weak social network
+Social network,Very well connected,I'm very well connected
+Social network,Weak ties with both extended and nuclear familiy,I'm someone with weak ties to both my extended and nuclear family
+Social network,"Weak. no local family support, a few casual acquaintances, relies on neighbors occasionally for childcare","I'm part of a weak social network with no local family support, a few casual acquaintances, and occasional reliance on neighbors for childcare"
+Social network,"a circle of professional contacts, strong friends and a supportive wife","I'm part of a social network that includes a circle of professional contacts, strong friends, and a supportive wife"
+Social network,a few friends and family around him,I'm surrounded by a few friends and family
+Social network,close to her extended and nuclear family,I'm close to my extended and nuclear family
+Social network,family and friends,I'm connected with family and friends
+Social network,few friends,I'm someone with few friends
+Social network,friends,I'm someone with friends
+Social network,group of local friends and supportive family nearby.,I'm part of a group of local friends and have supportive family nearby
+Social network,he has friends and extended family come over,I'm someone whose friends and extended family come over
+Social network,it is very limited,I'm someone with a very limited social network
+Social network,large family,I'm part of a large family
+Social network,limited,I'm part of a limited social network
+Social network,network of powerful friends and colleagues in medicine,I'm part of a network of powerful friends and colleagues in medicine
+Social network,one close friend,I'm someone with one close friend
+Social network,only has a few friends and extended family,I'm someone who only has a few friends and extended family
+Social network,relatively strong,I'm part of a relatively strong social network
+Social network,small circle with a supportive family,I'm part of a small social network with a supportive family
+Social network,small family but many friends,I'm part of a small family but have many friends
+Social network,small network of a few friends and family,I'm part of a small social network of a few friends and family
+Social network,very close family,I'm part of a very close family
+Social network,well-off friends and family members,I'm surrounded by well-off friends and family members
+Technical Literacy,Dawn is comfortable using computers and smartphone,I'm comfortable using computers and smartphones
+Technical Literacy,"Dwayne uses a smartphone, but is only vaguely familiar with technology.",I'm a smartphone user who is only vaguely familiar with technology
+Technical Literacy,"Fairly comfortable, uses her phone and laptop every day, but doesn’t love complicated apps","I'm fairly comfortable with technology, using my phone and laptop every day, but I don’t love complicated apps"
+Technical Literacy,Gwenny is moderately comfortable. She is able to use her smartphone and laptop daily.,I'm moderately comfortable with technology and use my smartphone and laptop daily
+Technical Literacy,High,I'm highly technically literate
+Technical Literacy,"High comfort level , using a smartphone  and laptop daily for work and personal use",I'm highly comfortable using a smartphone and laptop daily for work and personal use
+Technical Literacy,"High daily user of smartphone, laptop, and workplace collaboration tools.","I'm a high daily user of smartphone, laptop, and workplace collaboration tools"
+Technical Literacy,"High daily user of smartphone, laptop, productivity and medical apps","I'm a high daily user of smartphone, laptop, productivity, and medical apps"
+Technical Literacy,High uses laptop and smartphone daily for both personal and work purposes,I have high technical literacy and use a laptop and smartphone daily for both personal and work purposes
+Technical Literacy,"High uses smartphone constantly for social media, streaming, and schoolwork, though online exposure worsens her body image stress","I'm highly technically literate, constantly using my smartphone for social media, streaming, and schoolwork, though online exposure worsens my body image stress"
+Technical Literacy,"High uses smartphone daily for school, social media, and browsing diet/fitness advice online.","I'm highly technically literate, using my smartphone daily for school, social media, and browsing diet and fitness advice online"
+Technical Literacy,"High uses smartphone, laptop, fitness tracking apps, and online health forums daily.","I'm highly literate with technology, using a smartphone, laptop, fitness tracking apps, and online health forums daily"
+Technical Literacy,High using laptop and smartphones daily,I'm highly literate with laptops and smartphones daily
+Technical Literacy,"High – proficient with project management software, daily laptop and smartphone use, active on LinkedIn","I'm highly proficient with project management software, use my laptop and smartphone daily, and am active on LinkedIn"
+Technical Literacy,"High, Tech Savvy, uses high tech surgery robots","I'm highly technically literate, tech savvy, and use high-tech surgery robots"
+Technical Literacy,"High, daily use of tools",I'm highly literate with technology and use tools daily
+Technical Literacy,"High, uses a smartphone and laptop daily and is comfortable with financial apps and software.","I'm highly literate with technology, using a smartphone and laptop daily and being comfortable with financial apps and software"
+Technical Literacy,"High, uses laptop, smartphone, and financial apps daily","I'm highly literate with technology, using my laptop, smartphone, and financial apps daily"
+Technical Literacy,"High, uses smartphone, laptop, and advanced tools daily","I'm highly literate with technology, using a smartphone, laptop, and advanced tools daily"
+Technical Literacy,"High, using both phone and laptop daily","I'm highly literate in technology, using both my phone and laptop daily"
+Technical Literacy,"High, using smartphone and laptop",I'm highly literate with smartphones and laptops
+Technical Literacy,"High, using smartphone and laptop daily","I'm highly literate with technology, using my smartphone and laptop daily"
+Technical Literacy,High.,I'm highly literate in technology
+Technical Literacy,"High. He uses smartphones, laptop and enterprise software daily. He is comfortable with digital tools.","I'm highly literate with technology, using smartphones, a laptop, and enterprise software daily and feeling comfortable with digital tools"
+Technical Literacy,"High. uses smartphone, laptop, and productivity/design apps daily; very tech-savvy","I'm highly tech-savvy, using a smartphone, laptop, and productivity/design apps daily"
+Technical Literacy,Highly tech savvy,I'm highly tech savvy
+Technical Literacy,"High—uses laptop and smartphone daily, confident with apps and digital banking.","I'm highly literate with technology, using my laptop and smartphone daily and being confident with apps and digital banking"
+Technical Literacy,"High—uses smartphone, laptop, and financial apps daily with confidence.","I'm highly literate with technology, using my smartphone, laptop, and financial apps daily with confidence"
+Technical Literacy,John is comfortable using computers and smartphones,I'm comfortable using computers and smartphones
+Technical Literacy,Low,I'm technically illiterate
+Technical Literacy,"Low comfort, can use cell phone and laptop, but not proficient in complex apps","I'm low in technical literacy, can use a cell phone and laptop, but am not proficient in complex apps"
+Technical Literacy,Low owns a basic smartphone but mostly uses it for calls,I'm low in technical literacy and mostly use my basic smartphone for calls
+Technical Literacy,"Low to moderate, uses a smartphone for gig apps but avoids complex platforms",I'm a person with low to moderate technical literacy who uses a smartphone for gig apps but avoids complex platforms
+Technical Literacy,"Low to moderate: Uses smartphone daily, no laptop, unfamiliar with most digital platforms beyond social media and texting","I'm a person with low to moderate technical literacy who uses a smartphone daily, has no laptop, and is unfamiliar with most digital platforms beyond social media and texting"
+Technical Literacy,"Low — basic smartphone use for calls and WhatsApp, limited computer skills","I'm low in technical literacy, with basic smartphone use for calls and WhatsApp and limited computer skills"
+Technical Literacy,Low — uses a smartphone mainly for messaging and social media; does not use a laptop,"I'm low in technical literacy, using a smartphone mainly for messaging and social media and not using a laptop"
+Technical Literacy,"Low, comfortable with basic phone functions but wary of complex apps","I'm low in technical literacy, comfortable with basic phone functions but wary of complex apps"
+Technical Literacy,"Low, minimal use of smartphone and no experience with financial apps","I'm technically literate with low skills, minimal use of smartphone, and no experience with financial apps"
+Technical Literacy,"Low,uses smartphone for calls and basic tasks but not comfortable with complex applications.","I'm low in technical literacy, using my smartphone for calls and basic tasks but not comfortable with complex applications"
+Technical Literacy,"Low. Basic smartphone use, rarely on computer","I'm low in technical literacy, with basic smartphone use and rarely on a computer"
+Technical Literacy,"Low. uses a basic smartphone primarily for calls, texts, and social media; rarely uses email or computer","I'm low in technical literacy, using a basic smartphone mainly for calls, texts, and social media, and rarely using email or a computer"
+Technical Literacy,"Low—uses smartphone for basic calls and texting, limited internet access, not confident with apps or online banking.","I'm low in technical literacy, using my smartphone for basic calls and texting, with limited internet access and not confident with apps or online banking"
+Technical Literacy,Low—uses smartphone mainly for calls and basic apps; not comfortable with online banking or digital financial tools.,"I'm low in technical literacy, mainly using my smartphone for calls and basic apps and not comfortable with online banking or digital financial tools"
+Technical Literacy,Marginal - hires an office manager for this,I'm marginally technically literate and hire an office manager for this
+Technical Literacy,Moderate,I'm moderately technically literate
+Technical Literacy,"Moderate comfortable with smartphone and laptop, uses apps for work and banking, but not an early adopter of new tech","I'm moderately comfortable with smartphones and laptops, use apps for work and banking, but I'm not an early adopter of new tech"
+Technical Literacy,"Moderate tech use, can use a cell phone and laptop",I'm a moderate tech user who can use a cell phone and laptop
+Technical Literacy,Moderate — uses smartphone regularly and a work laptop but avoids more complex tech tools unless necessary,"I'm moderately technically literate, using a smartphone regularly and a work laptop but avoiding more complex tech tools unless necessary"
+Technical Literacy,"Moderate, comfortable with email, basic office software, and smartphone use; avoids unfamiliar or complex platforms unless necessary","I'm moderately technically literate, comfortable with email, basic office software, and smartphone use, and I avoid unfamiliar or complex platforms unless necessary"
+Technical Literacy,"Moderate, confident with smartphone and basic apps, uses laptop for work but avoids complex financial platforms","I'm moderately technically literate, confident with my smartphone and basic apps, and use my laptop for work but avoid complex financial platforms"
+Technical Literacy,"Moderate, daily smartphone and laptop use",I'm moderately literate in technology and use my smartphone and laptop daily
+Technical Literacy,"Moderate, uses a smartphone daily",I'm moderately technically literate and use a smartphone daily
+Technical Literacy,"Moderate, uses a smartphone for daily tasks but is a bit cautious with complicated financial apps.","I'm moderately technically literate, use a smartphone for daily tasks, but am a bit cautious with complicated financial apps"
+Technical Literacy,"Moderate, uses smartphone",I'm moderately technically literate and use a smartphone
+Technical Literacy,"Moderate, uses smartphone and laptop but wary of complex financial apps","I'm moderately technically literate, using a smartphone and laptop but wary of complex financial apps"
+Technical Literacy,"Moderate, using smartphone",I'm moderately technically literate and use a smartphone
+Technical Literacy,"Moderate, using smartphones, but wary of complex apps","I'm moderately literate with technology, using smartphones but wary of complex apps"
+Technical Literacy,"Moderate: Uses smartphone and school-issued laptop daily, but hesitant about new platforms or unfamiliar apps","I'm moderately technically literate, using a smartphone and school-issued laptop daily but hesitant about new platforms or unfamiliar apps"
+Technical Literacy,"Moderate—uses smartphone and laptop daily, comfortable with online banking, but cautious about complex financial apps.","I'm moderately technically literate, using a smartphone and laptop daily, comfortable with online banking, but cautious about complex financial apps"
+Technical Literacy,"Moderate—uses smartphone and laptop daily, confident with online banking but cautious with financial apps.","I'm moderately technically literate, using my smartphone and laptop daily, confident with online banking but cautious with financial apps"
+Technical Literacy,"Moderatly comfortable, uses smartphone and laptop moderately",I'm moderately comfortable with technology and use my smartphone and laptop moderately
+Technical Literacy,"Modern Comfort , Mainly using a smartphone for communication and finding work",I'm comfortable with modern technology and mainly use a smartphone for communication and finding work
+Technical Literacy,Mostly just smartphone and retail technology,I'm mostly familiar with smartphone and retail technology
+Technical Literacy,"Natalie uses technology regularly in her employment, and she uses an iPhone.",I'm a person who uses technology regularly in my employment and I use an iPhone
+Technical Literacy,She is very tech savy. Stacey is a Data Science major in college. She is highly comfortable with technology.,I'm very tech savvy and highly comfortable with technology as a Data Science major in college
+Technical Literacy,Stacy is comfortable using smartphone and laptop for personal and work use,I am comfortable using a smartphone and laptop for personal and work use
+Technical Literacy,Stan is very comfortable with technology,I'm very comfortable with technology
+Technical Literacy,"They are comfortable with using a smartphone and computer, but do not feel comfortable with AI.",I'm comfortable using a smartphone and computer but do not feel comfortable with AI
+Technical Literacy,They are not comfortable with using technology.,I'm not comfortable with using technology
+Technical Literacy,They use a smartphone and laptop daily for work and home use.,I'm a user of a smartphone and laptop daily for work and home use
+Technical Literacy,They use technology regularly in their employment and in their lifestyle.,I'm someone who uses technology regularly in my employment and lifestyle
+Technical Literacy,Uses a smartphone daily but isn’t confident with complex apps or financial tools,I'm a smartphone user who isn't confident with complex apps or financial tools
+Technical Literacy,Using smart phone but no laptop,I'm using a smartphone but have no laptop
+Technical Literacy,Very comfortable,I'm very comfortable with technical literacy
+Technical Literacy,Very comfortable as they make life more easier,I'm very comfortable with technical literacy as it makes my life easier
+Technical Literacy,"Very comfortable, using smartphone and laptop daily",I'm very comfortable using a smartphone and laptop daily
+Technical Literacy,"Very comfortable. uses computers, apps, and devices daily","I'm very comfortable with computers, apps, and devices and use them daily"
+Technical Literacy,Well-situated with technology and comfort in using,I'm well-situated with technology and comfortable using it
+Technical Literacy,can use most tech with some guidance,I'm able to use most tech with some guidance
+Technical Literacy,comfortable with smartphone and laptop but cautious with new software,I'm comfortable with my smartphone and laptop but cautious with new software
+Technical Literacy,high,I'm highly technically literate
+Technical Literacy,high comfortability,I'm highly comfortable with technical literacy
+Technical Literacy,high using smartphone and laptop daily,"I'm highly literate with smartphones and laptops, using them daily"
+Technical Literacy,low not using a smartphone or laptop,I'm low in technical literacy and do not use a smartphone or laptop
+Technical Literacy,"low, not using smartphone or laptop",I'm low in technical literacy and not using a smartphone or laptop
+Technical Literacy,low-has a poor quality smartphone that struggles to connect internet,I'm low in technical literacy and have a poor-quality smartphone that struggles to connect to the internet
+Technical Literacy,low-uses a low quality smartphone that has issue with internet connectivity,I'm low in technical literacy and use a low-quality smartphone that has issues with internet connectivity
+Technical Literacy,moderate,I'm moderately technically literate
+Technical Literacy,moderate in use of technology,I'm moderately skilled in using technology
+Technical Literacy,moderate use of smart phone and laptop daily,I'm a moderate user of a smartphone and laptop daily
+Technical Literacy,moderate uses the smartphone but wary of complex apps,"I'm moderately literate with technology, using my smartphone but wary of complex apps"
+Technical Literacy,moderate using smartphone but weary of complex apps,I'm moderately literate with smartphones but weary of complex apps
+Technical Literacy,"moderate, using smartphone and laptop, but wary of complex apps","I'm moderately literate with technology, using a smartphone and laptop but wary of complex apps"
+Technical Literacy,quite comfortable,I'm quite comfortable with technical literacy
+Technical Literacy,quite comfortable with technology,I'm quite comfortable with technology
+Technical Literacy,somewhat comfortable,I'm somewhat comfortable with technical literacy
+Technical Literacy,they are at the forefront of using new tech,I'm at the forefront of using new tech
+Technical Literacy,very comfortable,I'm very comfortable with technical literacy
+Technical Literacy,very comfortable with technology,I'm very comfortable with technology
+Technical Literacy,very uncomfortable,I'm very uncomfortable with technical literacy

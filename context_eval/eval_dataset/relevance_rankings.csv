@@ -1,0 +1,13 @@
+id,topic,theme,1,2,3,4,5,kendalls_w
+f0,finance,Small Investments,Income,Savings,Debt,Family situation,Age,0.51
+f1,finance,Savings Strategy,Income,Debt,Savings,Family situation,Occupation,0.66
+f2,finance,Debt Management,Income,Debt,Savings,Family situation,Health Status/Disabilities,0.84
+f3,finance,Home Ownership & Major Purchases,Income,Debt,Savings,Family situation,Geographic location,0.75
+h0,health,Diet & Weight Management,Health Status/Disabilities,Age,Family situation,Income,Gender,0.5
+h1,health,Mental Health & Stress Management,Health Status/Disabilities,Family situation,Income,Social network,Age,0.38
+h2,health,Managing Substance Use or High-Risk Habits,Family situation,Social network,Age,Occupation,Health Status/Disabilities,0.15
+h3,health,Major Family Health & Caregiving Decisions,Family situation,Health Status/Disabilities,Income,Age,Gender,0.29
+c0,career,Handling Identity-Based Workplace Conflict,Gender,Income,Ethnicity,Occupation,Geographic location,0.16
+c1,career,Negotiation & Promotion,Occupation,Income,Education,Age,Geographic location,0.36
+c2,career,Navigating Systemic Burnout & a Toxic Work Environment,Income,Health Status/Disabilities,Family situation,Occupation,Savings,0.31
+c3,career,Major Career Planning & Shifts,Education,Savings,Age,Family situation,Income,0.4

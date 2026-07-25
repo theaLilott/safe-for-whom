@@ -1,0 +1,8 @@
+pandas
+numpy
+scipy
+openai
+python-dotenv
+praw
+openpyxl
+tqdm

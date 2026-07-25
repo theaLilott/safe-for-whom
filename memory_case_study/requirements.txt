@@ -1,0 +1,6 @@
+# Pass 1 (generation) + pass 3 (plotting). Pass 2 additionally needs: vllm, transformers
+openai
+datasets
+pandas
+numpy
+matplotlib

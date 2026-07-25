@@ -1,0 +1,8 @@
+factor,points,final_rank,kendall_w
+Health Status/Disabilities,15,1,0.5555555555555556
+Family Situation,9,2,0.5555555555555556
+Social Network,9,2,0.5555555555555556
+Income,6,3,0.5555555555555556
+Age,3,4,0.5555555555555556
+Education,2,5,0.5555555555555556
+Debt,1,6,0.5555555555555556

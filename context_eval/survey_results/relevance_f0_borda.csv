@@ -1,0 +1,10 @@
+factor,points,final_rank,kendall_w
+Income,11,1,-0.3333333333333333
+Savings,10,2,-0.3333333333333333
+Occupation,6,3,-0.3333333333333333
+Education,4,4,-0.3333333333333333
+Health Status/Disabilities,4,4,-0.3333333333333333
+Debt,3,5,-0.3333333333333333
+Technical Literacy,3,5,-0.3333333333333333
+Family Situation,2,6,-0.3333333333333333
+Social Network,2,6,-0.3333333333333333

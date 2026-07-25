@@ -1,0 +1,2 @@
+timestamp,model,pairs_total_seen,pairs_normalized,successful_api_calls,prompt_tokens,completion_tokens,total_tokens
+2025-09-17T16:18:18,gpt-4.1-nano,1075,1075,1075,231330,11490,242820
