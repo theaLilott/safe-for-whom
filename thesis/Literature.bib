@@ -1,0 +1,1053 @@
+@book{Amann2008AnalysisII,
+  title={Analysis II},
+  author={Amann, H. and Escher, J.},
+  series={Grundstudium Mathematik},
+  year={2008},
+  publisher={Birkhäuser Basel}
+}
+
+@inproceedings{
+kirichenko2026abstentionbench,
+title={AbstentionBench: Reasoning {LLM}s Fail on Unanswerable Questions},
+author={Polina Kirichenko and Mark Ibrahim and Kamalika Chaudhuri and Samuel Bell},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+year={2026},
+url={https://openreview.net/forum?id=OkHC30LLpO}
+}
+@inproceedings{pmlr-v235-mazeika24a,
+  title = 	 {{H}arm{B}ench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal},
+  author =       {Mazeika, Mantas and Phan, Long and Yin, Xuwang and Zou, Andy and Wang, Zifan and Mu, Norman and Sakhaee, Elham and Li, Nathaniel and Basart, Steven and Li, Bo and Forsyth, David and Hendrycks, Dan},
+  booktitle = 	 {Proceedings of the 41st International Conference on Machine Learning},
+  pages = 	 {35181--35224},
+  year = 	 {2024},
+  editor = 	 {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
+  volume = 	 {235},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {21--27 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v235/main/assets/mazeika24a/mazeika24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v235/mazeika24a.html},
+  abstract = 	 {Automated red teaming holds substantial promise for uncovering and mitigating the risks associated with the malicious use of large language models (LLMs), yet the field lacks a standardized evaluation framework to rigorously assess new methods. To address this issue, we introduce HarmBench, a standardized evaluation framework for automated red teaming. We identify several desirable properties previously unaccounted for in red teaming evaluations and systematically design HarmBench to meet these criteria. Using HarmBench, we conduct a large-scale comparison of 18 red teaming methods and 33 target LLMs and defenses, yielding novel insights. We also introduce a highly efficient adversarial training method that greatly enhances LLM robustness across a wide range of attacks, demonstrating how HarmBench enables codevelopment of attacks and defenses. We open source HarmBench at https://github.com/centerforaisafety/HarmBench.}
+}
+@inproceedings{chao2024jailbreakbench,
+author = {Chao, Patrick and Debenedetti, Edoardo and Robey, Alexander and Andriushchenko, Maksym and Croce, Francesco and Sehwag, Vikash and Dobriban, Edgar and Flammarion, Nicolas and Pappas, George J. and Tram\`{e}r, Florian and Hassani, Hamed and Wong, Eric},
+title = {JailbreakBench: an open robustness benchmark for jailbreaking large language models},
+year = {2024},
+isbn = {9798331314385},
+publisher = {Curran Associates Inc.},
+address = {Red Hook, NY, USA},
+abstract = {Jailbreak attacks cause large language models (LLMs) to generate harmful, unethical, or otherwise objectionable content. Evaluating these attacks presents a number of challenges, which the current collection of benchmarks and evaluation techniques do not adequately address. First, there is no clear standard of practice regarding jailbreaking evaluation. Second, existing works compute costs and success rates in incomparable ways. And third, numerous works are not reproducible, as they withhold adversarial prompts, involve closed-source code, or rely on evolving proprietary APIs. To address these challenges, we introduce JailbreakBench, an open-sourced benchmark with the following components: (1) an evolving repository of state-of-the-art adversarial prompts, which we refer to as jailbreak artifacts; (2) a jailbreaking dataset comprising 100 behaviors— both original and sourced from prior work (Zou et al., 2023; Mazeika et al., 2023, 2024)—which align with OpenAI's usage policies; (3) a standardized evaluation framework at https://github.com/JailbreakBench/jailbreakbench that includes a clearly defined threat model, system prompts, chat templates, and scoring functions; and (4) a leaderboard at https://jailbreakbench.github.io/ that tracks the performance of attacks and defenses for various LLMs. We have carefully considered the potential ethical implications of releasing this benchmark, and believe that it will be a net positive for the community.},
+booktitle = {Proceedings of the 38th International Conference on Neural Information Processing Systems},
+articleno = {1745},
+numpages = {25},
+location = {Vancouver, BC, Canada},
+series = {NIPS '24}
+}
+
+@inproceedings{
+andriushchenko2025agentharm,
+title={AgentHarm: A Benchmark for Measuring Harmfulness of {LLM} Agents},
+author={Maksym Andriushchenko and Alexandra Souly and Mateusz Dziemian and Derek Duenas and Maxwell Lin and Justin Wang and Dan Hendrycks and Andy Zou and J Zico Kolter and Matt Fredrikson and Yarin Gal and Xander Davies},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=AC5n7xHuR1}
+}
+
+@inproceedings{medsafetybench,
+author = {Han, Tessa and Kumar, Aounon and Agarwal, Chirag and Lakkaraju, Himabindu},
+title = {MedSafetyBench: evaluating and improving the medical safety of large language models},
+year = {2024},
+isbn = {9798331314385},
+publisher = {Curran Associates Inc.},
+address = {Red Hook, NY, USA},
+abstract = {As large language models (LLMs) develop increasingly sophisticated capabilities and find applications in medical settings, it becomes important to assess their medical safety due to their far-reaching implications for personal and public health, patient safety, and human rights. However, there is little to no understanding of the notion of medical safety in the context of LLMs, let alone how to evaluate and improve it. To address this gap, we first define the notion of medical safety in LLMs based on the Principles of Medical Ethics set forth by the American Medical Association. We then leverage this understanding to introduce MedSafetyBench, the first benchmark dataset designed to measure the medical safety of LLMs. We demonstrate the utility of MedSafetyBench by using it to evaluate and improve the medical safety of LLMs. Our results show that publicly-available medical LLMs do not meet standards of medical safety and that fine-tuning them using MedSafetyBench improves their medical safety while preserving their medical performance. By introducing this new benchmark dataset, our work enables a systematic study of the state of medical safety in LLMs and motivates future work in this area, paving the way to mitigate the safety risks of LLMs in medicine. The benchmark dataset and code are available at https://github.com/AI4LIFE-GROUP/med-safety-bench.},
+booktitle = {Proceedings of the 38th International Conference on Neural Information Processing Systems},
+articleno = {1054},
+numpages = {32},
+location = {Vancouver, BC, Canada},
+series = {NIPS '24}
+}
+@InProceedings{pmlr-v267-cui25a,
+  title = 	 {{OR}-Bench: An Over-Refusal Benchmark for Large Language Models},
+  author =       {Cui, Justin and Chiang, Wei-Lin and Stoica, Ion and Hsieh, Cho-Jui},
+  booktitle = 	 {Proceedings of the 42nd International Conference on Machine Learning},
+  pages = 	 {11515--11542},
+  year = 	 {2025},
+  editor = 	 {Singh, Aarti and Fazel, Maryam and Hsu, Daniel and Lacoste-Julien, Simon and Berkenkamp, Felix and Maharaj, Tegan and Wagstaff, Kiri and Zhu, Jerry},
+  volume = 	 {267},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {13--19 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v267/main/assets/cui25a/cui25a.pdf},
+  url = 	 {https://proceedings.mlr.press/v267/cui25a.html},
+  abstract = 	 {Large Language Models (LLMs) require careful safety alignment to prevent malicious outputs. While significant research focuses on mitigating harmful content generation, the enhanced safety often come with the side effect of over-refusal, where LLMs may reject innocuous prompts and become less helpful. Although the issue of over-refusal has been empirically observed, a systematic measurement is challenging due to the difficulty of crafting prompts that can elicit the over-refusal behaviors of LLMs. This study proposes a novel method for automatically generating large-scale over-refusal datasets. Leveraging this technique, we introduce OR-Bench, the first large-scale over-refusal benchmark. OR-Bench comprises 80,000 over-refusal prompts across 10 common rejection categories, a subset of around 1,000 hard prompts that are challenging even for state-of-the-art LLMs, and an additional 600 toxic prompts to prevent indiscriminate responses. We then conduct a comprehensive study to measure the over-refusal of 32 popular LLMs across 8 model families. Our datasets are publicly available at https://huggingface.co/bench-llms and our codebase is open-sourced at https://github.com/justincui03/or-bench. We hope this benchmark can help the community develop better safety aligned models.}
+}
+@online{durmus2024persuasion,
+author = {Esin Durmus and Liane Lovitt and Alex Tamkin and Stuart Ritchie and Jack Clark and Deep Ganguli},
+title = {Measuring the Persuasiveness of Language Models},
+date = {2024-04-09},
+year = {2024},
+url = {https://www.anthropic.com/news/measuring-model-persuasiveness},
+}
+
+@inproceedings{
+singh2025measuring,
+title={Measuring And Improving Persuasiveness Of Large Language Models},
+author={Somesh Kumar Singh and Yaman Kumar Singla and Harini S I and Balaji Krishnamurthy},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=NfCEVihkdC}
+}
+
+@inproceedings{
+ji2023beavertails,
+title={BeaverTails: Towards Improved Safety Alignment of {LLM} via a Human-Preference Dataset},
+author={Jiaming Ji and Mickel Liu and Juntao Dai and Xuehai Pan and Chi Zhang and Ce Bian and Boyuan Chen and Ruiyang Sun and Yizhou Wang and Yaodong Yang},
+booktitle={Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+year={2023},
+url={https://openreview.net/forum?id=g0QovXbFw3}
+}
+@inproceedings{
+xie2025sorrybench,
+title={{SORRY}-Bench: Systematically Evaluating Large Language Model Safety Refusal},
+author={Tinghao Xie and Xiangyu Qi and Yi Zeng and Yangsibo Huang and Udari Madhushani Sehwag and Kaixuan Huang and Luxi He and Boyi Wei and Dacheng Li and Ying Sheng and Ruoxi Jia and Bo Li and Kai Li and Danqi Chen and Peter Henderson and Prateek Mittal},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=YfKNaRktan}
+}
+@inproceedings{
+xing2025sproutbench,
+title={SproutBench: A Benchmark for Safe and Ethical Large Language Models for Youth},
+author={Wenpeng Xing and Lanyi Wei and Haixiao Hu and Rongchang Li and Mohan Li and Changting Lin and Meng Han},
+booktitle={Second Workshop on Language Models for Underserved Communities (LM4UC)},
+year={2025},
+url={https://openreview.net/forum?id=xSw9HhyRw9}
+}
+@inproceedings{
+jain2024polyglotoxicityprompts,
+title={PolygloToxicityPrompts: Multilingual Evaluation of Neural Toxic Degeneration in Large Language Models},
+author={Devansh Jain and Priyanshu Kumar and Samuel Gehman and Xuhui Zhou and Thomas Hartvigsen and Maarten Sap},
+booktitle={First Conference on Language Modeling},
+year={2024},
+url={https://openreview.net/forum?id=ootI3ZO6TJ}
+}
+
+@misc{grey2025safetymeasurementsystematicliterature,
+      title={Safety by Measurement: A Systematic Literature Review of AI Safety Evaluation Methods}, 
+      author={Markov Grey and Charbel-Raphaël Segerie},
+      year={2025},
+      eprint={2505.05541},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2505.05541}, 
+}
+
+@online{caporal_study_2023,
+	title = {Study: 26\% of Americans Have Used {ChatGPT} for Credit Card Recommendations {\textbar} The Motley Fool},
+	url = {https://www.fool.com/money/research/chatgpt-credit-card-recommendations/},
+	shorttitle = {Study},
+	abstract = {Fifty-four percent of Americans surveyed by The Motley Fool Money have used {ChatGPT} to recommend a financial product. Find out more on how {AI} is changing personal finance.},
+	author = {Caporal, Jack},
+	urldate = {2025-09-26},
+	date = {2023-05-02},
+	langid = {english},
+	file = {Snapshot:/Users/manonkempermann/Zotero/storage/SJTMXGHZ/chatgpt-credit-card-recommendations.html:text/html},
+}
+
+@article{rousmaniere_large_2025,
+	title = {Large language models as mental health resources: Patterns of use in the United States},
+	issn = {2377-8903},
+	doi = {10.1037/pri0000292},
+	shorttitle = {Large language models as mental health resources},
+	abstract = {As large language models ({LLMs}) become increasingly accessible, there has been a rise of anecdotal evidence suggesting that users may be increasingly turning to {LLMs} for mental health support. However, little is known about patterns of {LLM} use specifically for this purpose. This study was to assess the frequency, motivations, and perceived effectiveness of {LLM} use for mental health support or therapy-related goals among the U.S. residents with ongoing mental health conditions who have used {LLMs} in the past year. A cross-sectional survey-based study was conducted via Prolific, an online participant recruitment platform. Eligible participants were the U.S. residents aged 18–80 with internet access who had used at least one {LLM} in the past year and reported having an ongoing mental health condition. Participants completed an anonymous 35-question online survey, covering patterns of {LLM} use, reasons for use, perceived effectiveness, comparison with human therapy, and problematic experiences. Survey responses suggest substantial adoption of {LLMs} for mental health purposes, with 48.7\% of participants using them for psychological support within the past year. Users primarily sought help for anxiety (73.3\%), personal advice (63.0\%), and depression (59.7\%). Notably, 63.4\% of users reported improved mental health from {LLM} interactions, with high satisfaction ratings for practical advice (86.8\%) and overall helpfulness (82.3\%). When comparing {LLMs} to human therapy, evaluations were generally neutral to positive, with 37.8\% finding {LLMs} more beneficial than traditional therapy. Despite concerns, only 9.0\% of users encountered harmful responses. ({PsycInfo} Database Record (c) 2025 {APA}, all rights reserved)},
+	journaltitle = {Practice Innovations},
+	author = {Rousmaniere, Tony and Zhang, Yimeng and Li, Xu and Shah, Siddharth},
+	date = {2025},
+	note = {Place: {US}
+Publisher: Educational Publishing Foundation},
+	keywords = {Artificial Intelligence, Digital Mental Health Resources, Large Language Models, Mental Disorders, Mental Health, Motivation, Online Therapy, Psychotherapy},
+	file = {PDF:/Users/manonkempermann/Zotero/storage/Q3UI7RK3/Rousmaniere et al. - 2025 - Large language models as mental health resources Patterns of use in the United States.pdf:application/pdf;Snapshot:/Users/manonkempermann/Zotero/storage/74P4T7R6/doiLanding.html:text/html},
+}
+
+
+@report{oecd_oecd_2022,
+	title = {{OECD} Framework for the Classification of {AI} systems},
+	url = {https://www.oecd.org/en/publications/oecd-framework-for-the-classification-of-ai-systems_cb6d9eca-en.html},
+	number = {323},
+	type = {{OECD} Digital Economy Papers},
+	author = {{OECD}},
+	urldate = {2025-10-02},
+	date = {2022-02-22},
+	langid = {english},
+	doi = {10.1787/cb6d9eca-en},
+	note = {Series: {OECD} Digital Economy Papers
+Volume: 323},
+	file = {Full Text:/Users/manonkempermann/Zotero/storage/JCSKH99Y/2022 - OECD Framework for the Classification of AI systems.pdf:application/pdf},
+}
+
+
+@online{nist_ai_rmf_2023,
+  title = {Artificial Intelligence Risk Management Framework (AI RMF 1.0)},
+  institution = {National Institute of Standards and Technology},
+  number = {NIST AI 100-1},
+  doi = {10.6028/NIST.AI.100-1},
+  url = {https://doi.org/10.6028/NIST.AI.100-1},
+  note = {U.S. Department of Commerce},
+  urldate = {2025-09-29},
+  date = {2023},
+}
+
+@misc{li2025understandingmitigatingbiasinheritance,
+      title={Understanding and Mitigating the Bias Inheritance in LLM-based Data Augmentation on Downstream Tasks}, 
+      author={Miaomiao Li and Hao Chen and Yang Wang and Tingyuan Zhu and Weijia Zhang and Kaijie Zhu and Kam-Fai Wong and Jindong Wang},
+      year={2025},
+      eprint={2502.04419},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2502.04419}, 
+}
+
+@misc{guo2024biaslargelanguagemodels,
+      title={Bias in Large Language Models: Origin, Evaluation, and Mitigation}, 
+      author={Yufei Guo and Muzhe Guo and Juntao Su and Zhou Yang and Mengqiu Zhu and Hongfei Li and Mengyang Qiu and Shuo Shuo Liu},
+      year={2024},
+      eprint={2411.10915},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2411.10915}, 
+}
+
+
+@article{douglas_data_2023,
+	title = {Data quality in online human-subjects research: Comparisons between {MTurk}, Prolific, {CloudResearch}, Qualtrics, and {SONA}},
+	volume = {18},
+	url = {https://doi.org/10.1371/journal.pone.0279720},
+	doi = {10.1371/journal.pone.0279720},
+	abstract = {With the proliferation of online data collection in human-subjects research, concerns have been raised over the presence of inattentive survey participants and non-human respondents (bots). We compared the quality of the data collected through five commonly used platforms. Data quality was indicated by the percentage of participants who meaningfully respond to the researcher’s question (high quality) versus those who only contribute noise (low quality). We found that compared to {MTurk}, Qualtrics, or an undergraduate student sample (i.e., {SONA}), participants on Prolific and {CloudResearch} were more likely to pass various attention checks, provide meaningful answers, follow instructions, remember previously presented information, have a unique {IP} address and geolocation, and work slowly enough to be able to read all the items. We divided the samples into high- and low-quality respondents and computed the cost we paid per high-quality respondent. Prolific (1.90) and {CloudResearch} (2.00) were cheaper than {MTurk} (4.36) and Qualtrics (8.17). {SONA} cost \$0.00, yet took the longest to collect the data.},
+	pages = {1--17},
+	number = {3},
+	journaltitle = {{PLOS} {ONE}},
+	author = {Douglas, Benjamin D. and Ewell, Patrick J. and Brauer, Markus},
+	date = {2023-03},
+	note = {Publisher: Public Library of Science},
+}
+@article{peer_data_2022,
+	title = {Data quality of platforms and panels for online behavioral research},
+	volume = {54},
+	issn = {1554-3528},
+	url = {https://doi.org/10.3758/s13428-021-01694-3},
+	doi = {10.3758/s13428-021-01694-3},
+	abstract = {We examine key aspects of data quality for online behavioral research between selected platforms (Amazon Mechanical Turk, {CloudResearch}, and Prolific) and panels (Qualtrics and Dynata). To identify the key aspects of data quality, we first engaged with the behavioral research community to discover which aspects are most critical to researchers and found that these include attention, comprehension, honesty, and reliability. We then explored differences in these data quality aspects in two studies (N {\textasciitilde} 4000), with or without data quality filters (approval ratings). We found considerable differences between the sites, especially in comprehension, attention, and dishonesty. In Study 1 (without filters), we found that only Prolific provided high data quality on all measures. In Study 2 (with filters), we found high data quality among {CloudResearch} and Prolific. {MTurk} showed alarmingly low data quality even with data quality filters. We also found that while reputation (approval rating) did not predict data quality, frequency and purpose of usage did, especially on {MTurk}: the lowest data quality came from {MTurk} participants who report using the site as their main source of income but spend few hours on it per week. We provide a framework for future investigation into the ever-changing nature of data quality in online research, and how the evolving set of platforms and panels performs on these key aspects.},
+	pages = {1643--1662},
+	number = {4},
+	journaltitle = {Behavior Research Methods},
+	author = {Peer, Eyal and Rothschild, David and Gordon, Andrew and Evernden, Zak and Damer, Ekaterina},
+	date = {2022-08-01},
+}
+@inbook{Peer_2024, place={Cambridge}, series={Cambridge Handbooks in Psychology}, title={Prolific: Crowdsourcing Academic Online Research}, booktitle={The Cambridge Handbook of Research Methods and Statistics for the Social and Behavioral Sciences: Volume 2: Performing Research}, publisher={Cambridge University Press}, author={Peer, Eyal}, editor={Edlund, John E. and Nichols, Austin LeeEditors}, year={2024}, pages={72–92}, collection={Cambridge Handbooks in Psychology}} 
+
+
+@article{watson_risk_2010,
+	title = {{RISK} {ASSESSMENT} {USING} {THE} {THREE} {DIMENSIONS} {OF} {PROBABILITY} ({LIKELIHOOD}), {SEVERITY}, {AND} {LEVEL} {OF} {CONTROL}},
+	author = {Watson, Cliff},
+	date = {2010},
+	langid = {english},
+	file = {PDF:/Users/manonkempermann/Zotero/storage/U8ZSJGXC/Watson - RISK ASSESSMENT USING THE THREE DIMENSIONS OF PROBABILITY (LIKELIHOOD), SEVERITY, AND LEVEL OF CONTR.pdf:application/pdf},
+}
+@book{rausand2013risk,
+  title={Risk assessment: theory, methods, and applications},
+  author={Rausand, Marvin},
+  volume={115},
+  year={2013},
+  publisher={John Wiley \& Sons}
+}
+
+
+@article{anthony_tonycox_whats_2008,
+	author = {Anthony (Tony)Cox Jr, Louis},
+    title = {What's Wrong with Risk Matrices?},
+    journal = {Risk Analysis},
+    volume = {28},
+    number = {2},
+    pages = {497-512},
+    keywords = {AS/NZS 4360, decision analysis, enterprise risk management, Military Standard 882C, qualitative risk assessment, risk matrix, semiquantitative risk assessment, worse-than-useless information},
+    doi = {https://doi.org/10.1111/j.1539-6924.2008.01030.x},
+    url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1539-6924.2008.01030.x},
+    eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1539-6924.2008.01030.x},
+    abstract = {Risk matrices—tables mapping “frequency” and “severity” ratings to corresponding risk priority levels—are popular in applications as diverse as terrorism risk analysis, highway construction project management, office building risk analysis, climate change risk management, and enterprise risk management (ERM). National and international standards (e.g., Military Standard 882C and AS/NZS 4360:1999) have stimulated adoption of risk matrices by many organizations and risk consultants. However, little research rigorously validates their performance in actually improving risk management decisions. This article examines some mathematical properties of risk matrices and shows that they have the following limitations. (a) Poor Resolution. Typical risk matrices can correctly and unambiguously compare only a small fraction (e.g., less than 10\%) of randomly selected pairs of hazards. They can assign identical ratings to quantitatively very different risks (“range compression”). (b) Errors. Risk matrices can mistakenly assign higher qualitative ratings to quantitatively smaller risks. For risks with negatively correlated frequencies and severities, they can be “worse than useless,” leading to worse-than-random decisions. (c) Suboptimal Resource Allocation. Effective allocation of resources to risk-reducing countermeasures cannot be based on the categories provided by risk matrices. (d) Ambiguous Inputs and Outputs. Categorizations of severity cannot be made objectively for uncertain consequences. Inputs to risk matrices (e.g., frequency and severity categorizations) and resulting outputs (i.e., risk ratings) require subjective interpretation, and different users may obtain opposite ratings of the same quantitative risks. These limitations suggest that risk matrices should be used with caution, and only with careful explanations of embedded judgments.},
+    year = {2008}
+}
+
+@misc{baumann2025largelanguagemodelhacking,
+      title={Large Language Model Hacking: Quantifying the Hidden Risks of Using LLMs for Text Annotation}, 
+      author={Joachim Baumann and Paul Röttger and Aleksandra Urman and Albert Wendsjö and Flor Miriam Plaza-del-Arco and Johannes B. Gruber and Dirk Hovy},
+      year={2025},
+      eprint={2509.08825},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2509.08825}, 
+}
+
+@article{gwet2001handbook,
+  title={Handbook of inter-rater reliability},
+  author={Gwet, Kilem},
+  journal={Gaithersburg, MD: STATAXIS Publishing Company},
+  pages={223--246},
+  year={2001}
+}
+@inproceedings{NEURIPS2023_91f18a12,
+ author = {Zheng, Lianmin and Chiang, Wei-Lin and Sheng, Ying and Zhuang, Siyuan and Wu, Zhanghao and Zhuang, Yonghao and Lin, Zi and Li, Zhuohan and Li, Dacheng and Xing, Eric and Zhang, Hao and Gonzalez, Joseph E and Stoica, Ion},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {A. Oh and T. Naumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
+ pages = {46595--46623},
+ publisher = {Curran Associates, Inc.},
+ title = {Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena},
+ url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/91f18a1287b398d378ef22505bf41832-Paper-Datasets_and_Benchmarks.pdf},
+ volume = {36},
+ year = {2023}
+}
+@misc{schroeder2025trustllmjudgmentsreliability,
+      title={Can You Trust LLM Judgments? Reliability of LLM-as-a-Judge}, 
+      author={Kayla Schroeder and Zach Wood-Doughty},
+      year={2025},
+      eprint={2412.12509},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2412.12509}, 
+}
+@inproceedings{limitations_llm_judge,
+author = {Szymanski, Annalisa and Ziems, Noah and Eicher-Miller, Heather A. and Li, Toby Jia-Jun and Jiang, Meng and Metoyer, Ronald A.},
+title = {Limitations of the LLM-as-a-Judge Approach for Evaluating LLM Outputs in Expert Knowledge Tasks},
+year = {2025},
+isbn = {9798400713064},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3708359.3712091},
+doi = {10.1145/3708359.3712091},
+abstract = {The potential of using Large Language Models (LLMs) themselves to evaluate LLM outputs offers a promising method for assessing model performance across various contexts. Previous research indicates that LLM-as-a-judge exhibits a strong correlation with human judges in the context of general instruction following. However, for instructions that require specialized knowledge, the validity of using LLMs as judges remains uncertain. In our study, we applied a mixed-methods approach, conducting pairwise comparisons in which both subject matter experts (SMEs) and LLMs evaluated outputs from domain-specific tasks. We focused on two distinct fields: dietetics, with registered dietitian experts, and mental health, with clinical psychologist experts. Our results showed that SMEs agreed with LLM judges 68\% of the time in the dietetics domain and 64\% in mental health when evaluating overall preference. Additionally, the results indicated variations in SME-LLM agreement across domain-specific aspect questions. Our findings emphasize the importance of keeping human experts in the evaluation process, as LLMs alone may not provide the depth of understanding required for complex, knowledge specific tasks. We also explore the implications of LLM evaluations across different domains and discuss how these insights can inform the design of evaluation workflows that ensure better alignment between human experts and LLMs in interactive systems.},
+booktitle = {Proceedings of the 30th International Conference on Intelligent User Interfaces},
+pages = {952–966},
+numpages = {15},
+keywords = {Large Language Models, Evaluation Methods, LLM-as-a-Judge, Human-AI Interaction},
+location = {
+},
+series = {IUI '25}
+}
+
+@report{rainie_close_2025,
+	title = {Close encounters of the {AI} kind: The increasingly human-like way people are engaging with language models},
+	url = {https://imaginingthedigitalfuture.org/wp-content/uploads/2025/03/ITDF-LLM-User-Report-3-12-25.pdf},
+	institution = {Elon University},
+	author = {Rainie, Lee},
+	urldate = {2025-10-01},
+	date = {2025},
+	langid = {english},
+	file = {PDF:/Users/manonkempermann/Zotero/storage/BBLMIDP4/Rainie - Close encounters of the AI kind.pdf:application/pdf},
+}
+@article{reddit,
+author = {Nicholas Proferes and Naiyan Jones and Sarah Gilbert and Casey Fiesler and Michael Zimmer},
+title ={Studying Reddit: A Systematic Overview of Disciplines, Approaches, Methods, and Ethics},
+
+journal = {Social Media + Society},
+volume = {7},
+number = {2},
+pages = {20563051211019004},
+year = {2021},
+doi = {10.1177/20563051211019004},
+
+URL = {     
+        https://doi.org/10.1177/20563051211019004
+
+},
+eprint = {    
+        https://doi.org/10.1177/20563051211019004
+}
+,
+    abstract = { This article offers a systematic analysis of 727 manuscripts that used Reddit as a data source, published between 2010 and 2020. Our analysis reveals the increasing growth in use of Reddit as a data source, the range of disciplines this research is occurring in, how researchers are getting access to Reddit data, the characteristics of the datasets researchers are using, the subreddits and topics being studied, the kinds of analysis and methods researchers are engaging in, and the emerging ethical questions of research in this space. We discuss how researchers need to consider the impact of Reddit’s algorithms, affordances, and generalizability of the scientific knowledge produced using Reddit data, as well as the potential ethical dimensions of research that draws data from subreddits with potentially sensitive populations. }
+}
+@misc{gu2025surveyllmasajudge,
+      title={A Survey on LLM-as-a-Judge}, 
+      author={Jiawei Gu and Xuhui Jiang and Zhichao Shi and Hexiang Tan and Xuehao Zhai and Chengjin Xu and Wei Li and Yinghan Shen and Shengjie Ma and Honghao Liu and Saizhuo Wang and Kun Zhang and Yuanzhuo Wang and Wen Gao and Lionel Ni and Jian Guo},
+      year={2025},
+      eprint={2411.15594},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2411.15594}, 
+}
+
+@misc{xia2024aisystemevaluation,
+      title={An AI System Evaluation Framework for Advancing AI Safety: Terminology, Taxonomy, Lifecycle Mapping}, 
+      author={Boming Xia and Qinghua Lu and Liming Zhu and Zhenchang Xing},
+      year={2024},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+}
+
+@misc{ren2024safetywashing,
+      title={Safetywashing: Do AI Safety Benchmarks Actually Measure Safety Progress?}, 
+      author={Richard Ren and Steven Basart and Adam Khoja and Alice Gatti and Long Phan and Xuwang Yin and Mantas Mazeika and Alexander Pan and Gabriel Mukobi and Ryan H. Kim and Stephen Fitz and Dan Hendrycks},
+      year={2024},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+}
+
+@article{Weij2024AISL,
+  title={AI Sandbagging: Language Models can Strategically Underperform on Evaluations},
+  author={Teun van der Weij and Felix Hofst{\"a}tter and Ollie Jaffe and Samuel F. Brown and Francis Rhys Ward},
+  journal={ArXiv},
+  year={2024},
+  volume={abs/2406.07358},
+  url={https://api.semanticscholar.org/CorpusID:270379631}
+}
+
+@article{Phuong2024EvaluatingFM,
+  title={Evaluating Frontier Models for Dangerous Capabilities},
+  author={Mary Phuong and Matthew Aitchison and Elliot Catt and Sarah Cogan and Alex Kaskasoli and Victoria Krakovna and David Lindner and Matthew Rahtz and Yannis Assael and Sarah Hodkinson and Heidi Howard and Tom Lieberum and Ramana Kumar and Maria Abi Raad and Albert Webson and Lewis Ho and Sharon Lin and Sebastian Farquhar and Marcus Hutter and Gr{\'e}goire Del{\'e}tang and Anian Ruoss and Seliem El-Sayed and Sasha Brown and Anca Dragan and Rohin Shah and Allan Dafoe and Toby Shevlane},
+  journal={ArXiv},
+  year={2024},
+  volume={abs/2403.13793},
+  url={https://api.semanticscholar.org/CorpusID:268537213}
+}
+
+
+
+@inproceedings{Chao2024JailbreakBenchAO,
+  title={JailbreakBench: An Open Robustness Benchmark for Jailbreaking Large Language Models},
+  author={Patrick Chao and Edoardo Debenedetti and Alexander Robey and Maksym Andriushchenko and Francesco Croce and Vikash Sehwag and Edgar Dobriban and Nicolas Flammarion and George J. Pappas and Florian Tramèr and Hamed Hassani and Eric Wong},
+  booktitle={NeurIPS Datasets and Benchmarks Track},
+  year={2024}
+}
+
+@article{Hong2025MeasuringSO,
+  title={Measuring Sycophancy of Language Models in Multi-turn Dialogues},
+  author={Jiseung Hong and Grace Byun and Seungone Kim and Kai Shu},
+  journal={ArXiv},
+  year={2025},
+  volume={abs/2505.23840},
+  url={https://api.semanticscholar.org/CorpusID:279070312}
+}
+
+@techreport{NBERw34255,
+ title = "How People Use ChatGPT",
+ author = "Chatterji, Aaron and Cunningham, Thomas and Deming, David J and Hitzig, Zoe and Ong, Christopher and Shan, Carl Yan and Wadman, Kevin",
+ institution = "National Bureau of Economic Research",
+ type = "Working Paper",
+ series = "Working Paper Series",
+ number = "34255",
+ year = "2025",
+ month = "September",
+ doi = {10.3386/w34255},
+ URL = "http://www.nber.org/papers/w34255",
+ abstract = {Despite the rapid adoption of LLM chatbots, little is known about how they are used. We document the growth of ChatGPT’s consumer product from its launch in November 2022 through July 2025, when it had been adopted by around 10% of the world’s adult population. Early adopters were disproportionately male but the gender gap has narrowed dramatically, and we find higher growth rates in lower-income countries. Using a privacy-preserving automated pipeline, we classify usage patterns within a representative sample of ChatGPT conversations. We find steady growth in work-related messages but even faster growth in non-work-related messages, which have grown from 53% to more than 70% of all usage. Work usage is more common for educated users in highly-paid professional occupations. We classify messages by conversation topic and find that “Practical Guidance,” “Seeking Information,” and “Writing” are the three most common topics and collectively account for nearly 80% of all conversations. Writing dominates work-related tasks, highlighting chatbots’ unique ability to generate digital outputs compared to traditional search engines. Computer programming and self-expression both represent relatively small shares of use. Overall, we find that ChatGPT provides economic value through decision support, which is especially important in knowledge-intensive jobs.},
+}
+
+@misc{eu_ai_act_2024,
+  title        = {Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act)},
+  howpublished = {\url{https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng}},
+  year         = {2024},
+  note         = {Official Journal, 12 July 2024; establishes a risk-based approach and obligations for high-risk AI systems}
+}
+
+@article{Weidinger2023SociotechnicalSE,
+  title={Sociotechnical Safety Evaluation of Generative AI Systems},
+  author={Laura Weidinger and Maribeth Rauh and Nahema Marchal and Arianna Manzini and Lisa Anne Hendricks and Juan Mateos-Garcia and Stevie Bergman and Jackie Kay and Conor Griffin and Ben Bariach and Iason Gabriel and Verena Rieser and William S. Isaac},
+  journal={ArXiv},
+  year={2023},
+  volume={abs/2310.11986},
+  url={https://api.semanticscholar.org/CorpusID:264289156}
+}
+@article{Zeng2024HowJC,
+  title={How Johnny Can Persuade LLMs to Jailbreak Them: Rethinking Persuasion to Challenge AI Safety by Humanizing LLMs},
+  author={Yi Zeng and Hongpeng Lin and Jingwen Zhang and Diyi Yang and Ruoxi Jia and Weiyan Shi},
+  journal={ArXiv},
+  year={2024},
+  volume={abs/2401.06373},
+  url={https://api.semanticscholar.org/CorpusID:266977395}
+}
+@misc{Bai2022ConstitutionalAH,
+  title={Constitutional AI: Harmlessness from AI Feedback}, 
+  author={Yuntao Bai and Saurav Kadavath and Sandipan Kundu and Amanda Askell and Jackson Kernion and Andy Jones and Anna Chen and Anna Goldie and Azalia Mirhoseini and Cameron McKinnon and Carol Chen and Catherine Olsson and Christopher Olah and Danny Hernandez and Dawn Drain and Deep Ganguli and Dustin Li and Eli Tran-Johnson and Ethan Perez and Jamie Kerr and Jared Mueller and Jeffrey Ladish and Joshua Landau and Kamal Ndousse and Kamile Lukosuite and Liane Lovitt and Michael Sellitto and Nelson Elhage and Nicholas Schiefer and Noemi Mercado and Nova DasSarma and Robert Lasenby and Robin Larson and Sam Ringer and Scott Johnston and Shauna Kravec and Sheer El Showk and Stanislav Fort and Tamera Lanham and Timothy Telleen-Lawton and Tom Conerly and Tom Henighan and Tristan Hume and Samuel R. Bowman and Zac Hatfield-Dodds and Ben Mann and Dario Amodei and Nicholas Joseph and Sam McCandlish and Tom Brown and Jared Kaplan},
+  year={2022},
+  eprint={2212.08073},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2212.08073}, 
+}
+
+
+
+@inproceedings{Perez2022RedTL,
+  title={Red Teaming Language Models with Language Models},
+  author={Ethan Perez and Saffron Huang and Francis Song and Trevor Cai and Roman Ring and John Aslanides and Amelia Glaese and Nat McAleese and Geoffrey Irving},
+  booktitle={Conference on Empirical Methods in Natural Language Processing},
+  year={2022},
+  url={https://api.semanticscholar.org/CorpusID:246634238}
+}
+
+@article{Sharma2023TowardsUS,
+  title={Towards Understanding Sycophancy in Language Models},
+  author={Mrinank Sharma and Meg Tong and Tomasz Korbak and David Kristjanson Duvenaud and Amanda Askell and Samuel R. Bowman and Newton Cheng and Esin Durmus and Zac Hatfield-Dodds and Scott Johnston and Shauna Kravec and Tim Maxwell and Sam McCandlish and Kamal Ndousse and Oliver Rausch and Nicholas Schiefer and Da Yan and Miranda Zhang and Ethan Perez},
+  journal={ArXiv},
+  year={2023},
+  volume={abs/2310.13548},
+  url={https://api.semanticscholar.org/CorpusID:264405698}
+}
+
+@article{Ren2024SafetywashingDA,
+  title={Safetywashing: Do AI Safety Benchmarks Actually Measure Safety Progress?},
+  author={Richard Ren and Steven Basart and Adam Khoja and Alice Gatti and Long Phan and Xuwang Yin and Mantas Mazeika and Alexander Pan and Gabriel Mukobi and Ryan H. Kim and Stephen Fitz and Dan Hendrycks},
+  journal={ArXiv},
+  year={2024},
+  volume={abs/2407.21792},
+  url={https://api.semanticscholar.org/CorpusID:271571299}
+}
+
+@inproceedings{Buolamwini2018GenderSI,
+  title={Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification},
+  author={Joy Buolamwini and Timnit Gebru},
+  booktitle={FAT},
+  year={2018},
+  url={https://api.semanticscholar.org/CorpusID:3298854}
+}
+
+@article{Hagendorff2023DeceptionAE,
+  title={Deception abilities emerged in large language models},
+  author={Thilo Hagendorff},
+  journal={Proceedings of the National Academy of Sciences of the United States of America},
+  year={2023},
+  volume={121},
+  url={https://api.semanticscholar.org/CorpusID:260334697}
+}
+
+@inproceedings{
+mireshghallah2024trust,
+title={Trust No Bot: Discovering Personal  Disclosures in Human-{LLM} Conversations in the Wild},
+author={Niloofar Mireshghallah and Maria Antoniak and Yash More and Yejin Choi and Golnoosh Farnadi},
+booktitle={First Conference on Language Modeling},
+year={2024},
+url={https://openreview.net/forum?id=tIpWtMYkzU}
+}
+
+@article{borda1,
+author = {Emerson, Peter},
+year = {2013},
+month = {02},
+pages = {},
+title = {The Original Borda Count and Partial Voting},
+volume = {40},
+journal = {Social Choice and Welfare},
+doi = {10.1007/s00355-011-0603-9}
+}
+
+@article{saari_selecting_2023,
+	title = {Selecting a voting method: the case for the Borda count},
+	volume = {34},
+	issn = {1572-9966},
+	url = {https://doi.org/10.1007/s10602-022-09380-y},
+	doi = {10.1007/s10602-022-09380-y},
+	abstract = {Of importance when selecting a voting method is whether, on a regular basis, its outcomes accurately capture the intent of voters. A surprise is that very few procedures do this. Another desired feature is for a decision approach to assist groups in reaching a consensus (Sect. 5). As described, these goals are satisfied only with the Borda count. Addressing these objectives requires understanding what can go wrong, what causes voting difficulties, and how bad they can be. To avoid technicalities, all of this is illustrated with examples accompanied by references for readers wishing a complete analysis. As shown (Sects. 1–3), most problems reflect a loss of vital information. Understanding this feature assists in showing that the typical description of Arrow’s Theorem, “with three or more alternatives, no voting method is fair,” is not accurate (Sect. 2).},
+	pages = {357--366},
+	number = {3},
+	journaltitle = {Constitutional Political Economy},
+	shortjournal = {Constitutional Political Economy},
+	author = {Saari, Donald G.},
+	date = {2023-09-01},
+}
+@article{stated_pref,
+author = {Loomis, John},
+title = {WHAT'S TO KNOW ABOUT HYPOTHETICAL BIAS IN STATED PREFERENCE VALUATION STUDIES?},
+journal = {Journal of Economic Surveys},
+volume = {25},
+number = {2},
+pages = {363-370},
+keywords = {Contingent Valuation Method, Experiments, Validity},
+doi = {https://doi.org/10.1111/j.1467-6419.2010.00675.x},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-6419.2010.00675.x},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1467-6419.2010.00675.x},
+abstract = {Abstract Hypothetical bias arises in stated preference valuation studies when respondents report a willingness to pay (WTP) that exceeds what they actually pay using their own money in laboratory or field experiments. Although this bias is not found in all stated preference surveys, hypothetical WTP typically exceeds the actual value by a factor of two to three. Unfortunately, there is no widely accepted general theory of respondent behaviour that explains hypothetical bias. Therefore, two meta-analyses are reviewed to test current hypotheses regarding the causes of this overstatement of WTP and the associated recommendations to mitigate the bias. Suggestions for future research are made including the development of a general theory.},
+year = {2011}
+}
+@article{stated_pref2,
+author = {de Corte, Kaat and Cairns, John and Grieve, Richard},
+title = {Stated versus revealed preferences: An approach to reduce bias},
+journal = {Health Economics},
+volume = {30},
+number = {5},
+pages = {1095-1123},
+keywords = {causal inference, choice experiments, external validity, hypothetical bias, revealed preferences, stated preferences},
+doi = {https://doi.org/10.1002/hec.4246},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/hec.4246},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/hec.4246},
+abstract = {Abstract Stated preference (SP) survey responses may not predict actual behavior, leading to hypothetical bias. We developed an approach that harnesses large-scale routine data to help SP surveys provide more accurate estimates of revealed preferences (RPs), within a study which elicited preferences for alternative changes to the blood service in England. The SP survey responses were used to predict the mean number of annual whole blood donations. Ex ante, the iterative survey design estimated hypothetical bias by contrasting pilot SP survey responses (N = 1254), with individually linked data on RPs, to inform the main SP survey design (N = 25,187). Ex post, the analysis recognized mediation of the relationship between SP and RP when blood donation is deferred. The pilot survey reported that donors' intended donation frequency of 3.2 (men) and 2.6 (women) times per year, exceeded their actual frequency by 41\% and 30\% respectively. Choice scenario attributes for the main SP survey were then modified, and over-prediction subsequently decreased to 34\% for men and 16\% for women. The mediating effect of deferrals explained 29\% (men) and 86\% (women) of the residual discrepancy between SP and RP. Future studies can use this approach to reduce hypothetical bias, and provide more accurate predictions for decision-making.},
+year = {2021}
+}
+
+@article{murphy_meta-analysis_2005,
+	title = {A Meta-analysis of Hypothetical Bias in Stated Preference Valuation},
+	volume = {30},
+	issn = {1573-1502},
+	url = {https://doi.org/10.1007/s10640-004-3332-z},
+	doi = {10.1007/s10640-004-3332-z},
+	abstract = {Individuals are widely believed to overstate their economic valuation of a good by a factor of two or three. This paper reports the results of a meta-analysis of hypothetical bias in 28 stated preference valuation studies that report monetary willingness-to-pay and used the same mechanism for eliciting both hypothetical and actual values. The papers generated 83 observations with a median ratio of hypothetical to actual value of only 1.35, and the distribution has severe positive skewness. We find that a choice-based elicitation mechanism is important in reducing bias. We provide some evidence that the use of student subjects may be a source of bias, but since this variable is highly correlated with group experimental settings, firm conclusions cannot be drawn. There is some weak evidence that bias increases when public goods are being valued, and that some calibration methods may be effective at reducing bias. However, results are quite sensitive to model specification, which will remain a problem until a comprehensive theory of hypothetical bias is developed.},
+	pages = {313--325},
+	number = {3},
+	journaltitle = {Environmental and Resource Economics},
+	shortjournal = {Environmental and Resource Economics},
+	author = {Murphy, James J. and Allen, P. Geoffrey and Stevens, Thomas H. and Weatherhead, Darryl},
+	date = {2005-03-01},
+}
+@inproceedings {jailbreaks,
+author = {Zhiyuan Yu and Xiaogeng Liu and Shunning Liang and Zach Cameron and Chaowei Xiao and Ning Zhang},
+title = {Don{\textquoteright}t Listen To Me: Understanding and Exploring Jailbreak Prompts of Large Language Models},
+booktitle = {33rd USENIX Security Symposium (USENIX Security 24)},
+year = {2024},
+isbn = {978-1-939133-44-1},
+address = {Philadelphia, PA},
+pages = {4675--4692},
+url = {https://www.usenix.org/conference/usenixsecurity24/presentation/yu-zhiyuan},
+publisher = {USENIX Association},
+month = aug
+}
+
+@article{mizrahi_state_2024,
+	title = {State of What Art? A Call for Multi-Prompt {LLM} Evaluation},
+	volume = {12},
+	issn = {2307-387X},
+	url = {https://doi.org/10.1162/tacl_a_00681},
+	doi = {10.1162/tacl_a_00681},
+	abstract = {Recent advances in {LLMs} have led to an abundance of evaluation benchmarks, which typically rely on a single instruction template per task. We create a large-scale collection of instruction paraphrases and comprehensively analyze the brittleness introduced by single-prompt evaluations across 6.5M instances, involving 20 different {LLMs} and 39 tasks from 3 benchmarks. We find that different instruction templates lead to very different performance, both absolute and relative. Instead, we propose a set of diverse metrics on multiple instruction paraphrases, specifically tailored for different use cases (e.g., {LLM} vs. downstream development), ensuring a more reliable and meaningful assessment of {LLM} capabilities. We show that our metrics provide new insights into the strengths and limitations of current {LLMs}.},
+	pages = {933--949},
+	journaltitle = {Transactions of the Association for Computational Linguistics},
+	author = {Mizrahi, Moran and Kaplan, Guy and Malkin, Dan and Dror, Rotem and Shahaf, Dafna and Stanovsky, Gabriel},
+	date = {2024-08},
+}
+
+@article{LUCAS201494,
+title = {It’s only a computer: Virtual humans increase willingness to disclose},
+journal = {Computers in Human Behavior},
+volume = {37},
+pages = {94-100},
+year = {2014},
+issn = {0747-5632},
+doi = {https://doi.org/10.1016/j.chb.2014.04.043},
+url = {https://www.sciencedirect.com/science/article/pii/S0747563214002647},
+author = {Gale M. Lucas and Jonathan Gratch and Aisha King and Louis-Philippe Morency},
+keywords = {Virtual humans, Computer-assisted assessment, Clinical interviews, Honest responding, Self-disclosure},
+abstract = {Research has begun to explore the use of virtual humans (VHs) in clinical interviews (Bickmore, Gruber, & Picard, 2005). When designed as supportive and “safe” interaction partners, VHs may improve such screenings by increasing willingness to disclose information (Gratch, Wang, Gerten, & Fast, 2007). In health and mental health contexts, patients are often reluctant to respond honestly. In the context of health-screening interviews, we report a study in which participants interacted with a VH interviewer and were led to believe that the VH was controlled by either humans or automation. As predicted, compared to those who believed they were interacting with a human operator, participants who believed they were interacting with a computer reported lower fear of self-disclosure, lower impression management, displayed their sadness more intensely, and were rated by observers as more willing to disclose. These results suggest that automated VHs can help overcome a significant barrier to obtaining truthful patient information.}
+}
+@article{li2024llms,
+  title={Llms-as-judges: a comprehensive survey on llm-based evaluation methods},
+  author={Li, Haitao and Dong, Qian and Chen, Junjie and Su, Huixue and Zhou, Yujia and Ai, Qingyao and Ye, Ziyi and Liu, Yiqun},
+  journal={arXiv preprint arXiv:2412.05579},
+  year={2024}
+}
+@misc{lunardi2025robustnessreliabilitybenchmarkbasedevaluation,
+      title={On Robustness and Reliability of Benchmark-Based Evaluation of LLMs}, 
+      author={Riccardo Lunardi and Vincenzo Della Mea and Stefano Mizzaro and Kevin Roitero},
+      year={2025},
+      eprint={2509.04013},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2509.04013}, 
+}
+
+@misc{liu2025scalesjustitiacomprehensivesurvey,
+      title={The Scales of Justitia: A Comprehensive Survey on Safety Evaluation of LLMs}, 
+      author={Songyang Liu and Chaozhuo Li and Jiameng Qiu and Xi Zhang and Feiran Huang and Litian Zhang and Yiming Hei and Philip S. Yu},
+      year={2025},
+      eprint={2506.11094},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2506.11094}, 
+}
+
+@misc{cao2025generalizableevaluationllmera,
+      title={Toward Generalizable Evaluation in the LLM Era: A Survey Beyond Benchmarks}, 
+      author={Yixin Cao and Shibo Hong and Xinze Li and Jiahao Ying and Yubo Ma and Haiyuan Liang and Yantao Liu and Zijun Yao and Xiaozhi Wang and Dan Huang and Wenxuan Zhang and Lifu Huang and Muhao Chen and Lei Hou and Qianru Sun and Xingjun Ma and Zuxuan Wu and Min-Yen Kan and David Lo and Qi Zhang and Heng Ji and Jing Jiang and Juanzi Li and Aixin Sun and Xuanjing Huang and Tat-Seng Chua and Yu-Gang Jiang},
+      year={2025},
+      eprint={2504.18838},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2504.18838}, 
+}
+
+@inproceedings{
+    zhao2024wildchat,
+    title={WildChat: 1M Chat{GPT} Interaction Logs in the Wild},
+    author={Wenting Zhao and Xiang Ren and Jack Hessel and Claire Cardie and Yejin Choi and Yuntian Deng},
+    booktitle={The Twelfth International Conference on Learning Representations},
+    year={2024},
+    url={https://openreview.net/forum?id=Bl8u7ZRlbM}
+}
+
+@inproceedings{
+wang2024mint,
+title={{MINT}: Evaluating {LLM}s in Multi-turn Interaction with Tools and Language Feedback},
+author={Xingyao Wang and Zihan Wang and Jiateng Liu and Yangyi Chen and Lifan Yuan and Hao Peng and Heng Ji},
+booktitle={The Twelfth International Conference on Learning Representations},
+year={2024},
+url={https://openreview.net/forum?id=jp3gWrMuIZ}
+}
+@online{bertuzzi_chatgpt_2025,
+	title = {{ChatGPT} faces possible designation as a systemic platform under {EU} digital law {\textbar} {MLex} {\textbar} Specialist news and analysis on legal risk and regulation},
+	url = {https://www.mlex.com/mlex/articles/2332484/chatgpt-faces-possible-designation-as-a-systemic-platform-under-eu-digital-law},
+	abstract = {{OpenAI}'s landmark chatbot, {ChatGPT}, is being considered by the European Commission for designation as a systemic platform under the {EU} Digital Services Act due to its web searching functionality, {MLex} has learned. {OpenAI} reported a jump from 11.2 million monthly active {EU} users in October to 41.3 million in March, nearing the 45 million threshold for such classification. This designation would impose strict regulatory requirements and the payment of a supervisory fee. Questions remain as to whether the designation would solely concern the search feature or the entire chatbot.},
+	author = {Bertuzzi, Luca},
+	urldate = {2025-10-10},
+	date = {2025-04-30},
+	langid = {english},
+	keywords = {notion},
+	file = {Snapshot:/Users/manonkempermann/Zotero/storage/SWGST384/chatgpt-faces-possible-designation-as-a-systemic-platform-under-eu-digital-law.html:text/html},
+}
+@article{lemoine_assessing_2024,
+	title = {Assessing the Extent to Which Generative Artificial Intelligence ({AI}) Falls Within the Scope of the {EU}'s Digital Services Act: an Initial Analysis},
+	issn = {1556-5068},
+	url = {https://www.ssrn.com/abstract=4702422},
+	doi = {10.2139/ssrn.4702422},
+	shorttitle = {Assessing the Extent to Which Generative Artificial Intelligence ({AI}) Falls Within the Scope of the {EU}'s Digital Services Act},
+	journaltitle = {{SSRN} Electronic Journal},
+	shortjournal = {{SSRN} Journal},
+	author = {Lemoine, Laureline and Vermeulen, Mathias},
+	urldate = {2025-10-10},
+	date = {2024},
+	langid = {english},
+	keywords = {notion},
+}
+@online{joint_research_center_faqs_2025,
+	title = {{FAQs}: {DSA} data access for researchers - European Centre for Algorithmic Transparency},
+	url = {https://algorithmic-transparency.ec.europa.eu/news/faqs-dsa-data-access-researchers-2025-07-03_en},
+	shorttitle = {{FAQs}},
+	abstract = {Under article 40 of the Digital Services Act ({DSA}), vetted researchers will be able to request data from very large online platforms ({VLOPs}) and search engines ({VLOSEs}) to conduct research on systemic risks in the {EU}.},
+	author = {Joint Research Center},
+	urldate = {2025-10-10},
+	date = {2025-07-03},
+	langid = {english},
+	keywords = {notion},
+	file = {Snapshot:/Users/manonkempermann/Zotero/storage/9FPJA53L/faqs-dsa-data-access-researchers-2025-07-03_en.html:text/html},
+}
+@online{jozwiak_dsas_2025,
+	title = {The {DSA}’s Systemic Risk Framework: Taking Stock and Looking Ahead - {DSA} Observatory},
+	url = {https://dsa-observatory.eu/2025/05/27/the-dsas-systemic-risk-framework-taking-stock-and-looking-ahead/},
+	shorttitle = {The {DSA}’s Systemic Risk Framework},
+	abstract = {By Magdalena Jóźwiak, {DSA} Observatory Drawing on a March 2025 workshop hosted by the {DSA} Observatory, this post shares reflections from researchers and civil society experts engaging with the {DSA}’s systemic risk framework—examining legal foundations, enforcement challenges, and the role of the research community in shaping its development.},
+	author = {Jóźwiak, Magdalena},
+	urldate = {2025-10-10},
+	date = {2025-05-27},
+	langid = {american},
+	keywords = {notion},
+	file = {Snapshot:/Users/manonkempermann/Zotero/storage/AQZWWW3U/the-dsas-systemic-risk-framework-taking-stock-and-looking-ahead.html:text/html},
+}
+@article{mantelero_fundamental_2022,
+	title = {Fundamental rights impact assessments in the {DSA}},
+	rights = {Creative Commons Attribution Share Alike 4.0 International},
+	issn = {2366-7044},
+	url = {https://intrechtdok.de/receive/mir_mods_00014449},
+	doi = {10.17176/20221101-220006-0},
+	journaltitle = {Verfassungsblog: On Matters Constitutional},
+	author = {Mantelero, Alessandro},
+	editora = {{Fachinformationsdienst Für Internationale Und Interdisziplinäre Rechtsforschung}},
+	editoratype = {collaborator},
+	urldate = {2025-10-10},
+	date = {2022-11-01},
+	langid = {english},
+	note = {Publisher: Fachinformationsdienst für internationale und interdisziplinäre Rechtsforschung},
+	keywords = {notion, 342},
+}
+@online{noauthor_regulation_nodate,
+	title = {Regulation ({EU}) 2022/2065 of the European Parliament and of the Council of 19 October 2022 on a Single Market For Digital Services and amending Directive 2000/31/{EC} (Digital Services Act)},
+    year = {2022},
+	url = {https://www.eu-digital-services-act.com/Digital_Services_Act_Articles.html},
+	urldate = {2025-10-10},
+	keywords = {notion},
+	file = {Digital Services Act (DSA) | Final Text:/Users/manonkempermann/Zotero/storage/DJNF3HEW/Digital_Services_Act_Articles.html:text/html},
+}
+@inproceedings{
+ye2025justice,
+title={Justice or Prejudice? Quantifying Biases in {LLM}-as-a-Judge},
+author={Jiayi Ye and Yanbo Wang and Yue Huang and Dongping Chen and Qihui Zhang and Nuno Moniz and Tian Gao and Werner Geyer and Chao Huang and Pin-Yu Chen and Nitesh V Chawla and Xiangliang Zhang},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=3GTtZFiajM}
+}
+@misc{kempermann2026safewhomrethinkingevaluate,
+      title={Safe for Whom? Rethinking How We Evaluate the Safety of LLMs for Real Users}, 
+      author={Manon Kempermann and Sai Suresh Macharla Vasu and Mahalakshmi Raveenthiran and Theo Farrell and Ingmar Weber},
+      year={2026},
+      eprint={2512.10687},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2512.10687}, 
+} 
+
+@inproceedings{weidinger2022taxonomy,
+  title     = {Taxonomy of Risks Posed by Language Models},
+  author    = {Weidinger, Laura and Uesato, Jonathan and Rauh, Maribeth and Griffin, Conor and Huang, Po-Sen and Mellor, John and Glaese, Amelia and Cheng, Myra and Balle, Borja and Kasirzadeh, Atoosa and Biles, Courtney and Brown, Sasha and Kenton, Zac and Hawkins, Will and Stepleton, Tom and Birhane, Abeba and Hendricks, Lisa Anne and Rimell, Laura and Isaac, William and Haas, Julia and Legassick, Sean and Irving, Geoffrey and Gabriel, Iason},
+  booktitle = {Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency (FAccT)},
+  pages     = {214--229},
+  year      = {2022},
+  doi       = {10.1145/3531146.3533088},
+}
+
+@inproceedings{raji2021everything,
+  title     = {{AI} and the Everything in the Whole Wide World Benchmark},
+  author    = {Raji, Inioluwa Deborah and Bender, Emily M. and Paullada, Amandalynne and Denton, Emily and Hanna, Alex},
+  booktitle = {Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks (NeurIPS Datasets and Benchmarks)},
+  year      = {2021},
+  eprint    = {2111.15366},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.LG},
+  url       = {https://arxiv.org/abs/2111.15366},
+}
+
+@inproceedings{jacobs2021measurement,
+  title     = {Measurement and Fairness},
+  author    = {Jacobs, Abigail Z. and Wallach, Hanna},
+  booktitle = {Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency (FAccT)},
+  pages     = {375--385},
+  year      = {2021},
+  doi       = {10.1145/3442188.3445901},
+}
+
+@inproceedings{wallach2025position,
+  title     = {Position: Evaluating Generative {AI} Systems Is a Social Science Measurement Challenge},
+  author    = {Wallach, Hanna and Desai, Meera and Cooper, A. Feder and Wang, Angelina and Atalla, Chad and Barocas, Solon and Blodgett, Su Lin and Chouldechova, Alexandra and Corvi, Emily and Dow, P. Alex and Garcia-Gathright, Jean and Olteanu, Alexandra and Reynolds, Nicholas Pangakis and Sheng, Emily and Vann, Dan and Vaughan, Jennifer Wortman and Vogel, Matthew and Washington, Hannah and Jacobs, Abigail Z.},
+  booktitle = {Proceedings of the 42nd International Conference on Machine Learning (ICML), Position Paper Track},
+  year      = {2025},
+  eprint    = {2502.00561},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CY},
+  url       = {https://arxiv.org/abs/2502.00561},
+}
+
+@inproceedings{sorensen2024roadmap,
+  title     = {Position: A Roadmap to Pluralistic Alignment},
+  author    = {Sorensen, Taylor and Moore, Jared and Fisher, Jillian and Gordon, Mitchell L. and Mireshghallah, Niloofar and Rytting, Christopher Michael and Ye, Andre and Jiang, Liwei and Lu, Ximing and Dziri, Nouha and Althoff, Tim and Choi, Yejin},
+  booktitle = {Proceedings of the 41st International Conference on Machine Learning (ICML)},
+  series    = {PMLR},
+  volume    = {235},
+  pages     = {46280--46302},
+  year      = {2024},
+  eprint    = {2402.05070},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  url       = {https://arxiv.org/abs/2402.05070},
+}
+
+@inproceedings{shelby2023sociotechnical,
+  title     = {Identifying Sociotechnical Harms of Algorithmic Systems: Scoping a Taxonomy for Harm Reduction},
+  author    = {Shelby, Renee and Rismani, Shalaleh and Henne, Kathryn and Moon, AJung and Rostamzadeh, Negar and Nicholas, Paul and Yilla-Akbari, N'Mah and Gallegos, Jess and Smart, Andrew and Garcia, Emilio and Virk, Gurleen},
+  booktitle = {Proceedings of the 2023 AAAI/ACM Conference on AI, Ethics, and Society (AIES)},
+  year      = {2023},
+  eprint    = {2210.05791},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.HC},
+  url       = {https://arxiv.org/abs/2210.05791},
+}
+
+@inproceedings{aroyo2023dices,
+  title     = {{DICES} Dataset: Diversity in Conversational {AI} Evaluation for Safety},
+  author    = {Aroyo, Lora and Taylor, Alex S. and D{\'i}az, Mark and Homan, Christopher M. and Parrish, Alicia and Serapio-Garc{\'i}a, Gregory and Prabhakaran, Vinodkumar and Wang, Ding},
+  booktitle = {Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks (NeurIPS Datasets and Benchmarks)},
+  year      = {2023},
+  eprint    = {2306.11247},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.HC},
+  url       = {https://arxiv.org/abs/2306.11247},
+}
+
+@inproceedings{kirk2024prism,
+  title     = {The {PRISM} Alignment Dataset: What Participatory, Representative and Individualised Human Feedback Reveals About the Subjective and Multicultural Alignment of Large Language Models},
+  author    = {Kirk, Hannah Rose and Whitefield, Alexander and R{\"o}ttger, Paul and Bean, Andrew M. and Margatina, Katerina and Ciro, Juan and Mosquera, Rafael and Bartolo, Max and Williams, Adina and He, He and Vidgen, Bertie and Hale, Scott A.},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2024},
+  eprint    = {2404.16019},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url       = {https://arxiv.org/abs/2404.16019},
+}
+
+@misc{solaiman2023social,
+  title     = {Evaluating the Social Impact of Generative {AI} Systems in Systems and Society},
+  author    = {Solaiman, Irene and Talat, Zeerak and Agnew, William and Ahmad, Lama and Baker, Dylan and Blodgett, Su Lin and Chen, Canyu and Daum{\'e} III, Hal and Dodge, Jesse and Duan, Isabella and Evans, Ellie and Friedrich, Felix and Ghosh, Avijit and Gohar, Usman and Hooker, Sara and Jernite, Yacine and Kirk, Hannah Rose and Luccioni, Alexandra Sasha and Majumder, Bodhisattwa Prasad and Marchal, Nicholas and Padhi, Inkit and Prabhakaran, Vinodkumar and Raji, Inioluwa Deborah and Ramaswamy, Vikram and Ryan, Michael J. and Sartori, Laura and Subramonian, Arjun},
+  year      = {2023},
+  eprint    = {2306.05949},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CY},
+  url       = {https://arxiv.org/abs/2306.05949},
+}
+
+@inproceedings{feffer2024redteaming,
+  title     = {Red-Teaming for Generative {AI}: Silver Bullet or Security Theater?},
+  author    = {Feffer, Michael and Sinha, Anusha and Deng, Wesley Hanwen and Lipton, Zachary C. and Heidari, Hoda},
+  booktitle = {Proceedings of the 2024 AAAI/ACM Conference on AI, Ethics, and Society (AIES)},
+  year      = {2024},
+  eprint    = {2401.15897},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CY},
+  url       = {https://arxiv.org/abs/2401.15897},
+}
+
+@article{gebru2021datasheets,
+  title     = {Datasheets for Datasets},
+  author    = {Gebru, Timnit and Morgenstern, Jamie and Vecchione, Briana and Vaughan, Jennifer Wortman and Wallach, Hanna and Daum{\'e} III, Hal and Crawford, Kate},
+  journal   = {Communications of the ACM},
+  volume    = {64},
+  number    = {12},
+  pages     = {86--92},
+  year      = {2021},
+  doi       = {10.1145/3458723},
+}
+
+@inproceedings{mitchell2019modelcards,
+  title     = {Model Cards for Model Reporting},
+  author    = {Mitchell, Margaret and Wu, Simone and Zaldivar, Andrew and Barnes, Parker and Vasserman, Lucy and Hutchinson, Ben and Spitzer, Elena and Raji, Inioluwa Deborah and Gebru, Timnit},
+  booktitle = {Proceedings of the Conference on Fairness, Accountability, and Transparency (FAT*)},
+  pages     = {220--229},
+  year      = {2019},
+  doi       = {10.1145/3287560.3287596},
+}
+
+@misc{weidinger2025evaluationscience,
+  title     = {Toward an Evaluation Science for Generative {AI} Systems},
+  author    = {Weidinger, Laura and Raji, Inioluwa Deborah and Wallach, Hanna and Mitchell, Margaret and Wang, Angelina and Salaudeen, Olawale and Bommasani, Rishi and Ganguli, Deep and Koyejo, Sanmi and Isaac, William},
+  year      = {2025},
+  eprint    = {2503.05336},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CY},
+  url       = {https://arxiv.org/abs/2503.05336},
+}
+
+@article{omiye2023racebased,
+  title     = {Large Language Models Propagate Race-Based Medicine},
+  author    = {Omiye, Jesutofunmi A. and Lester, Jenna C. and Spichak, Simon and Rotemberg, Veronica and Daneshjou, Roxana},
+  journal   = {npj Digital Medicine},
+  volume    = {6},
+  number    = {1},
+  pages     = {195},
+  year      = {2023},
+  doi       = {10.1038/s41746-023-00939-z},
+}
+
+@article{zack2024assessing,
+  title     = {Assessing the Potential of {GPT-4} to Perpetuate Racial and Gender Biases in Health Care: A Model Evaluation Study},
+  author    = {Zack, Travis and Lehman, Eric and Suzgun, Mirac and Rodriguez, Jorge A. and Celi, Leo Anthony and Gichoya, Judy and Jurafsky, Dan and Szolovits, Peter and Bates, David W. and Abdulnour, Raja-Elie E. and Butte, Atul J. and Alsentzer, Emily},
+  journal   = {The Lancet Digital Health},
+  volume    = {6},
+  number    = {1},
+  pages     = {e12--e22},
+  year      = {2024},
+  doi       = {10.1016/S2589-7500(23)00225-X},
+}
+
+@article{pfohl2024toolbox,
+  title     = {A Toolbox for Surfacing Health Equity Harms and Biases in Large Language Models},
+  author    = {Pfohl, Stephen R. and Cole-Lewis, Heather and Sayres, Rory and Neal, Darlene and Asiedu, Mercy and Dieng, Awa and Tomasev, Nenad and Rashid, Qazi Mamunur and Azizi, Shekoofeh and Rostamzadeh, Negar and McCoy, Liam G. and Celi, Leo Anthony and Liu, Yun and Schaekermann, Mike and Walton, Alanna and Parrish, Alicia and Nagpal, Chirag and Singh, Preeti and Dewitt, Akeiylah and Mansfield, Philip and Prakash, Sushant and Heller, Katherine and Karthikesalingam, Alan and Semturs, Christopher and Barral, Joelle and Corrado, Greg and Matias, Yossi and Smith-Loud, Jamila and Horn, Ivor and Singhal, Karan},
+  journal   = {Nature Medicine},
+  volume    = {30},
+  number    = {12},
+  pages     = {3590--3600},
+  year      = {2024},
+  doi       = {10.1038/s41591-024-03258-2},
+}
+
+@inproceedings{eloundou2025firstperson,
+  title     = {First-Person Fairness in Chatbots},
+  author    = {Eloundou, Tyna and Beutel, Alex and Robinson, David G. and Gu-Lemberg, Keren and Brakman, Anna-Luisa and Mishkin, Pamela and Shah, Meghan and Heidecke, Johannes and Weng, Lilian and Kalai, Adam Tauman},
+  booktitle = {The Thirteenth International Conference on Learning Representations (ICLR)},
+  year      = {2025},
+  eprint    = {2410.19803},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url       = {https://arxiv.org/abs/2410.19803},
+}
+
+@misc{salinas2024name,
+  title     = {What's in a Name? Auditing Large Language Models for Race and Gender Bias},
+  author    = {Haim, Amit and Salinas, Alejandro and Nyarko, Julian},
+  year      = {2024},
+  eprint    = {2402.14875},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url       = {https://arxiv.org/abs/2402.14875},
+}
+
+@inproceedings{rottger2025safetyprompts,
+  title     = {{SafetyPrompts}: A Systematic Review of Open Datasets for Evaluating and Improving Large Language Model Safety},
+  author    = {R{\"o}ttger, Paul and Pernisi, Fabio and Vidgen, Bertie and Hovy, Dirk},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume    = {39},
+  number    = {26},
+  pages     = {27617--27627},
+  year      = {2025},
+  doi       = {10.1609/aaai.v39i26.34970},
+}
+@misc{kulveit2025gradualdisempowermentsystemicexistential,
+      title={Gradual Disempowerment: Systemic Existential Risks from Incremental AI Development}, 
+      author={Jan Kulveit and Raymond Douglas and Nora Ammann and Deger Turan and David Krueger and David Duvenaud},
+      year={2025},
+      eprint={2501.16946},
+      archivePrefix={arXiv},
+      primaryClass={cs.CY},
+      url={https://arxiv.org/abs/2501.16946}, 
+}
+@misc{slattery2024airisk,
+  title         = {The {AI} Risk Repository: A Comprehensive Meta-Review, Database, and Taxonomy of Risks From Artificial Intelligence},
+  author        = {Slattery, Peter and Saeri, Alexander K. and Grundy, Emily A. C. and Graham, Jess and Noetel, Michael and Uuk, Risto and Dao, James and Pour, Soroush and Casper, Stephen and Thompson, Neil},
+  year          = {2024},
+  eprint        = {2408.12622},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  url           = {https://arxiv.org/abs/2408.12622},
+  note          = {MIT AI Risk Repository, MIT FutureTech}
+}
+
+@techreport{saeri2026prioritizing,
+  title       = {Prioritizing the Risks from Artificial Intelligence},
+  author      = {Saeri, Alexander K. and Graham, Jess and Noetel, Michael and Slattery, Peter and Thompson, Neil and others},
+  institution = {MIT AI Risk Initiative, MIT FutureTech},
+  year        = {2026},
+  type        = {Delphi Expert Study},
+  url         = {https://airisk.mit.edu/priorities},
+  note        = {Delphi study of 272 experts on the severity, vulnerability, and responsibility of 24 AI risk domains}
+}
+
+@misc{angwin2016machine,
+  author       = {Angwin, Julia and Larson, Jeff and Mattu, Surya and Kirchner, Lauren},
+  title        = {Machine Bias},
+  howpublished = {ProPublica},
+  year         = {2016},
+  month        = may,
+  day          = {23},
+  url          = {https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing},
+  note         = {Accessed: 2026-07-08}
+}
+@inproceedings{popovic-2015-chrf,
+    title = "chr{F}: character n-gram {F}-score for automatic {MT} evaluation",
+    author = "Popovi{\'c}, Maja",
+    booktitle = "Proceedings of the Tenth Workshop on Statistical Machine Translation",
+    month = sep,
+    year = "2015",
+    address = "Lisbon, Portugal",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/W15-3049/",
+    doi = "10.18653/v1/W15-3049",
+    pages = "392--395"
+}
+
+@online{openai2025modelspec,
+  author = {{OpenAI}},
+  title = {{OpenAI} Model Spec},
+  date = {2025-12-18},
+  year = {2025},
+  url = {https://model-spec.openai.com/2025-12-18.html},
+  urldate = {2026-07-20},
+}
+
+@online{anthropic2026constitution,
+  author = {{Anthropic}},
+  title = {Claude's Constitution},
+  date = {2026-01},
+  year = {2026},
+  url = {https://www.anthropic.com/constitution},
+  urldate = {2026-07-20},
+}

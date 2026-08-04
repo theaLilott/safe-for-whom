@@ -1,0 +1,186 @@
+% Base Font Size
+%   All other font sizes (for headings etc.) are adjusted accordingly
+
+\KOMAoptions{fontsize=12pt}
+
+% Depth of table of contents
+%   0 displays only parts and chapters, 1 displays parts, chapters and sections, etc.
+
+\setcounter{tocdepth}{1}
+
+% Citation style
+%   for a reference see http://mirrors.ctan.org/macros/latex/contrib/biblatex/doc/biblatex.pdf#subsection.3.3
+
+\usepackage[style=numeric]{biblatex}
+
+% Allow long URLs in the bibliography to break across lines
+\setcounter{biburlnumpenalty}{9000}
+\setcounter{biburllcpenalty}{9000}
+\setcounter{biburlucpenalty}{9000}
+
+% Drop eprint fields that are raw URLs (ACL Anthology dumps put full PDF
+% links there, which print as unbreakable text); real arXiv IDs are kept
+\DeclareSourcemap{
+  \maps[datatype=bibtex]{
+    \map{
+      \step[fieldsource=eprint, match=\regexp{^https?://}, final]
+      \step[fieldset=eprint, null]
+    }
+    % ISBNs are not printed by the numeric style; proceedings dumps carry
+    % malformed ones that trigger datamodel warnings
+    \map{
+      \step[fieldset=isbn, null]
+    }
+    % Drop legacy month ranges like "13--19 Jul" that cannot sort
+    \map{
+      \step[fieldsource=month, match=\regexp{[\s]}, final]
+      \step[fieldset=month, null]
+    }
+  }
+}
+
+% Print the whole bibliography?
+%   By default, LaTeX prints just those bibliography items that have been cited.
+%   Uncomment the following line to print the whole bibliography.
+%
+%   \nocite{*}
+
+
+% --- Encoding and fonts ---------------------------------------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+
+% --- Page layout and graphics ---------------------------------------
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{xcolor}
+
+% --- Maths ----------------------------------------------------------
+\usepackage{amsfonts}
+\usepackage{nicefrac}
+
+% --- Tables and floats ----------------------------------------------
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{rotating}
+
+% --- Lists and boxes ------------------------------------------------
+\usepackage{enumitem}
+\usepackage{framed}
+\usepackage[most]{tcolorbox}
+
+% --- Verbatim with automatic line breaking ---------------------------
+\usepackage{fvextra}
+
+
+% --- Colours for the case-study boxes -------------------------------
+\definecolor{HighVulnFrame}{RGB}{200, 80, 60}
+\definecolor{HighVulnBack}{RGB}{255, 240, 235}
+
+\definecolor{LLMFrame}{RGB}{60, 100, 180}
+\definecolor{LLMBack}{RGB}{240, 245, 255}
+
+\definecolor{PromptFrame}{RGB}{80, 100, 100}
+\definecolor{PromptBack}{RGB}{245, 245, 245}
+
+\definecolor{promptframe}{gray}{0.55}
+
+
+% --- Case-study boxes ------------------------------------------------
+\newtcolorbox{profilebox}[1][]{
+  enhanced,
+  title=\textbf{User Profile (High Vulnerability)},
+  colback=HighVulnBack,
+  colframe=HighVulnFrame,
+  coltitle=white,
+  fonttitle=\bfseries\sffamily,
+  boxrule=1.2pt,
+  arc=3mm,
+  #1
+}
+
+\newtcolorbox{promptbox}[1][]{
+  enhanced,
+  title=\textbf{User Prompt},
+  colback=PromptBack,
+  colframe=PromptFrame,
+  coltitle=white,
+  fonttitle=\bfseries\sffamily,
+  fontupper=\ttfamily\small,
+  boxrule=1.2pt,
+  arc=3mm,
+  #1
+}
+
+\newtcolorbox{responsebox}[1][]{
+  enhanced,
+  breakable,
+  title=\textbf{LLM Response},
+  colback=LLMBack,
+  colframe=LLMFrame,
+  coltitle=white,
+  fonttitle=\bfseries\sffamily,
+  fontupper=\small,
+  boxrule=1.2pt,
+  arc=3mm,
+  #1
+}
+
+
+% --- Appendix prompt boxes -------------------------------------------
+\DefineVerbatimEnvironment{promptcode}{Verbatim}{%
+  fontsize=\small,
+  breaklines=true,
+  breakanywhere=true,
+  breakindent=1.5em,
+  breaksymbolleft=\textcolor{promptframe}{\small\ensuremath{\hookrightarrow}},
+  breaksymbolright={},
+  frame=single,
+  framerule=0.4pt,
+  rulecolor=\color{promptframe},
+  framesep=8pt,
+  xleftmargin=0pt,
+  xrightmargin=0pt
+}
+
+\fvset{breaklines=true,breakanywhere=true}
+
+\newcommand{\promptmeta}[4]{%
+  \begingroup\small
+  \begin{tabularx}{\linewidth}{@{}>{\bfseries}l X@{}}
+    \toprule
+    Purpose  & #1 \\
+    Model    & #2 \\
+    Settings & #3 \\
+    Output   & #4 \\
+    \bottomrule
+  \end{tabularx}
+  \endgroup
+  \vspace{1ex}
+}
+
+\newcommand{\widetable}[1]{%
+  \begingroup
+  \footnotesize
+  \setlength{\tabcolsep}{3.5pt}
+  \renewcommand{\arraystretch}{1.05}
+  \input{#1}%
+  \endgroup
+}
+
+\providecommand{\subcell}[1]{\begin{tabular}[t]{@{}l@{}}#1\end{tabular}}
+\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+
+
+% --- URLs and hyperlinks (load last) ----------------------------------
+\usepackage{url}
+\Urlmuskip=0mu plus 1mu
+\def\UrlBreaks{\do\/\do-\do_\do.}
+\usepackage{hyperref}
+\usepackage{xurl}

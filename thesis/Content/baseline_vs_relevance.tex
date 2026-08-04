@@ -1,0 +1,55 @@
+\begin{table*}[htb!]
+\centering
+\footnotesize
+\caption{
+Comparison of the safety gap at context level 0 (Baseline Ranking, BSG) versus at context level 5 (Relevance Ranking, RSG), by \textbf{domain}, \textbf{model}, and \textbf{vulnerability profile level (VPL)}.
+Each cell reports the mean $\pm$ standard error and 95\% confidence interval \textit{(Mean $\pm$ SE [95\% CI])}.
+Lower values indicate smaller safety gaps.
+\textbf{Bold values denote the larger safety gap (BSG or RSG) within each row.}
+$^{\textcolor{red}{\dagger}}$ indicates non-significance at $\alpha=0.05$ (Wilcoxon signed-rank test, one-sided, testing if the context level 0 gap is significantly greater than the context level 5 gap).
+}
+\vspace{3pt}
+\setlength{\tabcolsep}{4pt}  
+
+\begin{tabular}{l l l c c c}
+\toprule
+\textbf{Domain} & \textbf{Model} & \textbf{VPL} & \textbf{BSG} & \textbf{RSG} & \textbf{$p$-value} \\
+\midrule
+\multirow{9}{*}{\textbf{Finance}}
+  & \multirow{3}{*}{Claude Sonnet 4}
+    & Low    & 0.75 $\pm$ 0.01 [0.72, 0.78] & \textbf{0.81} $\pm$ 0.01 [0.79, 0.84] & 1.0$^{\textcolor{red}{\dagger}}$ \\
+  &  & Medium & \textbf{0.64} $\pm$ 0.01 [0.61, 0.66] & 0.53 $\pm$ 0.01 [0.50, 0.55] & 9.2e$^{-12}$ \\
+  &  & High   & \textbf{1.74} $\pm$ 0.02 [1.70, 1.77] & 0.89 $\pm$ 0.02 [0.86, 0.92] & 3.5e$^{-181}$ \\
+  \cmidrule(lr){2-6}
+  & \multirow{3}{*}{Gemini 2.5 Pro}
+    & Low    & \textbf{0.78} $\pm$ 0.02 [0.75, 0.81] & 0.71 $\pm$ 0.01 [0.69, 0.74] & 1.1e$^{-3}$ \\
+  &  & Medium & \textbf{0.71} $\pm$ 0.01 [0.68, 0.73] & 0.52 $\pm$ 0.01 [0.50, 0.55] & 4.5e$^{-23}$ \\
+  &  & High   & \textbf{1.88} $\pm$ 0.02 [1.84, 1.91] & 0.71 $\pm$ 0.01 [0.69, 0.74] & 2.8e$^{-251}$ \\
+  \cmidrule(lr){2-6}
+  & \multirow{3}{*}{GPT-5}
+    & Low    & \textbf{0.76} $\pm$ 0.01 [0.74, 0.79] & 0.72 $\pm$ 0.01 [0.69, 0.74] & 1.3e$^{-3}$ \\
+  &  & Medium & \textbf{0.46} $\pm$ 0.01 [0.44, 0.48] & 0.44 $\pm$ 0.01 [0.42, 0.46] & 1.2e$^{-1}$$^{\textcolor{red}{\dagger}}$ \\
+  &  & High   & \textbf{1.86} $\pm$ 0.02 [1.82, 1.90] & 0.75 $\pm$ 0.02 [0.72, 0.78] & 2.6e$^{-240}$ \\
+\midrule
+\multirow{9}{*}{\textbf{Health}}
+  & \multirow{3}{*}{Claude Sonnet 4}
+    & Low    & \textbf{0.90} $\pm$ 0.02 [0.87, 0.93] & 0.76 $\pm$ 0.01 [0.73, 0.79] & 1.3e$^{-12}$ \\
+  &  & Medium & \textbf{1.07} $\pm$ 0.02 [1.04, 1.10] & 0.78 $\pm$ 0.01 [0.75, 0.80] & 1.8e$^{-39}$ \\
+  &  & High   & \textbf{2.22} $\pm$ 0.02 [2.19, 2.26] & 1.44 $\pm$ 0.02 [1.40, 1.47] & 6.5e$^{-126}$ \\
+  \cmidrule(lr){2-6}
+  & \multirow{3}{*}{Gemini 2.5 Pro}
+    & Low    & \textbf{0.78} $\pm$ 0.01 [0.75, 0.80] & 0.76 $\pm$ 0.01 [0.73, 0.78] & 1.2e$^{-1}$$^{\textcolor{red}{\dagger}}$ \\
+  &  & Medium & \textbf{1.01} $\pm$ 0.02 [0.98, 1.05] & 0.64 $\pm$ 0.01 [0.62, 0.67] & 7.6e$^{-56}$ \\
+  &  & High   & \textbf{2.14} $\pm$ 0.02 [2.10, 2.18] & 1.32 $\pm$ 0.02 [1.28, 1.36] & 9.9e$^{-126}$ \\
+  \cmidrule(lr){2-6}
+  & \multirow{3}{*}{GPT-5}
+    & Low    & \textbf{0.81} $\pm$ 0.02 [0.77, 0.84] & 0.71 $\pm$ 0.01 [0.68, 0.74] & 3.1e$^{-7}$ \\
+  &  & Medium & \textbf{0.86} $\pm$ 0.02 [0.83, 0.89] & 0.58 $\pm$ 0.01 [0.56, 0.61] & 6.8e$^{-40}$ \\
+  &  & High   & \textbf{2.08} $\pm$ 0.02 [2.04, 2.13] & 1.32 $\pm$ 0.02 [1.28, 1.36] & 4.8e$^{-116}$ \\
+\bottomrule
+\end{tabular}
+\label{tab:safety_gap_by_domain_model_vpl}
+\vspace{2pt}
+\raggedright \footnotesize
+$^{\textcolor{red}{\dagger}}$ Not significant at $\alpha=0.05$. All other comparisons show statistically significant reductions (Wilcoxon signed-rank, one-sided). 
+\end{table*}

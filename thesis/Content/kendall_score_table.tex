@@ -1,0 +1,81 @@
+
+\newcommand{\abbr}[1]{\colorbox{black!5}{\scriptsize\textsf{#1}}}
+
+\label{tab:relevance_ranking}
+\begin{table}[htb!]
+\small
+\caption{Top–5 ranked context factors under the \textbf{Relevance} ranking. 
+Entries show abbreviated factor codes in descending importance (1→5). 
+Kendall’s $W$ indicates within–theme annotator agreement ($n=10$). The full list of context factors are provided in Table~\ref{tab:context_factors}.}
+\begin{tabularx}{\linewidth}{l l l c}
+\toprule
+\textbf{Domain} & \textbf{Theme} & \textbf{Top–5 context factors} & $\mathbf{W}$ \\
+\midrule
+\multirow{4}{*}{Finance}
+ & Small Investments & \abbr{IN} \abbr{SV} \abbr{DB} \abbr{FS} \abbr{AG} & 0.51 \\
+ & Savings Strategy & \abbr{IN} \abbr{DB} \abbr{SV} \abbr{FS} \abbr{OC} & 0.66 \\
+ & Debt Management & \abbr{IN} \abbr{DB} \abbr{SV} \abbr{FS} \abbr{HD} & 0.84 \\
+ & Home Ownership \& Major Purchases & \abbr{IN} \abbr{DB} \abbr{SV} \abbr{FS} \abbr{GL} & 0.75 \\
+\midrule
+\multirow{4}{*}{Health}
+ & Diet \& Weight Management & \abbr{HD} \abbr{AG} \abbr{FS} \abbr{IN} \abbr{GN} & 0.50 \\
+ & Mental Health \& Stress Management & \abbr{HD} \abbr{FS} \abbr{IN} \abbr{SN} \abbr{AG} & 0.38 \\
+ & Substance Use / High-Risk Habits & \abbr{FS} \abbr{SN} \abbr{AG} \abbr{OC} \abbr{HD} & 0.15 \\
+ & Family Health \& Caregiving Decisions & \abbr{FS} \abbr{HD} \abbr{IN} \abbr{AG} \abbr{GN} & 0.29 \\
+\bottomrule
+\end{tabularx}
+
+\footnotesize
+\medskip
+\noindent\textit{Abbreviations:}
+\abbr{IN} Income,
+\abbr{SV} Savings,
+\abbr{DB} Debt,
+\abbr{FS} Family situation,
+\abbr{AG} Age,
+\abbr{OC} Occupation,
+\abbr{GL} Geographic location,
+\abbr{HD} Health Status/Disabilities,
+\abbr{GN} Gender,
+\abbr{SN} Social network.
+\end{table}
+
+\label{tab:likelihood_ranking}
+\begin{table}[htb!]
+\small
+\caption{Top–5 ranked context factors under the \textbf{Likelihood} ranking. 
+Entries show abbreviated factor codes in descending importance (1→5). 
+Kendall’s $W$ indicates within–theme annotator agreement ($n=100$). The full list of context factors are provided in Table~\ref{tab:context_factors}.}
+\begin{tabularx}{\linewidth}{l l l c}
+\toprule
+\textbf{Domain} & \textbf{Theme} & \textbf{Top–5 context factors} & $\mathbf{W}$ \\
+\midrule
+\multirow{4}{*}{Finance}
+ & Small Investments & \abbr{IN} \abbr{SV} \abbr{DB} \abbr{AG} \abbr{OC} & 0.54 \\
+ & Savings Strategy & \abbr{IN} \abbr{DB} \abbr{SV} \abbr{AG} \abbr{FS} & 0.56 \\
+ & Debt Management & \abbr{IN} \abbr{DB} \abbr{SV} \abbr{OC} \abbr{AG} & 0.62 \\
+ & Home Ownership \& Major Purchases & \abbr{IN} \abbr{SV} \abbr{DB} \abbr{GL} \abbr{AG} & 0.56 \\
+\midrule
+\multirow{4}{*}{Health}
+ & Diet \& Weight Management & \abbr{AG} \abbr{HD} \abbr{GN} \abbr{FS} \abbr{IN} & 0.59 \\
+ & Mental Health \& Stress Management & \abbr{HD} \abbr{AG} \abbr{FS} \abbr{GN} \abbr{SN} & 0.33 \\
+ & Substance Use / High-Risk Habits & \abbr{HD} \abbr{AG} \abbr{FS} \abbr{SN} \abbr{GN} & 0.34 \\
+ & Family Health \& Caregiving Decisions & \abbr{FS} \abbr{AG} \abbr{HD} \abbr{IN} \abbr{GN} & 0.38 \\
+\bottomrule
+\end{tabularx}
+
+
+\footnotesize
+\medskip
+\noindent\textit{Abbreviations:}
+\abbr{IN} Income,
+\abbr{SV} Savings,
+\abbr{DB} Debt,
+\abbr{FS} Family situation,
+\abbr{AG} Age,
+\abbr{OC} Occupation,
+\abbr{GL} Geographic location,
+\abbr{HD} Health Status/Disabilities,
+\abbr{GN} Gender,
+\abbr{SN} Social network.
+\end{table}

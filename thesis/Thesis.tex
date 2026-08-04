@@ -1,0 +1,60 @@
+\documentclass[english]{saartex} % Pick between "german" and "english"
+% You can adjust some options in the Options.tex file
+\input{Options.tex}
+\addbibresource{Literature.bib}
+\addbibresource{references.bib}
+\addbibresource{anthology-1.bib}
+\addbibresource{anthology-2.bib}
+
+% mandatory elements
+\title{Safe for Whom? Evaluating AI Safety Evaluations for Demographic Blind Spots}
+\author{Manon Lilott Kempermann}
+\subject{Bachelor Thesis} % or, in german, "Abschlussarbeit"
+\place{Saarbrücken}
+% all of these following elements can be empty
+\advisor{Prof.\,Dr.\, Ingmar Weber}
+\professor{Dr.\, Kevin Baum}
+
+\date{\today}
+
+\begin{document}
+\maketitle
+\frontmatter % Sets pagenumbering to be roman for pages exclusive of main content of thesis
+\tableofcontents
+% You can just delete the language version that you don't need and keep the other
+\ifgerman{
+	\include{Content/Eidesstattliche_Erklaerung.tex}%
+}
+\ifenglish{
+	\include{Content/Sworn_Declaration.tex}%
+}
+
+% If you need any additional content (such as acknowledgements etc.) that goes before the main content, you can place it here
+\include{Content/Acknowledgements}
+
+\cleardoublepage
+\mainmatter % Starts regular arabic page numbering
+
+% Using \include for chapters etc. potentially cuts down on compilation time
+% You are encouraged to write each chapter in a separate file, and just use them here like this:
+
+
+
+\include{Content/Chapter_1_Introduction}
+\include{Content/Chapter_2_Related_Work}
+\include{Content/Chapter_3_EvalEval}
+\include{Content/Chapter_4_Translations}
+\include{Content/Chapter_5_Contextualising}
+\include{Content/Chapter_6_Beyond_Evaluations}
+\include{Content/Chapter_7_Discussion}
+\include{Content/Chapter_8_Conclusion}
+
+\cleardoublepage
+\printbibliography[heading=bibintoc]
+
+\clearpage
+\appendix
+\include{Content/Appendix}
+% further appendix items (such as a glossary etc., if you have them) go here
+
+\end{document}

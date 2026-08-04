@@ -1,0 +1,146 @@
+\ProvidesFile{%
+  title%
+  -UdS%
+ .def%
+}[%
+2022/12/14 v1.0
+]
+\begingroup
+  \def\PackageNotLoadedError#1{%
+    \GenericError{%
+      (#1)\@spaces\@spaces\@spaces\@spaces
+    }{%
+      File `#1' Error: package `uni-titlepage' hasn't been loaded%
+    }{%
+      This definition file was made to be loaded by package
+      `uni-titlepage'.\MessageBreak
+      You may not use it without package `uni-titlepage'!\MessageBreak
+      See the documentation of package `uni-titlepage' for explanation.%
+    }%
+  }%
+  \ifx\csname uni-titlepage.sty@vers\endcsname\relax
+    \PackageNotLoadedError{%
+      title-UdS.def%
+    }%
+  \fi
+\endgroup
+\DefineFamilyMember[%
+  UdS%
+]{title}
+\providecommand*{\presentationinformationUdS}{%
+\large{\usenonemptytitleelement{subject}} \\[0.15cm] \small{by} \\[0.10cm] \large{\usenonemptytitleelement{author}} \\
+}
+\providecaptionname{american,australian,british,canadian,%
+  english,newzealand,UKenglish,USenglish}{\presentationinformationUdS}{%
+  \large{\usenonemptytitleelement{subject}} \\[0.15cm] \small{by} \\[0.10cm] \large{\usenonemptytitleelement{author}} \\
+}%
+\providecaptionname{german,ngerman,austrian,naustrian,%
+  swissgerman,nswissgerman}{\presentationinformationUdS}{%
+  \large{\usenonemptytitleelement{subject}} \\[0.15cm] \small{vorgelegt von} \\[0.10cm] \large{\usenonemptytitleelement{author}} \\
+}%
+\providecommand*{\labelAdvisorUdS}{%
+Advisor%
+}
+\providecaptionname{american,australian,british,canadian,%
+  english,newzealand,UKenglish,USenglish}{\labelAdvisorUdS}{%
+1. Reviewer%
+}%
+\providecaptionname{german,ngerman,austrian,naustrian,%
+  swissgerman,nswissgerman}{\labelAdvisorUdS}{%
+Betreuer%
+}%
+\providecommand*{\labelProfessorUdS}{%
+1. Referee%
+}
+\providecaptionname{american,australian,british,canadian,%
+  english,newzealand,UKenglish,USenglish}{\labelProfessorUdS}{%
+2. Reviewer%
+}%
+\providecaptionname{german,ngerman,austrian,naustrian,%
+  swissgerman,nswissgerman}{\labelProfessorUdS}{%
+Erstkorrektor%
+}%
+\providecommand*{\labelRefereeUdS}{%
+2. Referee%
+}
+\providecaptionname{american,australian,british,canadian,%
+  english,newzealand,UKenglish,USenglish}{\labelRefereeUdS}{%
+2. Referee%
+}%
+\providecaptionname{german,ngerman,austrian,naustrian,%
+  swissgerman,nswissgerman}{\labelRefereeUdS}{%
+Zweitkorrektor%
+}%
+\renewcommand*{\inittitle}{%
+\ifx\@title\@empty\else
+% Make the title uppercase
+\edef\@UdSOldTitle{\@title}%
+\def\@title{\MakeUppercase{\@UdSOldTitle}}
+\fi
+\ifx\@mainlogo\@empty
+\IfFileExists{UdS.pdf}{%
+  \scr@ifundefinedorrelax{includegraphics}{%
+    \if@atdocument\else\RequirePackage{graphicx}\fi
+  }{}%
+  \scr@ifundefinedorrelax{includegraphics}{}{%
+    \mainlogo{%
+      \includegraphics[width=5cm,keepaspectratio]{UdS.pdf}%
+    }%
+  }%
+}{}%
+\fi
+}%
+\renewcommand*{\makemaintitle}{%
+  \begin{%
+    fullsizetitle}
+    \vspace*{3cm}%
+    \centering
+    \begin{minipage}[t][\dimexpr\vsize-6cm\relax]{\dimexpr\hsize-6cm\relax}%
+      \begin{center}
+        \vspace*{\baselineskip}
+        \usetitleelement{mainlogo}
+    
+        \rule{\linewidth}{.5pt} \\ 
+        \vspace*{0.5\baselineskip}
+        \Large{\bfseries \usenonemptytitleelement{title}} \\
+        \vspace*{-0.25\baselineskip}
+        \rule{\linewidth}{.5pt} \\
+        
+        \vspace*{\baselineskip}
+        
+        \presentationinformationUdS
+        
+        \vfill
+        
+        \begin{minipage}[t]{0.4\textwidth}
+          \begin{flushleft} \small
+            \ifx\@advisor\@empty\else
+            \emph{\labelAdvisorUdS:}\\
+            \usenonemptytitleelement{advisor}\\[0.5cm]
+            %\emph{Co-Supervisor:}\\
+            %Simon \textsc{Schmidt}
+            \fi
+          \end{flushleft}
+        \end{minipage}
+        \begin{minipage}[t]{0.4\textwidth}
+          \begin{flushright} \small
+            \ifx\@professor\@empty\else
+            \emph{\labelProfessorUdS:} \\
+            \usetitleelement{professor}\\[0.5cm]
+            \fi
+            \ifx\@referee\@empty\else
+            \emph{\labelRefereeUdS:}\\ 
+            \usetitleelement{referee}\\
+            \fi
+          \end{flushright}
+        \end{minipage}
+        
+        \vspace*{3\baselineskip}
+    
+        \noindent\small{\usetitleelement{date}}
+      \end{center}%
+    \end{minipage}%
+  \end{%
+    fullsizetitle}
+}
+\endinput

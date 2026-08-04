@@ -1,0 +1,63 @@
+\begin{table}[htb!]
+\centering
+\footnotesize
+
+\caption{
+Comparison of context-blind (CB) vs.\ context-aware (CA) safety scores, evaluated for Baseline by \textbf{domain}, \textbf{model}, and \textbf{vulnerability profile level (VPL)}.
+Scores are reported as mean $\pm$ SE [95\% CI]. 
+$p$-values are from the two-sided Wilcoxon signed-rank test.
+\textbf{Hypothesis:} Context-aware (\emph{CA}) prompts yield safety scores significantly different from context-blind (\emph{CB}) ones.
+$^{\textcolor{red}{\dagger}}$ indicates non-significant difference ($p > 0.05$); all other results are significant at $p < 0.05$.
+}
+
+\vspace{3pt}
+\setlength{\tabcolsep}{4pt}  
+
+\begin{tabular}{ll l c c c}
+\toprule
+\textbf{Domain} & \textbf{Model} & \textbf{VPL} & \textbf{CB} & \textbf{CA} & \textbf{p-value} \\
+\midrule
+\multirow{9}{*}{\textbf{Finance}}
+ & \multirow{3}{*}{GPT-5}
+   & Low    & 5.04 $\pm$0.03 [4.98, 5.10] & 5.76 $\pm$0.05 [5.66, 5.87] & 2.1e$^{-11}$ \\
+ &  & Medium & 5.04 $\pm$0.03 [4.98, 5.10] & 4.90 $\pm$0.07 [4.75, 5.05] & 7.5e$^{-6}$ \\
+ &  & High   & 5.04 $\pm$0.03 [4.98, 5.10] & 3.22 $\pm$0.11 [3.00, 3.45] & 9.2e$^{-14}$ \\
+ \cmidrule(lr){2-6}
+ & \multirow{3}{*}{Claude Sonnet 4}
+   & Low    & 4.62 $\pm$0.04 [4.53, 4.70] & 5.36 $\pm$0.07 [5.22, 5.50] & 3.0e$^{-11}$ \\
+ &  & Medium & 4.62 $\pm$0.04 [4.53, 4.70] & 4.36 $\pm$0.10 [4.17, 4.55] & 1.2e$^{-4}$ \\
+ &  & High   & 4.62 $\pm$0.04 [4.53, 4.70] & 2.86 $\pm$0.09 [2.68, 3.04] & 4.5e$^{-14}$ \\
+ \cmidrule(lr){2-6}
+ & \multirow{3}{*}{Gemini 2.5 Pro}
+   & Low    & 4.91 $\pm$0.04 [4.83, 4.99] & 5.60 $\pm$0.06 [5.47, 5.72] & 7.5e$^{-14}$ \\
+ &  & Medium & 4.91 $\pm$0.04 [4.83, 4.99] & 4.65 $\pm$0.10 [4.46, 4.85] & 3.4e$^{-1}$\textcolor{red}{$^{\dagger}$} \\
+ &  & High   & 4.91 $\pm$0.04 [4.83, 4.99] & 3.04 $\pm$0.10 [2.84, 3.24] & 1.3e$^{-13}$ \\
+
+\midrule
+
+
+ \multirow{9}{*}{\textbf{Health}}
+ & \multirow{3}{*}{GPT-5}
+   & Low    & 5.08 $\pm$0.04 [5.00, 5.16] & 5.36 $\pm$0.11 [5.15, 5.57] & 1.4e$^{-2}$ \\
+ &  & Medium & 5.08 $\pm$0.04 [5.00, 5.16] & 4.54 $\pm$0.09 [4.36, 4.72] & 3.8e$^{-10}$ \\
+ &  & High   & 5.08 $\pm$0.04 [5.00, 5.16] & 3.03 $\pm$0.10 [2.83, 3.22] & 7.8e$^{-14}$ \\
+ \cmidrule(lr){2-6}
+ & \multirow{3}{*}{Claude Sonnet 4}
+   & Low    & 4.98 $\pm$0.05 [4.89, 5.07] & 5.12 $\pm$0.11 [4.90, 5.35] & 2.8e$^{-4}$ \\
+ &  & Medium & 4.98 $\pm$0.05 [4.89, 5.07] & 4.01 $\pm$0.08 [3.85, 4.18] & 3.0e$^{-11}$ \\
+ &  & High   & 4.98 $\pm$0.05 [4.89, 5.07] & 2.82 $\pm$0.09 [2.64, 3.00] & 6.0e$^{-14}$ \\
+ \cmidrule(lr){2-6}
+ & \multirow{3}{*}{Gemini 2.5 Pro}
+   & Low & 5.06 $\pm$0.04 [4.98, 5.15] & 5.33 $\pm$0.09 [5.15, 5.52] & 9.9e$^{-2}$\textcolor{red}{$^{\dagger}$} \\
+ &  & Medium & 5.06 $\pm$0.04 [4.98, 5.15] & 4.18 $\pm$0.10 [3.99, 4.38] & 4.5e$^{-13}$ \\
+ &  & High   & 5.06 $\pm$0.04 [4.98, 5.15] & 2.88 $\pm$0.09 [2.69, 3.06] & 5.0e$^{-14}$ \\
+\bottomrule
+\end{tabular}
+\label{tab:cb_ca_vuln_model}
+\vspace{2pt}
+\raggedright
+\footnotesize
+$^{\textcolor{red}{\dagger}}$ Not significant at $\alpha = 0.05$. 
+All other comparisons show statistically significant differences 
+(Wilcoxon signed-rank test, two-sided).
+\end{table}
