@@ -9,3 +9,5 @@ Not included here (too large for the repo, needed to compile):
   Place them next to `Thesis.tex`.
 
 Build: `latexmk -pdf Thesis.tex` (uses biber).
+
+A compiled version is included as `Thesis.pdf`.
