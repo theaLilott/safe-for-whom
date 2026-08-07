@@ -2,7 +2,7 @@
 \label{app:prompts}
 \section{Translation Prompts}
 \label{app:translation_prompts}
-For translation of the original prompts, we use Qwen3-32B in non-thinking mode, with temperature = 0.3 and the following system prompt:
+For translation of the original prompts, we used Qwen3-32B in non-thinking mode, with temperature = 0.3 and the following system prompt:
 
 \begin{promptcode}
 TRANSLATION_SYSTEM_PROMPT = """You are a professional translator. 
@@ -20,7 +20,7 @@ understood.
 - Preserve paragraph structure and formatting."""
 \end{promptcode}
 
-\noindent For translation of model responses in non-English language back to English, we use again Qwen3-32B in non-thinking mode, with temperature = 0.3 and the following system prompt:
+\noindent For translation of model responses in non-English language back to English, we used again Qwen3-32B in non-thinking mode, with temperature = 0.3 and the following system prompt:
 
 \begin{promptcode}
 TRANSLATION_SYSTEM_PROMPT = """You are a professional translator. 
@@ -37,7 +37,7 @@ CRITICAL INSTRUCTIONS:
 
 \section{LLM-as-Judge Prompt}
 \label{app:judge}
-For classification of model responses translated to English, we use Qwen3-32B in thinking mode, with temperature = 0.6 and the following custom prompts written by Claude Opus 4.6 after providing it with the original prompt from Cheng et al. \cite{cheng2025social-928} and a variety of failure modes:
+For classification of model responses translated to English, we used Qwen3-32B in thinking mode, with temperature = 0.6 and the following custom prompts written by Claude Opus 4.6 after providing it with the original prompt from Cheng et al. \cite{cheng2025social-928} and a variety of failure modes:
 
 \begin{promptcode}
 JUDGE_SYSTEM_PROMPT = """
@@ -609,7 +609,7 @@ Now produce ONLY the JSON for the current task:
 \label{app:memory_prompts}
 
 \subsection{Synthetic Memory and System Prompt}
-For the memory-based contextualisation case study, we construct a synthetic user memory from a fixed template in which only the persona-specific fields vary. The placeholders \verb|{name}|, the pronoun slots, \verb|{university}| and \verb|{home city}| are substituted according to the factorial persona design in Table \ref{tab:persona-design}; all other memory content is held constant across the six personas:
+For the memory-based contextualisation case study, we constructed a synthetic user memory from a fixed template in which only the persona-specific fields vary. The placeholders \verb|{name}|, the pronoun slots, \verb|{university}| and \verb|{home city}| are substituted according to the factorial persona design in Table \ref{tab:persona-design}; all other memory content is held constant across the six personas:
 
 \begin{promptcode}
 {name} is a first-year Computer Science undergraduate at
@@ -644,7 +644,7 @@ Respond directly and helpfully to the user's request.
 
 \subsection{SORRY-Bench Judge Prompt}
 \label{app:memory_judge}
-For refusal classification, we use the fine-tuned SORRY-Bench judge model with its original prompt, reproduced verbatim from the official judge model card\footnote{https://huggingface.co/sorry-bench/ft-mistral-7b-instruct-v0.2-sorry-bench-202406}, where \verb|{question}| is the user prompt and \verb|{answer}| the target model's response:
+For refusal classification, we used the fine-tuned SORRY-Bench judge model with its original prompt, reproduced verbatim from the official judge model card\footnote{https://huggingface.co/sorry-bench/ft-mistral-7b-instruct-v0.2-sorry-bench-202406}, where \verb|{question}| is the user prompt and \verb|{answer}| the target model's response:
 
 \begin{promptcode}
 You are a helpful assistant. Your goal is to judge if the
@@ -1066,7 +1066,7 @@ Thai & \textit{Khun maichai khon leo} & \textit{Khun nan lae thi pen khon leo} \
 \section{Probe Generalisation at a Fixed Layer}
 \label{app:universal_layer}
 \subsection{Finding The Universally Best Layer}
-For each type of probe, we compute the average of the ROC-AUC-scores of all languages per layer and select the layer achieving highest cross-lingual ROC-AUC. For \texttt{MM-probes} we identify layer 25 and for \texttt{LR-probes} layer 23 as best. The cross-lingual generalisation matrix of probes trained and tested on activations of this universally best layer is displayed in Figure \ref{fig:universal_layer} in the main text.
+For each type of probe, we computed the average of the ROC-AUC-scores of all languages per layer and selected the layer achieving highest cross-lingual ROC-AUC. For \texttt{MM-probes} we identified layer 25 and for \texttt{LR-probes} layer 23 as best. The cross-lingual generalisation matrix of probes trained and tested on activations of this universally best layer is displayed in Figure \ref{fig:universal_layer} in the main text.
 
 \subsection{Cosine Similarities of Probe Directions}
 Below we display the pairwise cosine similarity of probe directions of different languages for probes extracted at the universally best layer.
