@@ -1,6 +1,6 @@
 \chapter{Approaches Towards Multilingual and Multidialectal Evaluations}
 \label{chap:translations}
-As we have seen in the previous chapter, evaluations that cover many languages and dialects are still a scarcity, yet as shown in those evaluations that cover multiple languages, safety differences between languages are notable. 
+As we have seen in the previous chapter, evaluations that cover many languages and dialects are still scarce, yet as shown in those evaluations that cover multiple languages, safety differences between languages are notable. 
 
 But is creating multilingual benchmarks really a  challenge given the advancements in machine translation? In the following case study, we try naive machine translation using an LLM as a first step to cover the language gap in the space of sycophancy evaluations. Following this, we will discuss in more depth where naive approaches may fall short and which advanced approaches to translation in languages and dialects have made their way into the literature.
 
@@ -51,7 +51,7 @@ Even with human post-editing, prior machine/LLM translation may bias human edito
 A different approach to multilingual evaluations is authoring evaluations in the respective language in the first place. Language often ties to culture and, for example, what response is seen as sycophantic or just polite may be hugely dependent on the culture that uses the respective language. We have also seen this approach in HealthBench~\cite{arora2025healthbench-7eb} in Chapter \ref{chap:evaleval}, which aimed to evaluate the safety of health advice by LLMs by querying scenarios depicting how individuals in the respective cultural and linguistic environment would ask for advice. Although this buys validity by construction and avoids any source-language anchoring, these approaches lose direct cross-language comparability and come at particularly high costs. 
 
 \subsection{Verification of Translation Quality}
-As the strategies in the previous section mirrored, whatever path to translation we pick, it is always recommended to gain a quality signal to verify translations are not inducing unwanted language drifts confounding evaluation performance results. As with the translations themselves, verification thereof comes in different shapes at different costs.
+As the strategies in the previous section showed, whatever path to translation we pick, it is always recommended to gain a quality signal to verify translations are not inducing unwanted language drifts confounding evaluation performance results. As with the translations themselves, verification thereof comes in different shapes at different costs.
 
 \begin{itemize}
     \item \textbf{Automatic Reference-Free Quality Estimation}: As the simplest translation quality estimation procedure, LLM-based translation scoring has become a scalable and fast way for quality metrics. Most notable in this line of work are CometKiwi~\cite{rei-etal-2022-cometkiwi, rei-etal-2023-scaling}, COMET-QE~\cite{chimoto-bassett-2022-comet} and GEMBA~\cite{kocmi-federmann-2023-gemba}. 
